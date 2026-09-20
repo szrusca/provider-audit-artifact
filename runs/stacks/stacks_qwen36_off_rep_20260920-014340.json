@@ -1,0 +1,1305 @@
+{
+ "stacks": [
+  "groq:qwen/qwen3.6-27b[none]",
+  "ovh:Qwen3.6-27B[none]"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7000,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 68,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 1287,
+     "tokens": 266
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7000,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1417,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1417, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 1357,
+     "tokens": 1043
+    }
+   }
+  },
+  {
+   "idx": 2,
+   "seed": 7000,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 48,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 1598,
+     "tokens": 1816
+    }
+   }
+  },
+  {
+   "idx": 3,
+   "seed": 7000,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 812,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 4,
+   "seed": 7001,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1520, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 1464,
+     "tokens": 264
+    }
+   }
+  },
+  {
+   "idx": 5,
+   "seed": 7001,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 44,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 497,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 6,
+   "seed": 7001,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 42,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 1406,
+     "tokens": 1844
+    }
+   }
+  },
+  {
+   "idx": 7,
+   "seed": 7001,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 44,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 1527,
+     "tokens": 2645
+    }
+   }
+  },
+  {
+   "idx": 8,
+   "seed": 7002,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 74,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1044,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1044, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 1310,
+     "tokens": 271
+    }
+   }
+  },
+  {
+   "idx": 9,
+   "seed": 7002,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 43,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 1469,
+     "tokens": 1063
+    }
+   }
+  },
+  {
+   "idx": 10,
+   "seed": 7002,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 43,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 1715,
+     "tokens": 1809
+    }
+   }
+  },
+  {
+   "idx": 11,
+   "seed": 7002,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 43,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -29,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -29, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 1591,
+     "tokens": 2566
+    }
+   }
+  },
+  {
+   "idx": 12,
+   "seed": 7003,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 1319,
+     "tokens": 254
+    }
+   }
+  },
+  {
+   "idx": 13,
+   "seed": 7003,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 1363,
+     "tokens": 1047
+    }
+   }
+  },
+  {
+   "idx": 14,
+   "seed": 7003,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 1408,
+     "tokens": 1845
+    }
+   }
+  },
+  {
+   "idx": 15,
+   "seed": 7003,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 42,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 1667,
+     "tokens": 2621
+    }
+   }
+  },
+  {
+   "idx": 16,
+   "seed": 7004,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 43,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 1469,
+     "tokens": 260
+    }
+   }
+  },
+  {
+   "idx": 17,
+   "seed": 7004,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -21,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -21, \"hotel\": 2140}",
+     "latency_ms": 12844,
+     "tokens": 1043
+    }
+   }
+  },
+  {
+   "idx": 18,
+   "seed": 7004,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 497,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 19,
+   "seed": 7004,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 43,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 1506,
+     "tokens": 2641
+    }
+   }
+  },
+  {
+   "idx": 20,
+   "seed": 7005,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 505,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 21,
+   "seed": 7005,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 501,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 22,
+   "seed": 7005,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 45,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 1459,
+     "tokens": 1795
+    }
+   }
+  },
+  {
+   "idx": 23,
+   "seed": 7005,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 1435,
+     "tokens": 2541
+    }
+   }
+  },
+  {
+   "idx": 24,
+   "seed": 7006,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 74,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 193, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 1269,
+     "tokens": 287
+    }
+   }
+  },
+  {
+   "idx": 25,
+   "seed": 7006,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 1380,
+     "tokens": 1083
+    }
+   }
+  },
+  {
+   "idx": 26,
+   "seed": 7006,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 1424,
+     "tokens": 1859
+    }
+   }
+  },
+  {
+   "idx": 27,
+   "seed": 7006,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 60,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -119,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -119, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 1634,
+     "tokens": 2645
+    }
+   }
+  },
+  {
+   "idx": 28,
+   "seed": 7007,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 594,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 671, \"bravo\": 594, \"charlie\": 214, \"delta\": 596, \"echo\": 320, \"foxtrot\": 895, \"golf\": 694, \"hotel\": 131}",
+     "latency_ms": 1323,
+     "tokens": 279
+    }
+   }
+  },
+  {
+   "idx": 29,
+   "seed": 7007,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 39,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 1390,
+     "tokens": 1046
+    }
+   }
+  },
+  {
+   "idx": 30,
+   "seed": 7007,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 494,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 31,
+   "seed": 7007,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 1510,
+     "tokens": 2633
+    }
+   }
+  },
+  {
+   "idx": 32,
+   "seed": 7008,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 39,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 666,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 33,
+   "seed": 7008,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 179,
+      "charlie": 318,
+      "delta": 43,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 179, \"charlie\": 318, \"delta\": 43, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 1504,
+     "tokens": 1091
+    }
+   }
+  },
+  {
+   "idx": 34,
+   "seed": 7008,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 1417,
+     "tokens": 1868
+    }
+   }
+  },
+  {
+   "idx": 35,
+   "seed": 7008,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 56,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 1938,
+      "bravo": 278,
+      "charlie": 39,
+      "delta": 3,
+      "echo": 994,
+      "foxtrot": 430,
+      "golf": 62,
+      "hotel": 199
+     },
+     "text": "{\"alpha\": 1938, \"bravo\": 278, \"charlie\": 39, \"delta\": 3, \"echo\": 994, \"foxtrot\": 430, \"golf\": 62, \"hotel\": 199}",
+     "latency_ms": 1725,
+     "tokens": 2616
+    }
+   }
+  },
+  {
+   "idx": 36,
+   "seed": 7009,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 52,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\"alpha\": 372, \"bravo\": 247, \"charlie\": 756, \"delta\": 451, \"echo\": 836, \"foxtrot\": 377, \"golf\": 734, \"hotel\": 320}",
+     "latency_ms": 1332,
+     "tokens": 275
+    }
+   }
+  },
+  {
+   "idx": 37,
+   "seed": 7009,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 41,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 1516,
+     "tokens": 1030
+    }
+   }
+  },
+  {
+   "idx": 38,
+   "seed": 7009,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 51,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 1580,
+     "tokens": 1858
+    }
+   }
+  },
+  {
+   "idx": 39,
+   "seed": 7009,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.6-27b[none]": {
+     "status": 404,
+     "error": "client_http_404",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 40,
+     "tokens": 0
+    },
+    "ovh:Qwen3.6-27B[none]": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 1495,
+     "tokens": 2666
+    }
+   }
+  }
+ ]
+}

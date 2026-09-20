@@ -16,6 +16,7 @@ audit/
   analyze_fingerprint.py    builds results/02-fingerprints.md from runs/fingerprint_*.jsonl
   stacks.py                 Phase 2: sends the same ledger steps to several stacks, writes event logs
   analyze_stacks.py         pairwise textual and semantic agreement, infrastructure failures excluded
+  compare_repeat.py         step-by-step comparison of one stack's first run with its own rerun
   providers.py              one call() over the OpenAI-compatible endpoints; rate pacer; wrapped-error detection
   env.py events.py pricing.py tasks_t1.py   shared infrastructure (env loading, event schema, T1 ledger task)
 results/
@@ -27,6 +28,8 @@ runs/
   fingerprint_<provider>_<timestamp>.jsonl   one record per probe call with the full raw response body
   stacks/<label>_<timestamp>.json            Phase 2 per-run summary
   stacks/<label>_<timestamp>.events.jsonl    Phase 2 event log, one record per request and response
+  stacks/*_rep_*                             same-stack reruns of 2026-09-20 (Ollama gemma-4-31b; OVH qwen3.6-27b forced off;
+                                             NVIDIA NIM gemma-4-31b partial, aborted on 240 s timeouts)
 companion/
   results/11-stacks-qwen.md                  qwen3.8-27b on Groq, OVH, Cloudflare (60 steps, 2026-09-09; Layer C)
   results/13-stacks-thinking-ctrl.md         nemotron-3-super-120b on NVIDIA NIM, reasoning off vs. on (Layer C control)
@@ -45,6 +48,7 @@ logs/                       console logs of the probe passes
 | Table II (probe battery) | `audit/fingerprint.py` |
 | Table III (fingerprints) | `results/02-fingerprints.md`, raw bodies in `runs/fingerprint_*.jsonl` |
 | Table IV, Layers A, B, D, D' | `results/03-stacks.md`, `runs/stacks/` |
+| Table IV, rows B_rep and D'_rep | last section of `results/03-stacks.md`; `python3 -m audit.compare_repeat runs/stacks/stacks_gemma431_20260910-161048.json runs/stacks/stacks_gemma431_rep_ollama_20260920-023752.json` and the same for `stacks_qwen36_off_*` |
 | Table IV, Layer C | `companion/results/11-stacks-qwen.md`, `companion/results/13-stacks-thinking-ctrl.md` |
 | Section IV-B (gateway-wrapped errors) | `runs/stacks/stacks_nemotron_super_20260910-*.events.jsonl` (first run) vs. `stacks_nemotron_super_v2_*` (rerun) |
 

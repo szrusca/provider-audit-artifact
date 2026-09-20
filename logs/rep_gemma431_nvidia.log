@@ -1,0 +1,9 @@
+step 1/40 seed=7000 t=1 nvidia=format_empty
+step 2/40 seed=7000 t=5 nvidia=format_empty
+step 3/40 seed=7000 t=9 nvidia=format_empty
+step 4/40 seed=7000 t=13 nvidia=format_empty
+step 5/40 seed=7001 t=1 nvidia=format_empty
+step 6/40 seed=7001 t=5 nvidia=format_empty
+step 7/40 seed=7001 t=9 nvidia=format_empty
+step 8/40 seed=7001 t=13 nvidia=format_empty
+step 9/40 seed=7002 t=1 nvidia=format_empty

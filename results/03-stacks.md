@@ -11,7 +11,7 @@
 ## 二、阶段 1 指纹：八条跨 provider 的差异
 
 1. **思考默认值随 provider 变**。qwen3.8-27b 在 Groq 默认关思考（5 token 直接答），在 OVH、Cloudflare 默认开（1000 到 1500 token）。gemma-4-31b 在 Ollama 和 NVIDIA 都默认关。gpt-oss、nemotron、glm 在所有栈默认开。
-2. **思考正文的暴露方式分三种**。Groq、Kilo、OpenRouter、Zhipu 只给 `reasoning_tokens` 计数；OVH、Ollama、Cloudflare、NVIDIA 把完整思考放进 `message.reasoning`；Groq 上的 qwen3.6-27b 把 `<think>` 段直接写进 `content`，客户端若不剥离就会把思考当答案。
+2. **思考正文的暴露方式分三种**。Groq、OpenRouter、Zhipu 只给 `reasoning_tokens` 计数；OVH、Ollama、Cloudflare、NVIDIA 把完整思考放进 `message.reasoning`；Kilo 两者都给（计数加 `message.reasoning` 字段）；Groq 上的 qwen3.6-27b 把 `<think>` 段直接写进 `content`，客户端若不剥离就会把思考当答案。
 3. **关思考的接口没有任何一种通用**。以 nemotron 五栈为例：NVIDIA 接受 `chat_template_kwargs` 和 `reasoning_effort` 两种；Ollama、Kilo、OpenRouter 只认 `reasoning_effort`；Cloudflare 只认 `chat_template_kwargs`；Groq 对两种都返回 400。`/no_think` 提示词开关在所有栈上无效，只有 Zhipu 的 glm-5.3 对它有反应。
 4. **关掉思考后小模型和 nemotron 都答错**。三步算术题在 qwen3.8（OVH、Cloudflare）、nemotron（五栈）、gemma-4-31b（两栈默认就关）上，一旦思考关闭全部出错。这与方向 F 单栈受控实验（agent-reliability/results/13，关思考 67% 对开思考 100%）一致。
 5. **provider 侧的硬约束改变了可比性**。Groq 免费层对 20K token 提示返回 413；对 qwen3.6-27b 限制每分钟 1000 输出 token，任何 max_tokens 大于 1000 的请求直接 429。OVH 匿名层每分钟 2 次。OpenRouter 免费池每天 50 次。
@@ -181,3 +181,21 @@
 37 个可比步：语义一致 31（84%），其中 23 步两边都对、8 步两边给出相同的错账本；6 步分歧，1 步仅 Groq 对、4 步仅 OVH 对、1 步两边错得不同，全部格式合法。文本一致同为 84%。
 
 结论：D 层改述为"默认设置下不可比"；在唯一共同的覆盖设置下，这一对的行为与 B 层（gemma 双关思考）同形：双向、格式合法、约 16% 的残余分叉，且有共享的确定性错答案。论文 Table IV 加 D′ 行。
+
+## 补充（2026-09-20）：B 层与 D′ 层的同栈重复基线
+
+审稿指出 B 层 9% 到 16% 的残余分叉没有同栈重复基线，无法与批处理非确定性区分。补跑同 40 步（seed 7000 起，深度 1/5/9/13），与首次运行逐步比对（`python3 -m audit.compare_repeat <first.json> <second.json>`）：
+
+| 栈 | 首次 | 重跑 | 可比步 | 文本一致 | 语义一致 | 两次都对 | 仅一次对 | 两次同错 | 两次异错 |
+|---|---|---|---|---|---|---|---|---|---|
+| ollama:gemma4:31b（默认关思考） | 09-10 | 09-20 | 40 | 38（95%） | 38（95%） | 31 | 1 | 7 | 1 |
+| ovh:Qwen3.6-27B（reasoning_effort=none，max_tokens 1000） | 09-13 | 09-20 | 30 | 26（87%） | 26（87%） | 21 | 2 | 5 | 2 |
+
+文件：`runs/stacks/stacks_gemma431_rep_ollama_20260920-023752.json`、`runs/stacks/stacks_qwen36_off_rep_20260920-014340.json`。OVH 重跑 40 步中 7 步 429 剔除；首次 3 步 429，故可比 30 步。
+
+未能完成的两个栈：
+
+- Groq `qwen/qwen3.6-27b`：40 步全部 404 `model_not_found`，Groq 目录（2026-09-20 查询）已无此模型，D′ 的 Groq 侧无法重复。
+- NVIDIA `google/gemma-4-31b-it`：与 Ollama 合跑 8 步（`stacks_gemma431_rep_partial_*`），应答的 4 步延迟 116 到 232 秒，另 4 步 240 秒超时；拆出的单独运行（`stacks_gemma431_rep_nvidia_*`）前 9 步全部 240 秒超时，已中止。NIM 侧同栈基线未获得。
+
+结论：同栈相隔 7 到 10 天重跑的分叉为 5%（gemma Ollama）与 13%（qwen3.6 OVH），跨栈同日分叉为 9%（B 层）与 16%（D′ 层）。两个基线测的不是同一个量（同日跨栈 = 引擎差异 + 非确定性；跨日同栈 = 非确定性 + provider 一周内变化），不能相减，只能给上界：跨 provider 分叉不大于单栈自身一周内的变动，在 30 到 40 步样本下两者不可区分。要单独分离非确定性需同日重跑。第四节"剩余的、配置无法解释的分叉约 9%"应据此弱化为上界表述，不是引擎差异的证据。

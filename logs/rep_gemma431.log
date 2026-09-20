@@ -1,0 +1,8 @@
+step 1/40 seed=7000 t=1 ollama=ok nvidia=ok
+step 2/40 seed=7000 t=5 ollama=ok nvidia=ok
+step 3/40 seed=7000 t=9 ollama=ok nvidia=format_empty
+step 4/40 seed=7000 t=13 ollama=semantic nvidia=format_empty
+step 5/40 seed=7001 t=1 ollama=ok nvidia=format_empty
+step 6/40 seed=7001 t=5 ollama=ok nvidia=ok
+step 7/40 seed=7001 t=9 ollama=ok nvidia=ok
+step 8/40 seed=7001 t=13 ollama=ok nvidia=format_empty
