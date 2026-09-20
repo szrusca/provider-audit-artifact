@@ -1,0 +1,5 @@
+groq qwen/qwen3.6-27b F1_reasoning_default {'status': 200, 'finish_reason': 'length', 'output_tokens': 1000, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+groq qwen/qwen3.6-27b F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+groq qwen/qwen3.6-27b F4a_repeat {'status': 200, 'finish_reason': 'length', 'output_tokens': 1000, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+groq qwen/qwen3.6-27b F8a_seed {'status': 200, 'finish_reason': 'length', 'output_tokens': 1000, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+saved runs/audit/fingerprint_groq_20260910-201513.jsonl

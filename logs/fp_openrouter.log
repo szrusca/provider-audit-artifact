@@ -1,0 +1,49 @@
+openrouter nvidia/nemotron-3-super-120b-a12b:free F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 633, 'reasoning_tokens': 389, 'tool_calls': 0, 'math_correct': True}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1012, 'reasoning_tokens': 648, 'tool_calls': 0, 'math_correct': True}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': 0, 'tool_calls': 0, 'math_correct': False}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 500, 'reasoning_tokens': 288, 'tool_calls': 0, 'math_correct': True}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 58, 'reasoning_tokens': 56, 'tool_calls': 0, 'french_one_word': True}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 970, 'reasoning_tokens': 602, 'tool_calls': 0, 'math_correct': True}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F4b_repeat {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F5_max_tokens_40 {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F6_json_mode {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F7_tools {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F8a_seed {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F8b_logprobs {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F8c_top_k {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F9_stop {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F10_long_context {'status': 429}
+openrouter nvidia/nemotron-3-super-120b-a12b:free F11_identity {'status': 429}
+openrouter google/gemma-4-31b-it:free F1_reasoning_default {'status': 429}
+openrouter google/gemma-4-31b-it:free F2a_template_nothink {'status': 429}
+openrouter google/gemma-4-31b-it:free F2b_effort_none {'status': 429}
+openrouter google/gemma-4-31b-it:free F2c_prompt_nothink {'status': 429}
+openrouter google/gemma-4-31b-it:free F3_system_adherence {'status': 429}
+openrouter google/gemma-4-31b-it:free F4a_repeat {'status': 429}
+openrouter google/gemma-4-31b-it:free F4b_repeat {'status': 429}
+openrouter google/gemma-4-31b-it:free F5_max_tokens_40 {'status': 429}
+openrouter google/gemma-4-31b-it:free F6_json_mode {'status': 429}
+openrouter google/gemma-4-31b-it:free F7_tools {'status': 429}
+openrouter google/gemma-4-31b-it:free F8a_seed {'status': 429}
+openrouter google/gemma-4-31b-it:free F8b_logprobs {'status': 429}
+openrouter google/gemma-4-31b-it:free F8c_top_k {'status': 429}
+openrouter google/gemma-4-31b-it:free F9_stop {'status': 429}
+openrouter google/gemma-4-31b-it:free F10_long_context {'status': 429}
+openrouter google/gemma-4-31b-it:free F11_identity {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F1_reasoning_default {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F2a_template_nothink {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F2b_effort_none {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F2c_prompt_nothink {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F3_system_adherence {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F4a_repeat {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F4b_repeat {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F5_max_tokens_40 {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F6_json_mode {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F7_tools {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F8a_seed {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F8b_logprobs {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F8c_top_k {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F9_stop {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F10_long_context {'status': 429}
+openrouter google/gemma-4-26b-a4b-it:free F11_identity {'status': 429}
+saved runs/audit/fingerprint_openrouter_20260909-212606.jsonl

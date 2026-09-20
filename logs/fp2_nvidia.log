@@ -1,0 +1,81 @@
+nvidia openai/gpt-oss-20b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 662, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1103, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F2b_effort_none {'status': 400}
+nvidia openai/gpt-oss-20b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1179, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 79, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+nvidia openai/gpt-oss-20b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 550, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 696, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia openai/gpt-oss-20b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 123, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+nvidia openai/gpt-oss-20b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 36, 'reasoning_tokens': None, 'tool_calls': 1}
+nvidia openai/gpt-oss-20b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 722, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia openai/gpt-oss-20b F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia openai/gpt-oss-20b F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia openai/gpt-oss-20b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 42, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+nvidia openai/gpt-oss-20b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+nvidia openai/gpt-oss-20b F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 88, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia nvidia/nemotron-3-super-120b-a12b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1711, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia nvidia/nemotron-3-super-120b-a12b F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia nvidia/nemotron-3-super-120b-a12b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 602, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 59, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 548, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 775, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia nvidia/nemotron-3-super-120b-a12b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 114, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 71, 'reasoning_tokens': None, 'tool_calls': 1}
+nvidia nvidia/nemotron-3-super-120b-a12b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 770, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+nvidia nvidia/nemotron-3-super-120b-a12b F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia nvidia/nemotron-3-super-120b-a12b F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia nvidia/nemotron-3-super-120b-a12b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 63, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+nvidia nvidia/nemotron-3-super-120b-a12b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+nvidia nvidia/nemotron-3-super-120b-a12b F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 87, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 3, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+nvidia google/gemma-4-31b-it F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F5_max_tokens_40 {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia google/gemma-4-31b-it F6_json_mode {'status': 0}
+nvidia google/gemma-4-31b-it F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 15, 'reasoning_tokens': None, 'tool_calls': 1}
+nvidia google/gemma-4-31b-it F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia google/gemma-4-31b-it F8b_logprobs {'status': 200, 'finish_reason': 'stop', 'output_tokens': 2, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia google/gemma-4-31b-it F8c_top_k {'status': 200, 'finish_reason': 'stop', 'output_tokens': 2, 'reasoning_tokens': None, 'tool_calls': 0}
+nvidia google/gemma-4-31b-it F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 11, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': True}
+nvidia google/gemma-4-31b-it F10_long_context {'status': 200, 'finish_reason': 'stop', 'output_tokens': 9, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': True}
+nvidia google/gemma-4-31b-it F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 31, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F1_reasoning_default {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F2a_template_nothink {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F2b_effort_none {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F2c_prompt_nothink {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F3_system_adherence {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F4a_repeat {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F4b_repeat {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F5_max_tokens_40 {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F6_json_mode {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F7_tools {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F8a_seed {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F8b_logprobs {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F8c_top_k {'status': 0}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F9_stop {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F10_long_context {'status': 400}
+nvidia deepseek-ai/deepseek-v4-flash-0731 F11_identity {'status': 400}
+nvidia moonshotai/kimi-k2.6 F1_reasoning_default {'status': 404}
+nvidia moonshotai/kimi-k2.6 F2a_template_nothink {'status': 404}
+nvidia moonshotai/kimi-k2.6 F2b_effort_none {'status': 404}
+nvidia moonshotai/kimi-k2.6 F2c_prompt_nothink {'status': 404}
+nvidia moonshotai/kimi-k2.6 F3_system_adherence {'status': 404}
+nvidia moonshotai/kimi-k2.6 F4a_repeat {'status': 404}
+nvidia moonshotai/kimi-k2.6 F4b_repeat {'status': 404}
+nvidia moonshotai/kimi-k2.6 F5_max_tokens_40 {'status': 404}
+nvidia moonshotai/kimi-k2.6 F6_json_mode {'status': 404}
+nvidia moonshotai/kimi-k2.6 F7_tools {'status': 404}
+nvidia moonshotai/kimi-k2.6 F8a_seed {'status': 404}
+nvidia moonshotai/kimi-k2.6 F8b_logprobs {'status': 404}
+nvidia moonshotai/kimi-k2.6 F8c_top_k {'status': 404}
+nvidia moonshotai/kimi-k2.6 F9_stop {'status': 404}
+nvidia moonshotai/kimi-k2.6 F10_long_context {'status': 404}
+nvidia moonshotai/kimi-k2.6 F11_identity {'status': 404}
+saved runs/audit/fingerprint_nvidia_20260910-022039.jsonl

@@ -1,0 +1,17 @@
+ollama gpt-oss:20b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 726, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 838, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1015, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 585, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 87, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+ollama gpt-oss:20b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 942, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F4b_repeat {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gpt-oss:20b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:20b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 153, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ollama gpt-oss:20b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 36, 'reasoning_tokens': None, 'tool_calls': 1}
+ollama gpt-oss:20b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 943, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:20b F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:20b F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:20b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 104, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+ollama gpt-oss:20b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ollama gpt-oss:20b F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+saved runs/audit/fingerprint_ollama_20260910-022039.jsonl

@@ -1,0 +1,206 @@
+step 1/40 seed=7000 t=1 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 2/40 seed=7000 t=5 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 3/40 seed=7000 t=9 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 4/40 seed=7000 t=13 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 5/40 seed=7001 t=1 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 6/40 seed=7001 t=5 ollama=ok cloudflare=ok nvidia=ok kilocode=format_empty
+step 7/40 seed=7001 t=9 ollama=ok cloudflare=ok nvidia=ok kilocode=format_empty
+step 8/40 seed=7001 t=13 ollama=ok cloudflare=ok nvidia=ok kilocode=format_empty
+step 9/40 seed=7002 t=1 ollama=ok cloudflare=ok nvidia=ok kilocode=semantic
+step 10/40 seed=7002 t=5 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 11/40 seed=7002 t=9 ollama=ok cloudflare=format_empty nvidia=ok kilocode=ok
+step 12/40 seed=7002 t=13 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 13/40 seed=7003 t=1 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 14/40 seed=7003 t=5 ollama=ok cloudflare=ok nvidia=ok kilocode=format_empty
+step 15/40 seed=7003 t=9 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 16/40 seed=7003 t=13 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 17/40 seed=7004 t=1 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 18/40 seed=7004 t=5 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 19/40 seed=7004 t=9 ollama=ok cloudflare=ok nvidia=ok kilocode=ok
+step 20/40 seed=7004 t=13 ollama=ok nvidia=ok kilocode=format_empty
+step 21/40 seed=7005 t=1 ollama=ok nvidia=ok kilocode=ok
+step 22/40 seed=7005 t=5 ollama=ok nvidia=ok kilocode=format_empty
+step 23/40 seed=7005 t=9 ollama=ok nvidia=ok kilocode=ok
+step 24/40 seed=7005 t=13 ollama=ok nvidia=ok kilocode=ok
+step 25/40 seed=7006 t=1 ollama=ok nvidia=ok kilocode=ok
+step 26/40 seed=7006 t=5 ollama=ok nvidia=ok kilocode=ok
+step 27/40 seed=7006 t=9 ollama=ok nvidia=ok kilocode=ok
+step 28/40 seed=7006 t=13 ollama=ok nvidia=ok kilocode=ok
+step 29/40 seed=7007 t=1 ollama=ok nvidia=ok kilocode=ok
+step 30/40 seed=7007 t=5 ollama=ok nvidia=ok kilocode=ok
+step 31/40 seed=7007 t=9 ollama=ok nvidia=ok kilocode=ok
+step 32/40 seed=7007 t=13 ollama=ok nvidia=ok kilocode=ok
+step 33/40 seed=7008 t=1 ollama=ok nvidia=ok kilocode=ok
+step 34/40 seed=7008 t=5 ollama=ok nvidia=ok kilocode=ok
+step 35/40 seed=7008 t=9 ollama=ok nvidia=ok kilocode=ok
+step 36/40 seed=7008 t=13 ollama=ok nvidia=ok kilocode=ok
+step 37/40 seed=7009 t=1 ollama=ok nvidia=ok kilocode=ok
+step 38/40 seed=7009 t=5 ollama=ok nvidia=ok kilocode=ok
+step 39/40 seed=7009 t=9 ollama=ok nvidia=ok kilocode=format_empty
+step 40/40 seed=7009 t=13 ollama=ok nvidia=ok kilocode=format_empty
+saved runs/audit/stacks/stacks_nemotron_super_20260910-154900.json
+step 1/40 seed=7000 t=1 ollama=ok nvidia=ok
+step 2/40 seed=7000 t=5 ollama=ok nvidia=ok
+step 3/40 seed=7000 t=9 ollama=ok nvidia=ok
+step 4/40 seed=7000 t=13 ollama=semantic nvidia=format_empty
+step 5/40 seed=7001 t=1 ollama=ok nvidia=ok
+step 6/40 seed=7001 t=5 ollama=ok nvidia=ok
+step 7/40 seed=7001 t=9 ollama=ok nvidia=format_empty
+step 8/40 seed=7001 t=13 ollama=ok nvidia=format_empty
+step 9/40 seed=7002 t=1 ollama=semantic nvidia=format_empty
+step 10/40 seed=7002 t=5 ollama=ok nvidia=ok
+step 11/40 seed=7002 t=9 ollama=semantic nvidia=ok
+step 12/40 seed=7002 t=13 ollama=semantic nvidia=semantic
+step 13/40 seed=7003 t=1 ollama=ok nvidia=ok
+step 14/40 seed=7003 t=5 ollama=semantic nvidia=semantic
+step 15/40 seed=7003 t=9 ollama=ok nvidia=ok
+step 16/40 seed=7003 t=13 ollama=semantic nvidia=semantic
+step 17/40 seed=7004 t=1 ollama=ok nvidia=ok
+step 18/40 seed=7004 t=5 ollama=ok nvidia=format_empty
+step 19/40 seed=7004 t=9 ollama=ok nvidia=ok
+step 20/40 seed=7004 t=13 ollama=ok nvidia=ok
+step 21/40 seed=7005 t=1 ollama=ok nvidia=ok
+step 22/40 seed=7005 t=5 ollama=ok nvidia=ok
+step 23/40 seed=7005 t=9 ollama=semantic nvidia=semantic
+step 24/40 seed=7005 t=13 ollama=ok nvidia=format_empty
+step 25/40 seed=7006 t=1 ollama=ok nvidia=ok
+step 26/40 seed=7006 t=5 ollama=ok nvidia=ok
+step 27/40 seed=7006 t=9 ollama=ok nvidia=ok
+step 28/40 seed=7006 t=13 ollama=semantic nvidia=semantic
+step 29/40 seed=7007 t=1 ollama=ok nvidia=ok
+step 30/40 seed=7007 t=5 ollama=ok nvidia=ok
+step 31/40 seed=7007 t=9 ollama=ok nvidia=ok
+step 32/40 seed=7007 t=13 ollama=ok nvidia=ok
+step 33/40 seed=7008 t=1 ollama=ok nvidia=ok
+step 34/40 seed=7008 t=5 ollama=ok nvidia=ok
+step 35/40 seed=7008 t=9 ollama=ok nvidia=ok
+step 36/40 seed=7008 t=13 ollama=ok nvidia=ok
+step 37/40 seed=7009 t=1 ollama=ok nvidia=ok
+step 38/40 seed=7009 t=5 ollama=ok nvidia=ok
+step 39/40 seed=7009 t=9 ollama=ok nvidia=semantic
+step 40/40 seed=7009 t=13 ollama=ok nvidia=ok
+saved runs/audit/stacks/stacks_gemma431_20260910-161048.json
+step 1/40 seed=7000 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 2/40 seed=7000 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 3/40 seed=7000 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 4/40 seed=7000 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 5/40 seed=7001 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 6/40 seed=7001 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 7/40 seed=7001 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 8/40 seed=7001 t=13 groq=ok ovh=format_empty ollama=ok cloudflare=ok nvidia=ok
+step 9/40 seed=7002 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 10/40 seed=7002 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 11/40 seed=7002 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 12/40 seed=7002 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 13/40 seed=7003 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 14/40 seed=7003 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 15/40 seed=7003 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 16/40 seed=7003 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 17/40 seed=7004 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 18/40 seed=7004 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 19/40 seed=7004 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 20/40 seed=7004 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok nvidia=ok
+step 21/40 seed=7005 t=1 groq=ok ovh=ok ollama=ok nvidia=ok
+step 22/40 seed=7005 t=5 groq=ok ovh=ok ollama=ok nvidia=ok
+step 23/40 seed=7005 t=9 groq=ok ovh=ok ollama=ok nvidia=ok
+step 24/40 seed=7005 t=13 groq=ok ovh=ok ollama=ok nvidia=ok
+step 25/40 seed=7006 t=1 groq=ok ovh=ok ollama=ok nvidia=ok
+step 26/40 seed=7006 t=5 groq=ok ovh=ok ollama=ok nvidia=ok
+step 27/40 seed=7006 t=9 groq=ok ovh=ok ollama=ok nvidia=ok
+step 28/40 seed=7006 t=13 groq=ok ovh=ok ollama=ok nvidia=ok
+step 29/40 seed=7007 t=1 groq=ok ovh=ok ollama=ok nvidia=ok
+step 30/40 seed=7007 t=5 groq=ok ovh=ok ollama=ok nvidia=ok
+step 31/40 seed=7007 t=9 groq=ok ovh=ok ollama=ok nvidia=ok
+step 32/40 seed=7007 t=13 groq=ok ovh=ok ollama=ok nvidia=ok
+step 33/40 seed=7008 t=1 groq=ok ovh=ok ollama=ok nvidia=ok
+step 34/40 seed=7008 t=5 groq=ok ovh=ok ollama=ok nvidia=ok
+step 35/40 seed=7008 t=9 groq=ok ovh=ok ollama=ok nvidia=ok
+step 36/40 seed=7008 t=13 groq=ok ovh=ok ollama=ok nvidia=ok
+step 37/40 seed=7009 t=1 groq=ok ovh=ok ollama=ok nvidia=format_badjson
+step 38/40 seed=7009 t=5 groq=ok ovh=ok ollama=ok nvidia=ok
+step 39/40 seed=7009 t=9 groq=ok ovh=ok ollama=ok nvidia=ok
+step 40/40 seed=7009 t=13 groq=ok ovh=ok ollama=ok nvidia=ok
+saved runs/audit/stacks/stacks_gptoss20b_20260910-181315.json
+step 1/40 seed=7000 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 2/40 seed=7000 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 3/40 seed=7000 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 4/40 seed=7000 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 5/40 seed=7001 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 6/40 seed=7001 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 7/40 seed=7001 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 8/40 seed=7001 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 9/40 seed=7002 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 10/40 seed=7002 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 11/40 seed=7002 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 12/40 seed=7002 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 13/40 seed=7003 t=1 groq=ok ovh=ok ollama=ok cloudflare=format_nojson
+step 14/40 seed=7003 t=5 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 15/40 seed=7003 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 16/40 seed=7003 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 17/40 seed=7004 t=1 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 18/40 seed=7004 t=5 groq=ok ovh=format_empty ollama=ok cloudflare=ok
+step 19/40 seed=7004 t=9 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 20/40 seed=7004 t=13 groq=ok ovh=ok ollama=ok cloudflare=ok
+step 21/40 seed=7005 t=1 groq=ok ovh=format_empty ollama=ok
+step 22/40 seed=7005 t=5 groq=ok ovh=ok ollama=ok
+step 23/40 seed=7005 t=9 groq=ok ovh=ok ollama=ok
+step 24/40 seed=7005 t=13 groq=ok ovh=format_empty ollama=ok
+step 25/40 seed=7006 t=1 groq=ok ovh=ok ollama=ok
+step 26/40 seed=7006 t=5 groq=ok ovh=ok ollama=ok
+step 27/40 seed=7006 t=9 groq=ok ovh=format_empty ollama=ok
+step 28/40 seed=7006 t=13 groq=ok ovh=format_empty ollama=ok
+step 29/40 seed=7007 t=1 groq=ok ovh=ok ollama=ok
+step 30/40 seed=7007 t=5 groq=ok ovh=format_empty ollama=ok
+step 31/40 seed=7007 t=9 groq=ok ovh=format_empty ollama=ok
+step 32/40 seed=7007 t=13 groq=ok ovh=ok ollama=ok
+step 33/40 seed=7008 t=1 groq=ok ovh=format_empty ollama=ok
+step 34/40 seed=7008 t=5 groq=ok ovh=ok ollama=ok
+step 35/40 seed=7008 t=9 groq=ok ovh=ok ollama=ok
+step 36/40 seed=7008 t=13 groq=ok ovh=ok ollama=ok
+step 37/40 seed=7009 t=1 groq=ok ovh=ok ollama=ok
+step 38/40 seed=7009 t=5 groq=ok ovh=ok ollama=ok
+step 39/40 seed=7009 t=9 groq=ok ovh=ok ollama=ok
+step 40/40 seed=7009 t=13 groq=ok ovh=ok ollama=ok
+saved runs/audit/stacks/stacks_gptoss120b_20260910-190022.json
+step 1/40 seed=7000 t=1 groq=format_badjson ovh=format_empty
+step 2/40 seed=7000 t=5 groq=format_badjson ovh=format_empty
+step 3/40 seed=7000 t=9 groq=format_badjson ovh=format_empty
+step 4/40 seed=7000 t=13 groq=format_badjson ovh=format_empty
+step 5/40 seed=7001 t=1 groq=format_badjson ovh=format_empty
+step 6/40 seed=7001 t=5 groq=format_badjson ovh=format_empty
+step 7/40 seed=7001 t=9 groq=format_badjson ovh=format_empty
+step 8/40 seed=7001 t=13 groq=format_badjson ovh=format_empty
+step 9/40 seed=7002 t=1 groq=format_badjson ovh=format_empty
+step 10/40 seed=7002 t=5 groq=format_badjson ovh=ok
+step 11/40 seed=7002 t=9 groq=format_badjson ovh=format_empty
+step 12/40 seed=7002 t=13 groq=format_badjson ovh=format_empty
+step 13/40 seed=7003 t=1 groq=format_badjson ovh=ok
+step 14/40 seed=7003 t=5 groq=format_badjson ovh=format_empty
+step 15/40 seed=7003 t=9 groq=format_badjson ovh=format_empty
+step 16/40 seed=7003 t=13 groq=format_badjson ovh=format_nojson
+step 17/40 seed=7004 t=1 groq=format_badjson ovh=format_empty
+step 18/40 seed=7004 t=5 groq=format_badjson ovh=format_empty
+step 19/40 seed=7004 t=9 groq=format_badjson ovh=format_empty
+step 20/40 seed=7004 t=13 groq=format_badjson ovh=format_empty
+step 21/40 seed=7005 t=1 groq=format_badjson ovh=format_empty
+step 22/40 seed=7005 t=5 groq=format_badjson ovh=format_empty
+step 23/40 seed=7005 t=9 groq=format_badjson ovh=format_empty
+step 24/40 seed=7005 t=13 groq=format_badjson ovh=format_empty
+step 25/40 seed=7006 t=1 groq=semantic ovh=format_empty
+step 26/40 seed=7006 t=5 groq=format_badjson ovh=ok
+step 27/40 seed=7006 t=9 groq=format_badjson ovh=format_empty
+step 28/40 seed=7006 t=13 groq=format_badjson ovh=format_empty
+step 29/40 seed=7007 t=1 groq=format_badjson ovh=format_empty
+step 30/40 seed=7007 t=5 groq=format_badjson ovh=format_nojson
+step 31/40 seed=7007 t=9 groq=format_badjson ovh=format_empty
+step 32/40 seed=7007 t=13 groq=format_badjson ovh=ok
+step 33/40 seed=7008 t=1 groq=format_badjson ovh=format_empty
+step 34/40 seed=7008 t=5 groq=format_badjson ovh=ok
+step 35/40 seed=7008 t=9 groq=format_badjson ovh=format_empty
+step 36/40 seed=7008 t=13 groq=format_badjson ovh=format_empty
+step 37/40 seed=7009 t=1 groq=format_badjson ovh=format_empty
+step 38/40 seed=7009 t=5 groq=format_badjson ovh=ok
+step 39/40 seed=7009 t=9 groq=format_badjson ovh=format_empty
+step 40/40 seed=7009 t=13 groq=format_badjson ovh=format_empty
+saved runs/audit/stacks/stacks_qwen36_20260910-193707.json
+PHASE2_DONE

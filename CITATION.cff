@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+type: dataset
+title: "Same Name, Different Model: probes, raw responses, and analysis for a configuration audit of open-weight LLMs across inference providers"
+authors:
+  - family-names: Song
+    given-names: Zhouran
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0001-2985-0012"
+version: v1.0.0
+date-released: 2026-09-20
+repository-code: https://github.com/szrusca/provider-audit-artifact
+license: MIT
+keywords:
+  - LLM inference providers
+  - open-weight models
+  - reproducibility
+  - reasoning mode
+  - agent logs
+  - replay
+preferred-citation:
+  type: article
+  title: "Same Name, Different Model: A Configuration Audit of Open-Weight LLMs Across Inference Providers"
+  authors:
+    - family-names: Song
+      given-names: Zhouran
+      affiliation: Independent Researcher
+      orcid: "https://orcid.org/0009-0001-2985-0012"
+  year: 2026
+  notes: Manuscript under review.

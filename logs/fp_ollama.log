@@ -1,0 +1,129 @@
+ollama gpt-oss:120b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 357, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 286, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 368, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 394, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 82, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+ollama gpt-oss:120b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 455, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 511, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:120b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 114, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ollama gpt-oss:120b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 46, 'reasoning_tokens': None, 'tool_calls': 1}
+ollama gpt-oss:120b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 268, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama gpt-oss:120b F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:120b F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gpt-oss:120b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 84, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+ollama gpt-oss:120b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ollama gpt-oss:120b F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama nemotron-3-super F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1202, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama nemotron-3-super F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 644, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama nemotron-3-super F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama nemotron-3-super F2c_prompt_nothink {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama nemotron-3-super F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 52, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+ollama nemotron-3-super F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 618, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama nemotron-3-super F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 719, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama nemotron-3-super F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama nemotron-3-super F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 398, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ollama nemotron-3-super F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 80, 'reasoning_tokens': None, 'tool_calls': 1}
+ollama nemotron-3-super F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 702, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ollama nemotron-3-super F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama nemotron-3-super F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama nemotron-3-super F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 83, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+ollama nemotron-3-super F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ollama nemotron-3-super F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 124, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 3, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+ollama gemma4:31b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F5_max_tokens_40 {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gemma4:31b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 30, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ollama gemma4:31b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 15, 'reasoning_tokens': None, 'tool_calls': 1}
+ollama gemma4:31b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama gemma4:31b F8b_logprobs {'status': 200, 'finish_reason': 'stop', 'output_tokens': 2, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gemma4:31b F8c_top_k {'status': 200, 'finish_reason': 'stop', 'output_tokens': 2, 'reasoning_tokens': None, 'tool_calls': 0}
+ollama gemma4:31b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 21, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+ollama gemma4:31b F10_long_context {'status': 200, 'finish_reason': 'stop', 'output_tokens': 9, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': True}
+ollama gemma4:31b F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 31, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ollama glm-5.3-flash F1_reasoning_default {'status': 402}
+ollama glm-5.3-flash F2a_template_nothink {'status': 402}
+ollama glm-5.3-flash F2b_effort_none {'status': 402}
+ollama glm-5.3-flash F2c_prompt_nothink {'status': 402}
+ollama glm-5.3-flash F3_system_adherence {'status': 402}
+ollama glm-5.3-flash F4a_repeat {'status': 402}
+ollama glm-5.3-flash F4b_repeat {'status': 402}
+ollama glm-5.3-flash F5_max_tokens_40 {'status': 402}
+ollama glm-5.3-flash F6_json_mode {'status': 402}
+ollama glm-5.3-flash F7_tools {'status': 402}
+ollama glm-5.3-flash F8a_seed {'status': 402}
+ollama glm-5.3-flash F8b_logprobs {'status': 402}
+ollama glm-5.3-flash F8c_top_k {'status': 402}
+ollama glm-5.3-flash F9_stop {'status': 402}
+ollama glm-5.3-flash F10_long_context {'status': 402}
+ollama glm-5.3-flash F11_identity {'status': 402}
+ollama glm-5.3 F1_reasoning_default {'status': 402}
+ollama glm-5.3 F2a_template_nothink {'status': 402}
+ollama glm-5.3 F2b_effort_none {'status': 402}
+ollama glm-5.3 F2c_prompt_nothink {'status': 402}
+ollama glm-5.3 F3_system_adherence {'status': 402}
+ollama glm-5.3 F4a_repeat {'status': 402}
+ollama glm-5.3 F4b_repeat {'status': 402}
+ollama glm-5.3 F5_max_tokens_40 {'status': 402}
+ollama glm-5.3 F6_json_mode {'status': 402}
+ollama glm-5.3 F7_tools {'status': 402}
+ollama glm-5.3 F8a_seed {'status': 402}
+ollama glm-5.3 F8b_logprobs {'status': 402}
+ollama glm-5.3 F8c_top_k {'status': 402}
+ollama glm-5.3 F9_stop {'status': 402}
+ollama glm-5.3 F10_long_context {'status': 402}
+ollama glm-5.3 F11_identity {'status': 402}
+ollama deepseek-v4-flash:0731 F1_reasoning_default {'status': 402}
+ollama deepseek-v4-flash:0731 F2a_template_nothink {'status': 402}
+ollama deepseek-v4-flash:0731 F2b_effort_none {'status': 402}
+ollama deepseek-v4-flash:0731 F2c_prompt_nothink {'status': 402}
+ollama deepseek-v4-flash:0731 F3_system_adherence {'status': 402}
+ollama deepseek-v4-flash:0731 F4a_repeat {'status': 402}
+ollama deepseek-v4-flash:0731 F4b_repeat {'status': 402}
+ollama deepseek-v4-flash:0731 F5_max_tokens_40 {'status': 402}
+ollama deepseek-v4-flash:0731 F6_json_mode {'status': 402}
+ollama deepseek-v4-flash:0731 F7_tools {'status': 402}
+ollama deepseek-v4-flash:0731 F8a_seed {'status': 402}
+ollama deepseek-v4-flash:0731 F8b_logprobs {'status': 402}
+ollama deepseek-v4-flash:0731 F8c_top_k {'status': 402}
+ollama deepseek-v4-flash:0731 F9_stop {'status': 402}
+ollama deepseek-v4-flash:0731 F10_long_context {'status': 402}
+ollama deepseek-v4-flash:0731 F11_identity {'status': 402}
+ollama kimi-k2.6 F1_reasoning_default {'status': 402}
+ollama kimi-k2.6 F2a_template_nothink {'status': 402}
+ollama kimi-k2.6 F2b_effort_none {'status': 402}
+ollama kimi-k2.6 F2c_prompt_nothink {'status': 402}
+ollama kimi-k2.6 F3_system_adherence {'status': 402}
+ollama kimi-k2.6 F4a_repeat {'status': 402}
+ollama kimi-k2.6 F4b_repeat {'status': 402}
+ollama kimi-k2.6 F5_max_tokens_40 {'status': 402}
+ollama kimi-k2.6 F6_json_mode {'status': 402}
+ollama kimi-k2.6 F7_tools {'status': 402}
+ollama kimi-k2.6 F8a_seed {'status': 402}
+ollama kimi-k2.6 F8b_logprobs {'status': 402}
+ollama kimi-k2.6 F8c_top_k {'status': 402}
+ollama kimi-k2.6 F9_stop {'status': 402}
+ollama kimi-k2.6 F10_long_context {'status': 402}
+ollama kimi-k2.6 F11_identity {'status': 402}
+ollama qwen3.5:397b F1_reasoning_default {'status': 402}
+ollama qwen3.5:397b F2a_template_nothink {'status': 402}
+ollama qwen3.5:397b F2b_effort_none {'status': 402}
+ollama qwen3.5:397b F2c_prompt_nothink {'status': 402}
+ollama qwen3.5:397b F3_system_adherence {'status': 402}
+ollama qwen3.5:397b F4a_repeat {'status': 402}
+ollama qwen3.5:397b F4b_repeat {'status': 402}
+ollama qwen3.5:397b F5_max_tokens_40 {'status': 402}
+ollama qwen3.5:397b F6_json_mode {'status': 402}
+ollama qwen3.5:397b F7_tools {'status': 402}
+ollama qwen3.5:397b F8a_seed {'status': 402}
+ollama qwen3.5:397b F8b_logprobs {'status': 402}
+ollama qwen3.5:397b F8c_top_k {'status': 402}
+ollama qwen3.5:397b F9_stop {'status': 402}
+ollama qwen3.5:397b F10_long_context {'status': 402}
+ollama qwen3.5:397b F11_identity {'status': 402}
+saved runs/audit/fingerprint_ollama_20260909-212606.jsonl

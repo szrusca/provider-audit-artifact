@@ -1,0 +1,49 @@
+ovh gpt-oss-120b F2b_effort_none {'status': 429}
+ovh gpt-oss-120b F2c_prompt_nothink {'status': 429}
+ovh gpt-oss-120b F3_system_adherence {'status': 429}
+ovh gpt-oss-120b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ovh gpt-oss-120b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 71, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ovh gpt-oss-120b F7_tools {'status': 429}
+ovh gpt-oss-120b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 353, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-120b F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ovh Qwen3.8-27B F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 59, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': True}
+ovh Qwen3.8-27B F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ovh Qwen3.6-27B F1_reasoning_default {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ovh Qwen3.6-27B F2a_template_nothink {'status': 400}
+ovh Qwen3.6-27B F2c_prompt_nothink {'status': 429}
+ovh Qwen3.6-27B F4a_repeat {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ovh Qwen3.6-27B F4b_repeat {'status': 429}
+ovh Qwen3.6-27B F5_max_tokens_40 {'status': 429}
+ovh Qwen3.6-27B F8a_seed {'status': 429}
+ovh Qwen3.6-27B F8b_logprobs {'status': 400}
+ovh Qwen3.6-27B F8c_top_k {'status': 400}
+ovh Qwen3.6-27B F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ovh Qwen3.6-27B F11_identity {'status': 429}
+ovh gpt-oss-20b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 584, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-20b F2a_template_nothink {'status': 400}
+ovh gpt-oss-20b F2b_effort_none {'status': 400}
+ovh gpt-oss-20b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1024, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-20b F3_system_adherence {'status': 429}
+ovh gpt-oss-20b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 785, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-20b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 739, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-20b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ovh gpt-oss-20b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 161, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+ovh gpt-oss-20b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 35, 'reasoning_tokens': None, 'tool_calls': 1}
+ovh gpt-oss-20b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 707, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+ovh gpt-oss-20b F8b_logprobs {'status': 429}
+ovh gpt-oss-20b F8c_top_k {'status': 400}
+ovh gpt-oss-20b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 45, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+ovh gpt-oss-20b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+ovh gpt-oss-20b F11_identity {'status': 429}
+ovh Qwen3.5-397B-A17B F1_reasoning_default {'status': 429}
+ovh Qwen3.5-397B-A17B F2a_template_nothink {'status': 400}
+ovh Qwen3.5-397B-A17B F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ovh Qwen3.5-397B-A17B F2c_prompt_nothink {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+ovh Qwen3.5-397B-A17B F4b_repeat {'status': 429}
+ovh Qwen3.5-397B-A17B F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+ovh Qwen3.5-397B-A17B F6_json_mode {'status': 429}
+ovh Qwen3.5-397B-A17B F7_tools {'status': 429}
+ovh Qwen3.5-397B-A17B F8c_top_k {'status': 429}
+ovh Qwen3.5-397B-A17B F9_stop {'status': 429}
+ovh Qwen3.5-397B-A17B F10_long_context {'status': 429}
+saved runs/audit/fingerprint_ovh_20260910-022039.jsonl

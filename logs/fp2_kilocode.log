@@ -1,0 +1,17 @@
+kilocode nvidia/nemotron-3-super-120b-a12b:free F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 614, 'reasoning_tokens': 397, 'tool_calls': 0, 'math_correct': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 701, 'reasoning_tokens': 430, 'tool_calls': 0, 'math_correct': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F2b_effort_none {'status': 200, 'finish_reason': 'stop', 'output_tokens': 4, 'reasoning_tokens': 0, 'tool_calls': 0, 'math_correct': False}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 859, 'reasoning_tokens': 561, 'tool_calls': 0, 'math_correct': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 59, 'reasoning_tokens': 56, 'tool_calls': 0, 'french_one_word': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1313, 'reasoning_tokens': 889, 'tool_calls': 0, 'math_correct': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 631, 'reasoning_tokens': 379, 'tool_calls': 0, 'math_correct': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': 23, 'tool_calls': 0}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 113, 'reasoning_tokens': 76, 'tool_calls': 0, 'valid_json': True}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 71, 'reasoning_tokens': 48, 'tool_calls': 1}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F8a_seed {'status': 200}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F8b_logprobs {'status': 200}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': 10, 'tool_calls': 0}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 87, 'reasoning_tokens': 52, 'tool_calls': 0, 'stopped_before_6': False}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': 73, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+kilocode nvidia/nemotron-3-super-120b-a12b:free F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': 106, 'tool_calls': 0, 'math_correct': False}
+saved runs/audit/fingerprint_kilocode_20260910-022039.jsonl

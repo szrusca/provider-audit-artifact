@@ -1,0 +1,23 @@
+groq qwen/qwen3.6-27b F1_reasoning_default {'status': 429}
+groq qwen/qwen3.6-27b F2b_effort_none {'status': 429}
+groq qwen/qwen3.6-27b F2c_prompt_nothink {'status': 200, 'finish_reason': 'length', 'output_tokens': 2048, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+groq qwen/qwen3.6-27b F4a_repeat {'status': 429}
+groq qwen/qwen3.6-27b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 124, 'reasoning_tokens': 96, 'tool_calls': 1}
+groq qwen/qwen3.6-27b F8a_seed {'status': 429}
+groq openai/gpt-oss-20b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 723, 'reasoning_tokens': 713, 'tool_calls': 0, 'math_correct': True}
+groq openai/gpt-oss-20b F2a_template_nothink {'status': 400}
+groq openai/gpt-oss-20b F2b_effort_none {'status': 400}
+groq openai/gpt-oss-20b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 433, 'reasoning_tokens': 423, 'tool_calls': 0, 'math_correct': True}
+groq openai/gpt-oss-20b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 81, 'reasoning_tokens': 70, 'tool_calls': 0, 'french_one_word': True}
+groq openai/gpt-oss-20b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 664, 'reasoning_tokens': 654, 'tool_calls': 0, 'math_correct': True}
+groq openai/gpt-oss-20b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 638, 'reasoning_tokens': 628, 'tool_calls': 0, 'math_correct': True}
+groq openai/gpt-oss-20b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': 38, 'tool_calls': 0}
+groq openai/gpt-oss-20b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 103, 'reasoning_tokens': 83, 'tool_calls': 0, 'valid_json': True}
+groq openai/gpt-oss-20b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 36, 'reasoning_tokens': 13, 'tool_calls': 1}
+groq openai/gpt-oss-20b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 638, 'reasoning_tokens': 628, 'tool_calls': 0, 'math_correct': True}
+groq openai/gpt-oss-20b F8b_logprobs {'status': 400}
+groq openai/gpt-oss-20b F8c_top_k {'status': 400}
+groq openai/gpt-oss-20b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 85, 'reasoning_tokens': 40, 'tool_calls': 0, 'stopped_before_6': False}
+groq openai/gpt-oss-20b F10_long_context {'status': 413}
+groq openai/gpt-oss-20b F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': 116, 'tool_calls': 0, 'math_correct': False}
+saved runs/audit/fingerprint_groq_20260910-022039.jsonl

@@ -1,0 +1,17 @@
+cloudflare @cf/openai/gpt-oss-20b F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 532, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1568, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F2b_effort_none {'status': 400}
+cloudflare @cf/openai/gpt-oss-20b F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 644, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 62, 'reasoning_tokens': None, 'tool_calls': 0, 'french_one_word': True}
+cloudflare @cf/openai/gpt-oss-20b F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 1803, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 683, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': None, 'tool_calls': 0}
+cloudflare @cf/openai/gpt-oss-20b F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 101, 'reasoning_tokens': None, 'tool_calls': 0, 'valid_json': True}
+cloudflare @cf/openai/gpt-oss-20b F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 36, 'reasoning_tokens': None, 'tool_calls': 1}
+cloudflare @cf/openai/gpt-oss-20b F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 638, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': True}
+cloudflare @cf/openai/gpt-oss-20b F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+cloudflare @cf/openai/gpt-oss-20b F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': None, 'tool_calls': 0}
+cloudflare @cf/openai/gpt-oss-20b F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 42, 'reasoning_tokens': None, 'tool_calls': 0, 'stopped_before_6': False}
+cloudflare @cf/openai/gpt-oss-20b F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+cloudflare @cf/openai/gpt-oss-20b F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': None, 'tool_calls': 0, 'math_correct': False}
+saved runs/audit/fingerprint_cloudflare_20260910-022039.jsonl

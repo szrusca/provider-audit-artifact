@@ -1,0 +1,2756 @@
+{
+ "stacks": [
+  "ollama:nemotron-3-super",
+  "cloudflare:@cf/nvidia/nemotron-3-120b-a12b",
+  "nvidia:nvidia/nemotron-3-super-120b-a12b",
+  "kilocode:nvidia/nemotron-3-super-120b-a12b:free"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7000,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\":109,\"bravo\":95,\"charlie\":496,\"delta\":641,\"echo\":279,\"foxtrot\":473,\"golf\":59,\"hotel\":380}",
+     "latency_ms": 14148,
+     "tokens": 634
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\":109,\"bravo\":95,\"charlie\":496,\"delta\":641,\"echo\":279,\"foxtrot\":473,\"golf\":59,\"hotel\":380}",
+     "latency_ms": 6964,
+     "tokens": 634
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\":109,\"bravo\":95,\"charlie\":496,\"delta\":641,\"echo\":279,\"foxtrot\":473,\"golf\":59,\"hotel\":380}",
+     "latency_ms": 12860,
+     "tokens": 614
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\":109,\"bravo\":95,\"charlie\":496,\"delta\":641,\"echo\":279,\"foxtrot\":473,\"golf\":59,\"hotel\":380}",
+     "latency_ms": 4173,
+     "tokens": 932
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7000,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 10867,
+     "tokens": 1453
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 5726,
+     "tokens": 1543
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 4967,
+     "tokens": 1384
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 3436,
+     "tokens": 1689
+    }
+   }
+  },
+  {
+   "idx": 2,
+   "seed": 7000,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\":-64,\"bravo\":12,\"charlie\":230,\"delta\":362,\"echo\":1277,\"foxtrot\":467,\"golf\":229,\"hotel\":264}",
+     "latency_ms": 5457,
+     "tokens": 2227
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 14740,
+     "tokens": 2311
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 3599,
+     "tokens": 2313
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 4491,
+     "tokens": 2396
+    }
+   }
+  },
+  {
+   "idx": 3,
+   "seed": 7000,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 3219,
+     "tokens": 3077
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 16381,
+     "tokens": 3121
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 6641,
+     "tokens": 3041
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 3608,
+     "tokens": 3244
+    }
+   }
+  },
+  {
+   "idx": 4,
+   "seed": 7001,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":170,\"bravo\":385,\"charlie\":378,\"delta\":1520,\"echo\":430,\"foxtrot\":723,\"golf\":748,\"hotel\":189}",
+     "latency_ms": 16670,
+     "tokens": 722
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":170,\"bravo\":385,\"charlie\":378,\"delta\":1520,\"echo\":430,\"foxtrot\":723,\"golf\":748,\"hotel\":189}",
+     "latency_ms": 6846,
+     "tokens": 655
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":170,\"bravo\":385,\"charlie\":378,\"delta\":1520,\"echo\":430,\"foxtrot\":723,\"golf\":748,\"hotel\":189}",
+     "latency_ms": 3212,
+     "tokens": 652
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":170,\"bravo\":385,\"charlie\":378,\"delta\":1520,\"echo\":430,\"foxtrot\":723,\"golf\":748,\"hotel\":189}",
+     "latency_ms": 5831,
+     "tokens": 992
+    }
+   }
+  },
+  {
+   "idx": 5,
+   "seed": 7001,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\":114,\"bravo\":385,\"charlie\":860,\"delta\":1520,\"echo\":16,\"foxtrot\":723,\"golf\":249,\"hotel\":189}",
+     "latency_ms": 5587,
+     "tokens": 1476
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 7398,
+     "tokens": 1434
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 2741,
+     "tokens": 1434
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 3116,
+     "tokens": 1688
+    }
+   }
+  },
+  {
+   "idx": 6,
+   "seed": 7001,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 4250,
+     "tokens": 2379
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\":55,\"bravo\":148,\"charlie\":868,\"delta\":75,\"echo\":1520,\"foxtrot\":676,\"golf\":249,\"hotel\":220}",
+     "latency_ms": 8748,
+     "tokens": 2668
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 10445,
+     "tokens": 2297
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 4773,
+     "tokens": 2591
+    }
+   }
+  },
+  {
+   "idx": 7,
+   "seed": 7001,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\":55,\"bravo\":162,\"charlie\":1096,\"delta\":296,\"echo\":214,\"foxtrot\":481,\"golf\":-122,\"hotel\":151}",
+     "latency_ms": 8969,
+     "tokens": 3203
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\":55,\"bravo\":162,\"charlie\":1096,\"delta\":296,\"echo\":214,\"foxtrot\":481,\"golf\":-122,\"hotel\":151}",
+     "latency_ms": 20322,
+     "tokens": 3413
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\":55,\"bravo\":162,\"charlie\":1096,\"delta\":296,\"echo\":214,\"foxtrot\":481,\"golf\":-122,\"hotel\":151}",
+     "latency_ms": 4839,
+     "tokens": 3055
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\":55,\"bravo\":162,\"charlie\":1096,\"delta\":296,\"echo\":214,\"foxtrot\":481,\"golf\":-122,\"hotel\":151}",
+     "latency_ms": 6159,
+     "tokens": 3858
+    }
+   }
+  },
+  {
+   "idx": 8,
+   "seed": 7002,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\":581,\"bravo\":622,\"charlie\":76,\"delta\":124,\"echo\":749,\"foxtrot\":1078,\"golf\":732,\"hotel\":354}",
+     "latency_ms": 7791,
+     "tokens": 878
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\":581,\"bravo\":622,\"charlie\":76,\"delta\":124,\"echo\":749,\"foxtrot\":1078,\"golf\":732,\"hotel\":354}",
+     "latency_ms": 5125,
+     "tokens": 733
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\":581,\"bravo\":622,\"charlie\":76,\"delta\":124,\"echo\":749,\"foxtrot\":1078,\"golf\":732,\"hotel\":354}",
+     "latency_ms": 9849,
+     "tokens": 819
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\":581,\"bravo\":622,\"charlie\":76,\"delta\":124,\"echo\":749,\"foxtrot\":1078,\"golf\":732,\"hotel\":354}",
+     "latency_ms": 6079,
+     "tokens": 1138
+    }
+   }
+  },
+  {
+   "idx": 9,
+   "seed": 7002,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 10104,
+     "tokens": 1504
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 4102,
+     "tokens": 1461
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 10292,
+     "tokens": 1455
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 3690,
+     "tokens": 1588
+    }
+   }
+  },
+  {
+   "idx": 10,
+   "seed": 7002,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 6766,
+     "tokens": 2295
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\":3,\"bravo\":604,\"charlie\":166,\"delta\":176,\"echo\":513,\"foxtrot\":711,\"golf\":38,\"hotel\":599}",
+     "latency_ms": 7792,
+     "tokens": 2502
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 10065,
+     "tokens": 2358
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 5209,
+     "tokens": 2608
+    }
+   }
+  },
+  {
+   "idx": 11,
+   "seed": 7002,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 5038,
+     "tokens": 3072
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 8301,
+     "tokens": 3225
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 7987,
+     "tokens": 3141
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 6804,
+     "tokens": 3813
+    }
+   }
+  },
+  {
+   "idx": 12,
+   "seed": 7003,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\":724,\"bravo\":354,\"charlie\":1518,\"delta\":561,\"echo\":140,\"foxtrot\":311,\"golf\":446,\"hotel\":789}",
+     "latency_ms": 18519,
+     "tokens": 697
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\":724,\"bravo\":354,\"charlie\":1518,\"delta\":561,\"echo\":140,\"foxtrot\":311,\"golf\":446,\"hotel\":789}",
+     "latency_ms": 4780,
+     "tokens": 609
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\":724,\"bravo\":354,\"charlie\":1518,\"delta\":561,\"echo\":140,\"foxtrot\":311,\"golf\":446,\"hotel\":789}",
+     "latency_ms": 3243,
+     "tokens": 533
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\":724,\"bravo\":354,\"charlie\":1518,\"delta\":561,\"echo\":140,\"foxtrot\":311,\"golf\":446,\"hotel\":789}",
+     "latency_ms": 6930,
+     "tokens": 719
+    }
+   }
+  },
+  {
+   "idx": 13,
+   "seed": 7003,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 4174,
+     "tokens": 1466
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 10320,
+     "tokens": 1437
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 3672,
+     "tokens": 1464
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\":307,\"bravo\":180,\"charlie\":113,\"delta\":645,\"echo\":140,\"foxtrot\":230,\"golf\":651,\"hotel\":626}",
+     "latency_ms": 4619,
+     "tokens": 1688
+    }
+   }
+  },
+  {
+   "idx": 14,
+   "seed": 7003,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\":307,\"bravo\":181,\"charlie\":98,\"delta\":561,\"echo\":230,\"foxtrot\":-26,\"golf\":1890,\"hotel\":626}",
+     "latency_ms": 7589,
+     "tokens": 2256
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\":307,\"bravo\":181,\"charlie\":98,\"delta\":561,\"echo\":230,\"foxtrot\":-26,\"golf\":1890,\"hotel\":626}",
+     "latency_ms": 10361,
+     "tokens": 2277
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 8801,
+     "tokens": 2205
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 4277,
+     "tokens": 2442
+    }
+   }
+  },
+  {
+   "idx": 15,
+   "seed": 7003,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 16301,
+     "tokens": 3026
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 95,
+     "tokens": 0
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 3196,
+     "tokens": 2994
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 2452,
+     "tokens": 3150
+    }
+   }
+  },
+  {
+   "idx": 16,
+   "seed": 7004,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\":406,\"bravo\":331,\"charlie\":165,\"delta\":292,\"echo\":887,\"foxtrot\":248,\"golf\":16,\"hotel\":868}",
+     "latency_ms": 10830,
+     "tokens": 566
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 84,
+     "tokens": 0
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\":406,\"bravo\":331,\"charlie\":165,\"delta\":292,\"echo\":887,\"foxtrot\":248,\"golf\":16,\"hotel\":868}",
+     "latency_ms": 8321,
+     "tokens": 579
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\":406,\"bravo\":331,\"charlie\":165,\"delta\":292,\"echo\":887,\"foxtrot\":248,\"golf\":16,\"hotel\":868}",
+     "latency_ms": 66194,
+     "tokens": 843
+    }
+   }
+  },
+  {
+   "idx": 17,
+   "seed": 7004,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 5734,
+     "tokens": 1516
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 94,
+     "tokens": 0
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 3966,
+     "tokens": 1473
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 5730,
+     "tokens": 1686
+    }
+   }
+  },
+  {
+   "idx": 18,
+   "seed": 7004,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 8779,
+     "tokens": 2240
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 103,
+     "tokens": 0
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 6658,
+     "tokens": 2289
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 6174,
+     "tokens": 2356
+    }
+   }
+  },
+  {
+   "idx": 19,
+   "seed": 7004,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 4361,
+     "tokens": 3149
+    },
+    "cloudflare:@cf/nvidia/nemotron-3-120b-a12b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 82,
+     "tokens": 0
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\":260,\"bravo\":148,\"charlie\":103,\"delta\":134,\"echo\":1044,\"foxtrot\":86,\"golf\":126,\"hotel\":400}",
+     "latency_ms": 6611,
+     "tokens": 3103
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 6625,
+     "tokens": 3274
+    }
+   }
+  },
+  {
+   "idx": 20,
+   "seed": 7005,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\":467,\"bravo\":587,\"charlie\":332,\"delta\":378,\"echo\":56,\"foxtrot\":57,\"golf\":993,\"hotel\":700}",
+     "latency_ms": 2973,
+     "tokens": 564
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\":467,\"bravo\":587,\"charlie\":332,\"delta\":378,\"echo\":56,\"foxtrot\":57,\"golf\":993,\"hotel\":700}",
+     "latency_ms": 3943,
+     "tokens": 569
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\":467,\"bravo\":587,\"charlie\":332,\"delta\":378,\"echo\":56,\"foxtrot\":57,\"golf\":993,\"hotel\":700}",
+     "latency_ms": 2943,
+     "tokens": 773
+    }
+   }
+  },
+  {
+   "idx": 21,
+   "seed": 7005,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 3624,
+     "tokens": 1453
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 3743,
+     "tokens": 1428
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 8451,
+     "tokens": 1728
+    }
+   }
+  },
+  {
+   "idx": 22,
+   "seed": 7005,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 5065,
+     "tokens": 2341
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 5478,
+     "tokens": 2307
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 3315,
+     "tokens": 2603
+    }
+   }
+  },
+  {
+   "idx": 23,
+   "seed": 7005,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 5082,
+     "tokens": 3160
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 3593,
+     "tokens": 3060
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 4824,
+     "tokens": 3288
+    }
+   }
+  },
+  {
+   "idx": 24,
+   "seed": 7006,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\":415,\"bravo\":881,\"charlie\":76,\"delta\":451,\"echo\":56,\"foxtrot\":193,\"golf\":507,\"hotel\":575}",
+     "latency_ms": 10557,
+     "tokens": 706
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\":415,\"bravo\":881,\"charlie\":76,\"delta\":451,\"echo\":56,\"foxtrot\":193,\"golf\":507,\"hotel\":575}",
+     "latency_ms": 4747,
+     "tokens": 701
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\":415,\"bravo\":881,\"charlie\":76,\"delta\":451,\"echo\":56,\"foxtrot\":193,\"golf\":507,\"hotel\":575}",
+     "latency_ms": 15290,
+     "tokens": 986
+    }
+   }
+  },
+  {
+   "idx": 25,
+   "seed": 7006,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 6514,
+     "tokens": 1360
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 2784,
+     "tokens": 1394
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 3632,
+     "tokens": 1608
+    }
+   }
+  },
+  {
+   "idx": 26,
+   "seed": 7006,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 4421,
+     "tokens": 2366
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 5645,
+     "tokens": 2347
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 4594,
+     "tokens": 2704
+    }
+   }
+  },
+  {
+   "idx": 27,
+   "seed": 7006,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 3113,
+     "tokens": 3089
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 1806,
+     "tokens": 3092
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 5044,
+     "tokens": 3341
+    }
+   }
+  },
+  {
+   "idx": 28,
+   "seed": 7007,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\":671,\"bravo\":529,\"charlie\":214,\"delta\":596,\"echo\":320,\"foxtrot\":895,\"golf\":694,\"hotel\":131}",
+     "latency_ms": 7183,
+     "tokens": 775
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\":671,\"bravo\":529,\"charlie\":214,\"delta\":596,\"echo\":320,\"foxtrot\":895,\"golf\":694,\"hotel\":131}",
+     "latency_ms": 3126,
+     "tokens": 725
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\":671,\"bravo\":529,\"charlie\":214,\"delta\":596,\"echo\":320,\"foxtrot\":895,\"golf\":694,\"hotel\":131}",
+     "latency_ms": 7077,
+     "tokens": 1083
+    }
+   }
+  },
+  {
+   "idx": 29,
+   "seed": 7007,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 8105,
+     "tokens": 1381
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 3049,
+     "tokens": 1404
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 2796,
+     "tokens": 1574
+    }
+   }
+  },
+  {
+   "idx": 30,
+   "seed": 7007,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 5221,
+     "tokens": 2500
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 3194,
+     "tokens": 2359
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 3527,
+     "tokens": 2354
+    }
+   }
+  },
+  {
+   "idx": 31,
+   "seed": 7007,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\":390,\"bravo\":760,\"charlie\":666,\"delta\":97,\"echo\":1198,\"foxtrot\":-39,\"golf\":1254,\"hotel\":123}",
+     "latency_ms": 8225,
+     "tokens": 3069
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 8121,
+     "tokens": 3249
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 6060,
+     "tokens": 3582
+    }
+   }
+  },
+  {
+   "idx": 32,
+   "seed": 7008,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\":823,\"bravo\":324,\"charlie\":845,\"delta\":373,\"echo\":474,\"foxtrot\":344,\"golf\":750,\"hotel\":510}",
+     "latency_ms": 13169,
+     "tokens": 679
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\":823,\"bravo\":324,\"charlie\":845,\"delta\":373,\"echo\":474,\"foxtrot\":344,\"golf\":750,\"hotel\":510}",
+     "latency_ms": 4202,
+     "tokens": 666
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\":823,\"bravo\":324,\"charlie\":845,\"delta\":373,\"echo\":474,\"foxtrot\":344,\"golf\":750,\"hotel\":510}",
+     "latency_ms": 6220,
+     "tokens": 940
+    }
+   }
+  },
+  {
+   "idx": 33,
+   "seed": 7008,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 11112,
+     "tokens": 1637
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 6784,
+     "tokens": 1640
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 3326,
+     "tokens": 1967
+    }
+   }
+  },
+  {
+   "idx": 34,
+   "seed": 7008,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 5251,
+     "tokens": 2260
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 9815,
+     "tokens": 2232
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 3146,
+     "tokens": 2412
+    }
+   }
+  },
+  {
+   "idx": 35,
+   "seed": 7008,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1938,
+      "bravo": 244,
+      "charlie": 39,
+      "delta": 3,
+      "echo": 994,
+      "foxtrot": 430,
+      "golf": 62,
+      "hotel": 199
+     },
+     "text": "{\"alpha\":1938,\"bravo\":244,\"charlie\":39,\"delta\":3,\"echo\":994,\"foxtrot\":430,\"golf\":62,\"hotel\":199}",
+     "latency_ms": 11277,
+     "tokens": 3254
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1938,
+      "bravo": 244,
+      "charlie": 39,
+      "delta": 3,
+      "echo": 994,
+      "foxtrot": 430,
+      "golf": 62,
+      "hotel": 199
+     },
+     "text": "{\"alpha\": 1938, \"bravo\": 244, \"charlie\": 39, \"delta\": 3, \"echo\": 994, \"foxtrot\": 430, \"golf\": 62, \"hotel\": 199}",
+     "latency_ms": 12734,
+     "tokens": 3160
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "infra_http_502",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 560,
+     "tokens": 0
+    }
+   }
+  },
+  {
+   "idx": 36,
+   "seed": 7009,
+   "t": 1,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\"alpha\": 372, \"bravo\": 247, \"charlie\": 756, \"delta\": 451, \"echo\": 836, \"foxtrot\": 377, \"golf\": 734, \"hotel\": 320}",
+     "latency_ms": 4305,
+     "tokens": 673
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\n  \"alpha\": 372,\n  \"bravo\": 247,\n  \"charlie\": 756,\n  \"delta\": 451,\n  \"echo\": 836,\n  \"foxtrot\": 377,\n  \"golf\": 734,\n  \"hotel\": 320\n}",
+     "latency_ms": 9969,
+     "tokens": 720
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\"alpha\": 372, \"bravo\": 247, \"charlie\": 756, \"delta\": 451, \"echo\": 836, \"foxtrot\": 377, \"golf\": 734, \"hotel\": 320}",
+     "latency_ms": 7595,
+     "tokens": 955
+    }
+   }
+  },
+  {
+   "idx": 37,
+   "seed": 7009,
+   "t": 5,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 3628,
+     "tokens": 1497
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 7415,
+     "tokens": 1498
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 3543,
+     "tokens": 1751
+    }
+   }
+  },
+  {
+   "idx": 38,
+   "seed": 7009,
+   "t": 9,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 8139,
+     "tokens": 2268
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 3916,
+     "tokens": 2305
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 4703,
+     "tokens": 2674
+    }
+   }
+  },
+  {
+   "idx": 39,
+   "seed": 7009,
+   "t": 13,
+   "outputs": {
+    "ollama:nemotron-3-super": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 10801,
+     "tokens": 3422
+    },
+    "nvidia:nvidia/nemotron-3-super-120b-a12b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 7834,
+     "tokens": 3087
+    },
+    "kilocode:nvidia/nemotron-3-super-120b-a12b:free": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 3355,
+     "tokens": 3277
+    }
+   }
+  }
+ ]
+}

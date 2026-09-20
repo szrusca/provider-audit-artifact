@@ -1,0 +1,33 @@
+zhipu glm-5.3-flash F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 318, 'reasoning_tokens': 314, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 366, 'reasoning_tokens': 362, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F2b_effort_none {'status': 400}
+zhipu glm-5.3-flash F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 237, 'reasoning_tokens': 233, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 48, 'reasoning_tokens': 44, 'tool_calls': 0, 'french_one_word': True}
+zhipu glm-5.3-flash F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 352, 'reasoning_tokens': 348, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 248, 'reasoning_tokens': 244, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': 35, 'tool_calls': 0}
+zhipu glm-5.3-flash F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 245, 'reasoning_tokens': 221, 'tool_calls': 0, 'valid_json': True}
+zhipu glm-5.3-flash F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 40, 'reasoning_tokens': 28, 'tool_calls': 1}
+zhipu glm-5.3-flash F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 399, 'reasoning_tokens': 395, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3-flash F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': 8, 'tool_calls': 0}
+zhipu glm-5.3-flash F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': 6, 'tool_calls': 0}
+zhipu glm-5.3-flash F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 45, 'reasoning_tokens': 33, 'tool_calls': 0, 'stopped_before_6': True}
+zhipu glm-5.3-flash F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': 64, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+zhipu glm-5.3-flash F11_identity {'status': 200, 'finish_reason': 'length', 'output_tokens': 128, 'reasoning_tokens': 122, 'tool_calls': 0, 'math_correct': False}
+zhipu glm-5.3 F1_reasoning_default {'status': 200, 'finish_reason': 'stop', 'output_tokens': 832, 'reasoning_tokens': 826, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F2a_template_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 491, 'reasoning_tokens': 485, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F2b_effort_none {'status': 400}
+zhipu glm-5.3 F2c_prompt_nothink {'status': 200, 'finish_reason': 'stop', 'output_tokens': 198, 'reasoning_tokens': 192, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F3_system_adherence {'status': 200, 'finish_reason': 'stop', 'output_tokens': 96, 'reasoning_tokens': 91, 'tool_calls': 0, 'french_one_word': True}
+zhipu glm-5.3 F4a_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 222, 'reasoning_tokens': 216, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F4b_repeat {'status': 200, 'finish_reason': 'stop', 'output_tokens': 457, 'reasoning_tokens': 451, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F5_max_tokens_40 {'status': 200, 'finish_reason': 'length', 'output_tokens': 40, 'reasoning_tokens': 40, 'tool_calls': 0}
+zhipu glm-5.3 F6_json_mode {'status': 200, 'finish_reason': 'stop', 'output_tokens': 253, 'reasoning_tokens': 229, 'tool_calls': 0, 'valid_json': True}
+zhipu glm-5.3 F7_tools {'status': 200, 'finish_reason': 'tool_calls', 'output_tokens': 39, 'reasoning_tokens': 27, 'tool_calls': 1}
+zhipu glm-5.3 F8a_seed {'status': 200, 'finish_reason': 'stop', 'output_tokens': 419, 'reasoning_tokens': 413, 'tool_calls': 0, 'math_correct': True}
+zhipu glm-5.3 F8b_logprobs {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': 5, 'tool_calls': 0}
+zhipu glm-5.3 F8c_top_k {'status': 200, 'finish_reason': 'length', 'output_tokens': 8, 'reasoning_tokens': 8, 'tool_calls': 0}
+zhipu glm-5.3 F9_stop {'status': 200, 'finish_reason': 'stop', 'output_tokens': 67, 'reasoning_tokens': 55, 'tool_calls': 0, 'stopped_before_6': True}
+zhipu glm-5.3 F10_long_context {'status': 200, 'finish_reason': 'length', 'output_tokens': 64, 'reasoning_tokens': 64, 'tool_calls': 0, 'math_correct': False, 'passcode_found': False}
+zhipu glm-5.3 F11_identity {'status': 200, 'finish_reason': 'stop', 'output_tokens': 115, 'reasoning_tokens': 90, 'tool_calls': 0, 'math_correct': False}
+saved runs/audit/fingerprint_zhipu_20260909-212606.jsonl
