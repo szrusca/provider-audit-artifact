@@ -1,5 +1,7 @@
 # Same Name, Different Model: artifact
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22864750.svg)](https://doi.org/10.5281/zenodo.22864750)
+
 Probes, raw responses, run logs, and analysis scripts for the paper *Same Name, Different Model: A Configuration Audit of Open-Weight LLMs Across Inference Providers* (Zhouran Song, Independent Researcher, 2026; under review).
 
 The audit has two phases. Phase 1 sends eleven configuration probes (F1 to F11) to every (provider, model identifier) pair, called a *stack*, and stores every raw response body. Phase 2 sends the same 40 steps of an integer-ledger state-tracking workload at temperature 0 to every stack of a model family and compares the returned ledgers pairwise, structurally and textually, after removing infrastructure failures. All prompts are synthetic. No company or personal data was sent to any provider.
@@ -78,6 +80,10 @@ Provider defaults, catalogs, and free-tier limits change without notice. Every n
   note   = {Manuscript under review. Artifact: \url{https://github.com/szrusca/provider-audit-artifact}}
 }
 ```
+
+## Archived version
+
+The archived snapshot of this repository is Zenodo concept record 10.5281/zenodo.22864750, which always resolves to the latest version; v1.0.0 is 10.5281/zenodo.22864751. When reusing the data, cite the paper and the Zenodo record.
 
 ## License
 

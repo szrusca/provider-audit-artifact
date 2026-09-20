@@ -9,6 +9,7 @@ authors:
     orcid: "https://orcid.org/0009-0001-2985-0012"
 version: v1.0.0
 date-released: 2026-09-20
+doi: 10.5281/zenodo.22864750
 repository-code: https://github.com/szrusca/provider-audit-artifact
 license: MIT
 keywords:
