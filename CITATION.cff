@@ -21,7 +21,7 @@ keywords:
   - replay
 preferred-citation:
   type: article
-  title: "Same Name, Different Model: A Configuration Audit of Open-Weight LLMs Across Inference Providers"
+  title: "Same Name, Different Model: A Configuration and Service Audit of Open-Weight LLM Endpoints Across Inference Providers"
   authors:
     - family-names: Song
       given-names: Zhouran

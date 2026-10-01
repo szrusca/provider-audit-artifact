@@ -1,0 +1,1719 @@
+{
+ "stacks": [
+  "groq:qwen/qwen3.8-27b",
+  "cloudflare:@cf/qwen/qwen3.8-27b"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7000,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 241,
+     "tokens": 266
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 95,
+      "charlie": 496,
+      "delta": 641,
+      "echo": 279,
+      "foxtrot": 473,
+      "golf": 59,
+      "hotel": 380
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 95, \"charlie\": 496, \"delta\": 641, \"echo\": 279, \"foxtrot\": 473, \"golf\": 59, \"hotel\": 380}",
+     "latency_ms": 39985,
+     "tokens": 546
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7000,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 288,
+     "tokens": 1059
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -116,
+      "bravo": 187,
+      "charlie": 95,
+      "delta": 860,
+      "echo": 1419,
+      "foxtrot": 467,
+      "golf": 159,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": -116, \"bravo\": 187, \"charlie\": 95, \"delta\": 860, \"echo\": 1419, \"foxtrot\": 467, \"golf\": 159, \"hotel\": 21}",
+     "latency_ms": 5085,
+     "tokens": 1273
+    }
+   }
+  },
+  {
+   "idx": 2,
+   "seed": 7000,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 332,
+     "tokens": 1848
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 12,
+      "charlie": 230,
+      "delta": 362,
+      "echo": 1277,
+      "foxtrot": 467,
+      "golf": 229,
+      "hotel": 264
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 12, \"charlie\": 230, \"delta\": 362, \"echo\": 1277, \"foxtrot\": 467, \"golf\": 229, \"hotel\": 264}",
+     "latency_ms": 17996,
+     "tokens": 2258
+    }
+   }
+  },
+  {
+   "idx": 3,
+   "seed": 7000,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1863,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1863, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 390,
+     "tokens": 2653
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -64,
+      "bravo": 126,
+      "charlie": 115,
+      "delta": 427,
+      "echo": 1861,
+      "foxtrot": 470,
+      "golf": 262,
+      "hotel": -184
+     },
+     "text": "{\"alpha\": -64, \"bravo\": 126, \"charlie\": 115, \"delta\": 427, \"echo\": 1861, \"foxtrot\": 470, \"golf\": 262, \"hotel\": -184}",
+     "latency_ms": 6947,
+     "tokens": 2971
+    }
+   }
+  },
+  {
+   "idx": 4,
+   "seed": 7001,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1520, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 217,
+     "tokens": 264
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 385,
+      "charlie": 378,
+      "delta": 1520,
+      "echo": 430,
+      "foxtrot": 723,
+      "golf": 748,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 385, \"charlie\": 378, \"delta\": 1520, \"echo\": 430, \"foxtrot\": 723, \"golf\": 748, \"hotel\": 189}",
+     "latency_ms": 7222,
+     "tokens": 553
+    }
+   }
+  },
+  {
+   "idx": 5,
+   "seed": 7001,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 264,
+     "tokens": 1015
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 114,
+      "bravo": 385,
+      "charlie": 860,
+      "delta": 1520,
+      "echo": 16,
+      "foxtrot": 723,
+      "golf": 249,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 114, \"bravo\": 385, \"charlie\": 860, \"delta\": 1520, \"echo\": 16, \"foxtrot\": 723, \"golf\": 249, \"hotel\": 189}",
+     "latency_ms": 12660,
+     "tokens": 1248
+    }
+   }
+  },
+  {
+   "idx": 6,
+   "seed": 7001,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 393,
+     "tokens": 1876
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 148,
+      "charlie": 868,
+      "delta": 75,
+      "echo": 1520,
+      "foxtrot": 676,
+      "golf": 249,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 148, \"charlie\": 868, \"delta\": 75, \"echo\": 1520, \"foxtrot\": 676, \"golf\": 249, \"hotel\": 220}",
+     "latency_ms": 17745,
+     "tokens": 2478
+    }
+   }
+  },
+  {
+   "idx": 7,
+   "seed": 7001,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 502,
+     "tokens": 2693
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 55,
+      "bravo": 162,
+      "charlie": 1096,
+      "delta": 296,
+      "echo": 214,
+      "foxtrot": 481,
+      "golf": -122,
+      "hotel": 151
+     },
+     "text": "{\"alpha\": 55, \"bravo\": 162, \"charlie\": 1096, \"delta\": 296, \"echo\": 214, \"foxtrot\": 481, \"golf\": -122, \"hotel\": 151}",
+     "latency_ms": 2211,
+     "tokens": 2731
+    }
+   }
+  },
+  {
+   "idx": 8,
+   "seed": 7002,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1130,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1130, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 217,
+     "tokens": 271
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 622,
+      "charlie": 76,
+      "delta": 124,
+      "echo": 749,
+      "foxtrot": 1078,
+      "golf": 732,
+      "hotel": 354
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 622, \"charlie\": 76, \"delta\": 124, \"echo\": 749, \"foxtrot\": 1078, \"golf\": 732, \"hotel\": 354}",
+     "latency_ms": 6613,
+     "tokens": 553
+    }
+   }
+  },
+  {
+   "idx": 9,
+   "seed": 7002,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 98,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 98, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 289,
+     "tokens": 1079
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 581,
+      "bravo": 302,
+      "charlie": -133,
+      "delta": 333,
+      "echo": 166,
+      "foxtrot": 474,
+      "golf": 1320,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 581, \"bravo\": 302, \"charlie\": -133, \"delta\": 333, \"echo\": 166, \"foxtrot\": 474, \"golf\": 1320, \"hotel\": 599}",
+     "latency_ms": 1926,
+     "tokens": 1118
+    }
+   }
+  },
+  {
+   "idx": 10,
+   "seed": 7002,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 340,
+     "tokens": 1841
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 3,
+      "bravo": 604,
+      "charlie": 166,
+      "delta": 176,
+      "echo": 513,
+      "foxtrot": 711,
+      "golf": 38,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 3, \"bravo\": 604, \"charlie\": 166, \"delta\": 176, \"echo\": 513, \"foxtrot\": 711, \"golf\": 38, \"hotel\": 599}",
+     "latency_ms": 6483,
+     "tokens": 2144
+    }
+   }
+  },
+  {
+   "idx": 11,
+   "seed": 7002,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -34,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -34, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 413,
+     "tokens": 2614
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 39,
+      "bravo": 604,
+      "charlie": -218,
+      "delta": -35,
+      "echo": 694,
+      "foxtrot": 711,
+      "golf": 387,
+      "hotel": 599
+     },
+     "text": "{\"alpha\": 39, \"bravo\": 604, \"charlie\": -218, \"delta\": -35, \"echo\": 694, \"foxtrot\": 711, \"golf\": 387, \"hotel\": 599}",
+     "latency_ms": 10019,
+     "tokens": 3083
+    }
+   }
+  },
+  {
+   "idx": 12,
+   "seed": 7003,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 217,
+     "tokens": 254
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 724,
+      "bravo": 354,
+      "charlie": 1518,
+      "delta": 561,
+      "echo": 140,
+      "foxtrot": 311,
+      "golf": 446,
+      "hotel": 789
+     },
+     "text": "{\"alpha\": 724, \"bravo\": 354, \"charlie\": 1518, \"delta\": 561, \"echo\": 140, \"foxtrot\": 311, \"golf\": 446, \"hotel\": 789}",
+     "latency_ms": 4967,
+     "tokens": 466
+    }
+   }
+  },
+  {
+   "idx": 13,
+   "seed": 7003,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 176,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 176, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 279,
+     "tokens": 1063
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 180,
+      "charlie": 113,
+      "delta": 645,
+      "echo": 140,
+      "foxtrot": 230,
+      "golf": 651,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 180, \"charlie\": 113, \"delta\": 645, \"echo\": 140, \"foxtrot\": 230, \"golf\": 651, \"hotel\": 626}",
+     "latency_ms": 6558,
+     "tokens": 1326
+    }
+   }
+  },
+  {
+   "idx": 14,
+   "seed": 7003,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 331,
+     "tokens": 1877
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 307,
+      "bravo": 181,
+      "charlie": 98,
+      "delta": 561,
+      "echo": 230,
+      "foxtrot": -26,
+      "golf": 1890,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 307, \"bravo\": 181, \"charlie\": 98, \"delta\": 561, \"echo\": 230, \"foxtrot\": -26, \"golf\": 1890, \"hotel\": 626}",
+     "latency_ms": 27351,
+     "tokens": 2466
+    }
+   }
+  },
+  {
+   "idx": 15,
+   "seed": 7003,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 188,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 188, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 387,
+     "tokens": 2669
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 93,
+      "bravo": 112,
+      "charlie": 82,
+      "delta": 561,
+      "echo": 233,
+      "foxtrot": 229,
+      "golf": 1548,
+      "hotel": 626
+     },
+     "text": "{\"alpha\": 93, \"bravo\": 112, \"charlie\": 82, \"delta\": 561, \"echo\": 233, \"foxtrot\": 229, \"golf\": 1548, \"hotel\": 626}",
+     "latency_ms": 7570,
+     "tokens": 2906
+    }
+   }
+  },
+  {
+   "idx": 16,
+   "seed": 7004,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 224,
+     "tokens": 260
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 406,
+      "bravo": 331,
+      "charlie": 165,
+      "delta": 292,
+      "echo": 887,
+      "foxtrot": 248,
+      "golf": 16,
+      "hotel": 868
+     },
+     "text": "{\"alpha\": 406, \"bravo\": 331, \"charlie\": 165, \"delta\": 292, \"echo\": 887, \"foxtrot\": 248, \"golf\": 16, \"hotel\": 868}",
+     "latency_ms": 7668,
+     "tokens": 532
+    }
+   }
+  },
+  {
+   "idx": 17,
+   "seed": 7004,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 294,
+     "tokens": 1059
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 396,
+      "bravo": 143,
+      "charlie": 206,
+      "delta": 192,
+      "echo": 493,
+      "foxtrot": 435,
+      "golf": -22,
+      "hotel": 2140
+     },
+     "text": "{\"alpha\": 396, \"bravo\": 143, \"charlie\": 206, \"delta\": 192, \"echo\": 493, \"foxtrot\": 435, \"golf\": -22, \"hotel\": 2140}",
+     "latency_ms": 8771,
+     "tokens": 1436
+    }
+   }
+  },
+  {
+   "idx": 18,
+   "seed": 7004,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 429,
+     "error": "infra_http_429",
+     "kind": "format_empty",
+     "ledger": null,
+     "text": "",
+     "latency_ms": 72,
+     "tokens": 0
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 261,
+      "bravo": 1924,
+      "charlie": 206,
+      "delta": 134,
+      "echo": 696,
+      "foxtrot": 435,
+      "golf": 83,
+      "hotel": 86
+     },
+     "text": "{\"alpha\": 261, \"bravo\": 1924, \"charlie\": 206, \"delta\": 134, \"echo\": 696, \"foxtrot\": 435, \"golf\": 83, \"hotel\": 86}",
+     "latency_ms": 12826,
+     "tokens": 2148
+    }
+   }
+  },
+  {
+   "idx": 19,
+   "seed": 7004,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 389,
+     "tokens": 2689
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 260,
+      "bravo": 148,
+      "charlie": 103,
+      "delta": 134,
+      "echo": 1044,
+      "foxtrot": 86,
+      "golf": 126,
+      "hotel": 400
+     },
+     "text": "{\"alpha\": 260, \"bravo\": 148, \"charlie\": 103, \"delta\": 134, \"echo\": 1044, \"foxtrot\": 86, \"golf\": 126, \"hotel\": 400}",
+     "latency_ms": 7440,
+     "tokens": 2941
+    }
+   }
+  },
+  {
+   "idx": 20,
+   "seed": 7005,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 234,
+     "tokens": 254
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 467,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 378,
+      "echo": 56,
+      "foxtrot": 57,
+      "golf": 993,
+      "hotel": 700
+     },
+     "text": "{\"alpha\": 467, \"bravo\": 587, \"charlie\": 332, \"delta\": 378, \"echo\": 56, \"foxtrot\": 57, \"golf\": 993, \"hotel\": 700}",
+     "latency_ms": 4889,
+     "tokens": 475
+    }
+   }
+  },
+  {
+   "idx": 21,
+   "seed": 7005,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 220
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 220}",
+     "latency_ms": 269,
+     "tokens": 1074
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 124,
+      "bravo": 587,
+      "charlie": 332,
+      "delta": 201,
+      "echo": 56,
+      "foxtrot": 60,
+      "golf": 53,
+      "hotel": 216
+     },
+     "text": "{\"alpha\": 124, \"bravo\": 587, \"charlie\": 332, \"delta\": 201, \"echo\": 56, \"foxtrot\": 60, \"golf\": 53, \"hotel\": 216}",
+     "latency_ms": 30756,
+     "tokens": 1496
+    }
+   }
+  },
+  {
+   "idx": 22,
+   "seed": 7005,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 117,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": -129,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": 117, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": -129, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 345,
+     "tokens": 1829
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 112,
+      "charlie": 658,
+      "delta": 208,
+      "echo": 107,
+      "foxtrot": 60,
+      "golf": 24,
+      "hotel": -7
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 112, \"charlie\": 658, \"delta\": 208, \"echo\": 107, \"foxtrot\": 60, \"golf\": 24, \"hotel\": -7}",
+     "latency_ms": 28765,
+     "tokens": 2386
+    }
+   }
+  },
+  {
+   "idx": 23,
+   "seed": 7005,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 415,
+     "tokens": 2589
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -72,
+      "bravo": 46,
+      "charlie": -20,
+      "delta": 24,
+      "echo": 183,
+      "foxtrot": 60,
+      "golf": -154,
+      "hotel": 39
+     },
+     "text": "{\"alpha\": -72, \"bravo\": 46, \"charlie\": -20, \"delta\": 24, \"echo\": 183, \"foxtrot\": 60, \"golf\": -154, \"hotel\": 39}",
+     "latency_ms": 6715,
+     "tokens": 2831
+    }
+   }
+  },
+  {
+   "idx": 24,
+   "seed": 7006,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 193, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 210,
+     "tokens": 287
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 415,
+      "bravo": 881,
+      "charlie": 76,
+      "delta": 451,
+      "echo": 56,
+      "foxtrot": 193,
+      "golf": 507,
+      "hotel": 575
+     },
+     "text": "{\"alpha\": 415, \"bravo\": 881, \"charlie\": 76, \"delta\": 451, \"echo\": 56, \"foxtrot\": 193, \"golf\": 507, \"hotel\": 575}",
+     "latency_ms": 8625,
+     "tokens": 611
+    }
+   }
+  },
+  {
+   "idx": 25,
+   "seed": 7006,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 273,
+     "tokens": 1099
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 720,
+      "bravo": 1377,
+      "charlie": 312,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 231,
+      "golf": 247,
+      "hotel": 623
+     },
+     "text": "{\"alpha\": 720, \"bravo\": 1377, \"charlie\": 312, \"delta\": 56, \"echo\": 451, \"foxtrot\": 231, \"golf\": 247, \"hotel\": 623}",
+     "latency_ms": 3833,
+     "tokens": 1246
+    }
+   }
+  },
+  {
+   "idx": 26,
+   "seed": 7006,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 332,
+     "tokens": 1891
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 23,
+      "bravo": 1629,
+      "charlie": 85,
+      "delta": 56,
+      "echo": 451,
+      "foxtrot": 678,
+      "golf": 462,
+      "hotel": 371
+     },
+     "text": "{\"alpha\": 23, \"bravo\": 1629, \"charlie\": 85, \"delta\": 56, \"echo\": 451, \"foxtrot\": 678, \"golf\": 462, \"hotel\": 371}",
+     "latency_ms": 9123,
+     "tokens": 2340
+    }
+   }
+  },
+  {
+   "idx": 27,
+   "seed": 7006,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -1,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -1, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 385,
+     "tokens": 2691
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -428,
+      "bravo": 1568,
+      "charlie": -19,
+      "delta": 320,
+      "echo": -122,
+      "foxtrot": 856,
+      "golf": 451,
+      "hotel": 254
+     },
+     "text": "{\"alpha\": -428, \"bravo\": 1568, \"charlie\": -19, \"delta\": 320, \"echo\": -122, \"foxtrot\": 856, \"golf\": 451, \"hotel\": 254}",
+     "latency_ms": 5003,
+     "tokens": 2892
+    }
+   }
+  },
+  {
+   "idx": 28,
+   "seed": 7007,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 594,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 671, \"bravo\": 594, \"charlie\": 214, \"delta\": 596, \"echo\": 320, \"foxtrot\": 895, \"golf\": 694, \"hotel\": 131}",
+     "latency_ms": 216,
+     "tokens": 279
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 671,
+      "bravo": 529,
+      "charlie": 214,
+      "delta": 596,
+      "echo": 320,
+      "foxtrot": 895,
+      "golf": 694,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 671, \"bravo\": 529, \"charlie\": 214, \"delta\": 596, \"echo\": 320, \"foxtrot\": 895, \"golf\": 694, \"hotel\": 131}",
+     "latency_ms": 80786,
+     "tokens": 600
+    }
+   }
+  },
+  {
+   "idx": 29,
+   "seed": 7007,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 274,
+     "tokens": 1062
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 335,
+      "bravo": 214,
+      "charlie": 1388,
+      "delta": 384,
+      "echo": 385,
+      "foxtrot": 143,
+      "golf": 529,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 335, \"bravo\": 214, \"charlie\": 1388, \"delta\": 384, \"echo\": 385, \"foxtrot\": 143, \"golf\": 529, \"hotel\": 159}",
+     "latency_ms": 5615,
+     "tokens": 1263
+    }
+   }
+  },
+  {
+   "idx": 30,
+   "seed": 7007,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 362,
+     "tokens": 1826
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 475,
+      "bravo": 380,
+      "charlie": 411,
+      "delta": 1373,
+      "echo": 746,
+      "foxtrot": -39,
+      "golf": 836,
+      "hotel": 159
+     },
+     "text": "{\"alpha\": 475, \"bravo\": 380, \"charlie\": 411, \"delta\": 1373, \"echo\": 746, \"foxtrot\": -39, \"golf\": 836, \"hotel\": 159}",
+     "latency_ms": 10917,
+     "tokens": 2190
+    }
+   }
+  },
+  {
+   "idx": 31,
+   "seed": 7007,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 149,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 149, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 406,
+     "tokens": 2682
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 390,
+      "bravo": 760,
+      "charlie": 666,
+      "delta": 97,
+      "echo": 1198,
+      "foxtrot": -39,
+      "golf": 1254,
+      "hotel": 123
+     },
+     "text": "{\"alpha\": 390, \"bravo\": 760, \"charlie\": 666, \"delta\": 97, \"echo\": 1198, \"foxtrot\": -39, \"golf\": 1254, \"hotel\": 123}",
+     "latency_ms": 6369,
+     "tokens": 2949
+    }
+   }
+  },
+  {
+   "idx": 32,
+   "seed": 7008,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 745,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 745, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 219,
+     "tokens": 260
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 324,
+      "charlie": 845,
+      "delta": 373,
+      "echo": 474,
+      "foxtrot": 344,
+      "golf": 750,
+      "hotel": 510
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 324, \"charlie\": 845, \"delta\": 373, \"echo\": 474, \"foxtrot\": 344, \"golf\": 750, \"hotel\": 510}",
+     "latency_ms": 9353,
+     "tokens": 542
+    }
+   }
+  },
+  {
+   "idx": 33,
+   "seed": 7008,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 285,
+     "tokens": 1107
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 823,
+      "bravo": 178,
+      "charlie": 318,
+      "delta": 45,
+      "echo": 948,
+      "foxtrot": 473,
+      "golf": 88,
+      "hotel": 292
+     },
+     "text": "{\"alpha\": 823, \"bravo\": 178, \"charlie\": 318, \"delta\": 45, \"echo\": 948, \"foxtrot\": 473, \"golf\": 88, \"hotel\": 292}",
+     "latency_ms": 51061,
+     "tokens": 1393
+    }
+   }
+  },
+  {
+   "idx": 34,
+   "seed": 7008,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 327,
+     "tokens": 1900
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1980,
+      "bravo": 178,
+      "charlie": 115,
+      "delta": 158,
+      "echo": 776,
+      "foxtrot": 45,
+      "golf": 88,
+      "hotel": 91
+     },
+     "text": "{\"alpha\": 1980, \"bravo\": 178, \"charlie\": 115, \"delta\": 158, \"echo\": 776, \"foxtrot\": 45, \"golf\": 88, \"hotel\": 91}",
+     "latency_ms": 8812,
+     "tokens": 2271
+    }
+   }
+  },
+  {
+   "idx": 35,
+   "seed": 7008,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1938,
+      "bravo": 244,
+      "charlie": 39,
+      "delta": 3,
+      "echo": 994,
+      "foxtrot": 430,
+      "golf": 62,
+      "hotel": 199
+     },
+     "text": "{\"alpha\": 1938, \"bravo\": 244, \"charlie\": 39, \"delta\": 3, \"echo\": 994, \"foxtrot\": 430, \"golf\": 62, \"hotel\": 199}",
+     "latency_ms": 377,
+     "tokens": 2664
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1938,
+      "bravo": 244,
+      "charlie": 39,
+      "delta": 3,
+      "echo": 994,
+      "foxtrot": 430,
+      "golf": 62,
+      "hotel": 199
+     },
+     "text": "{\"alpha\": 1938, \"bravo\": 244, \"charlie\": 39, \"delta\": 3, \"echo\": 994, \"foxtrot\": 430, \"golf\": 62, \"hotel\": 199}",
+     "latency_ms": 13150,
+     "tokens": 3210
+    }
+   }
+  },
+  {
+   "idx": 36,
+   "seed": 7009,
+   "t": 1,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\"alpha\": 372, \"bravo\": 247, \"charlie\": 756, \"delta\": 451, \"echo\": 836, \"foxtrot\": 377, \"golf\": 734, \"hotel\": 320}",
+     "latency_ms": 286,
+     "tokens": 275
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 372,
+      "bravo": 247,
+      "charlie": 756,
+      "delta": 451,
+      "echo": 836,
+      "foxtrot": 377,
+      "golf": 734,
+      "hotel": 320
+     },
+     "text": "{\"alpha\": 372, \"bravo\": 247, \"charlie\": 756, \"delta\": 451, \"echo\": 836, \"foxtrot\": 377, \"golf\": 734, \"hotel\": 320}",
+     "latency_ms": 7183,
+     "tokens": 610
+    }
+   }
+  },
+  {
+   "idx": 37,
+   "seed": 7009,
+   "t": 5,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 290,
+     "tokens": 1046
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 912,
+      "bravo": 247,
+      "charlie": 900,
+      "delta": 586,
+      "echo": 152,
+      "foxtrot": 451,
+      "golf": 734,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 912, \"bravo\": 247, \"charlie\": 900, \"delta\": 586, \"echo\": 152, \"foxtrot\": 451, \"golf\": 734, \"hotel\": 270}",
+     "latency_ms": 35025,
+     "tokens": 1443
+    }
+   }
+  },
+  {
+   "idx": 38,
+   "seed": 7009,
+   "t": 9,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 333,
+     "tokens": 1890
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 687,
+      "bravo": 138,
+      "charlie": 990,
+      "delta": 620,
+      "echo": 554,
+      "foxtrot": 451,
+      "golf": 167,
+      "hotel": 270
+     },
+     "text": "{\"alpha\": 687, \"bravo\": 138, \"charlie\": 990, \"delta\": 620, \"echo\": 554, \"foxtrot\": 451, \"golf\": 167, \"hotel\": 270}",
+     "latency_ms": 3266,
+     "tokens": 2003
+    }
+   }
+  },
+  {
+   "idx": 39,
+   "seed": 7009,
+   "t": 13,
+   "outputs": {
+    "groq:qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 387,
+     "tokens": 2714
+    },
+    "cloudflare:@cf/qwen/qwen3.8-27b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 781,
+      "bravo": -30,
+      "charlie": 1680,
+      "delta": 310,
+      "echo": 348,
+      "foxtrot": 811,
+      "golf": 167,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 781, \"bravo\": -30, \"charlie\": 1680, \"delta\": 310, \"echo\": 348, \"foxtrot\": 811, \"golf\": 167, \"hotel\": 345}",
+     "latency_ms": 19012,
+     "tokens": 3075
+    }
+   }
+  }
+ ]
+}

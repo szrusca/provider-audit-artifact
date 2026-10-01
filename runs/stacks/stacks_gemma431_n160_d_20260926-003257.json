@@ -1,0 +1,6888 @@
+{
+ "stacks": [
+  "ollama:gemma4:31b",
+  "nvidia:google/gemma-4-31b-it"
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "seed": 7100,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 439,
+      "bravo": 322,
+      "charlie": 780,
+      "delta": 138,
+      "echo": 761,
+      "foxtrot": 777,
+      "golf": 125,
+      "hotel": 363
+     },
+     "text": "{\"alpha\": 439, \"bravo\": 322, \"charlie\": 780, \"delta\": 138, \"echo\": 761, \"foxtrot\": 777, \"golf\": 125, \"hotel\": 363}",
+     "latency_ms": 608,
+     "tokens": 279
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 439,
+      "bravo": 322,
+      "charlie": 780,
+      "delta": 138,
+      "echo": 761,
+      "foxtrot": 777,
+      "golf": 125,
+      "hotel": 363
+     },
+     "text": "{\"alpha\": 439, \"bravo\": 322, \"charlie\": 780, \"delta\": 138, \"echo\": 761, \"foxtrot\": 777, \"golf\": 125, \"hotel\": 363}",
+     "latency_ms": 7897,
+     "tokens": 279
+    }
+   }
+  },
+  {
+   "idx": 1,
+   "seed": 7100,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 777,
+      "bravo": 278,
+      "charlie": 432,
+      "delta": 66,
+      "echo": 905,
+      "foxtrot": 532,
+      "golf": 69,
+      "hotel": 544
+     },
+     "text": "{\"alpha\": 777, \"bravo\": 278, \"charlie\": 432, \"delta\": 66, \"echo\": 905, \"foxtrot\": 532, \"golf\": 69, \"hotel\": 544}",
+     "latency_ms": 603,
+     "tokens": 1042
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 777,
+      "bravo": 278,
+      "charlie": 432,
+      "delta": 66,
+      "echo": 905,
+      "foxtrot": 532,
+      "golf": 69,
+      "hotel": 544
+     },
+     "text": "{\"alpha\": 777, \"bravo\": 278, \"charlie\": 432, \"delta\": 66, \"echo\": 905, \"foxtrot\": 532, \"golf\": 69, \"hotel\": 544}",
+     "latency_ms": 1522,
+     "tokens": 1042
+    }
+   }
+  },
+  {
+   "idx": 2,
+   "seed": 7100,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 405,
+      "bravo": 278,
+      "charlie": 69,
+      "delta": 89,
+      "echo": 1034,
+      "foxtrot": -99,
+      "golf": 462,
+      "hotel": 777
+     },
+     "text": "{\"alpha\": 405, \"bravo\": 278, \"charlie\": 69, \"delta\": 89, \"echo\": 1034, \"foxtrot\": -99, \"golf\": 462, \"hotel\": 777}",
+     "latency_ms": 592,
+     "tokens": 1825
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 405,
+      "bravo": 278,
+      "charlie": 69,
+      "delta": 89,
+      "echo": 1034,
+      "foxtrot": -99,
+      "golf": 462,
+      "hotel": 777
+     },
+     "text": "{\"alpha\": 405, \"bravo\": 278, \"charlie\": 69, \"delta\": 89, \"echo\": 1034, \"foxtrot\": -99, \"golf\": 462, \"hotel\": 777}",
+     "latency_ms": 23454,
+     "tokens": 1825
+    }
+   }
+  },
+  {
+   "idx": 3,
+   "seed": 7100,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 269,
+      "charlie": 34,
+      "delta": -31,
+      "echo": 1458,
+      "foxtrot": -117,
+      "golf": 693,
+      "hotel": 897
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 269, \"charlie\": 34, \"delta\": -31, \"echo\": 1458, \"foxtrot\": -117, \"golf\": 693, \"hotel\": 897}",
+     "latency_ms": 619,
+     "tokens": 2618
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 170,
+      "bravo": 269,
+      "charlie": 34,
+      "delta": -31,
+      "echo": 1458,
+      "foxtrot": -117,
+      "golf": 693,
+      "hotel": 897
+     },
+     "text": "{\"alpha\": 170, \"bravo\": 269, \"charlie\": 34, \"delta\": -31, \"echo\": 1458, \"foxtrot\": -117, \"golf\": 693, \"hotel\": 897}",
+     "latency_ms": 52036,
+     "tokens": 2618
+    }
+   }
+  },
+  {
+   "idx": 4,
+   "seed": 7101,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 351,
+      "bravo": 73,
+      "charlie": 1252,
+      "delta": 887,
+      "echo": 554,
+      "foxtrot": 709,
+      "golf": 467,
+      "hotel": 814
+     },
+     "text": "{\"alpha\": 351, \"bravo\": 73, \"charlie\": 1252, \"delta\": 887, \"echo\": 554, \"foxtrot\": 709, \"golf\": 467, \"hotel\": 814}",
+     "latency_ms": 598,
+     "tokens": 266
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 351,
+      "bravo": 73,
+      "charlie": 1252,
+      "delta": 887,
+      "echo": 554,
+      "foxtrot": 709,
+      "golf": 467,
+      "hotel": 814
+     },
+     "text": "{\"alpha\": 351, \"bravo\": 73, \"charlie\": 1252, \"delta\": 887, \"echo\": 554, \"foxtrot\": 709, \"golf\": 467, \"hotel\": 814}",
+     "latency_ms": 2738,
+     "tokens": 266
+    }
+   }
+  },
+  {
+   "idx": 5,
+   "seed": 7101,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1726,
+      "bravo": 73,
+      "charlie": 1266,
+      "delta": 2066,
+      "echo": 579,
+      "foxtrot": -8,
+      "golf": 37,
+      "hotel": 1221
+     },
+     "text": "{\"alpha\": 1726, \"bravo\": 73, \"charlie\": 1266, \"delta\": 2066, \"echo\": 579, \"foxtrot\": -8, \"golf\": 37, \"hotel\": 1221}",
+     "latency_ms": 10023,
+     "tokens": 1044
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1726,
+      "bravo": 73,
+      "charlie": 1266,
+      "delta": 2066,
+      "echo": 579,
+      "foxtrot": -8,
+      "golf": 37,
+      "hotel": 1221
+     },
+     "text": "{\"alpha\": 1726, \"bravo\": 73, \"charlie\": 1266, \"delta\": 2066, \"echo\": 579, \"foxtrot\": -8, \"golf\": 37, \"hotel\": 1221}",
+     "latency_ms": 1603,
+     "tokens": 1044
+    }
+   }
+  },
+  {
+   "idx": 6,
+   "seed": 7101,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -66,
+      "bravo": 73,
+      "charlie": 1266,
+      "delta": 936,
+      "echo": 980,
+      "foxtrot": -9,
+      "golf": 63,
+      "hotel": 811
+     },
+     "text": "{\"alpha\": -66, \"bravo\": 73, \"charlie\": 1266, \"delta\": 936, \"echo\": 980, \"foxtrot\": -9, \"golf\": 63, \"hotel\": 811}",
+     "latency_ms": 590,
+     "tokens": 1847
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -66,
+      "bravo": 73,
+      "charlie": 1266,
+      "delta": 936,
+      "echo": 980,
+      "foxtrot": -9,
+      "golf": 63,
+      "hotel": 811
+     },
+     "text": "{\"alpha\": -66, \"bravo\": 73, \"charlie\": 1266, \"delta\": 936, \"echo\": 980, \"foxtrot\": -9, \"golf\": 63, \"hotel\": 811}",
+     "latency_ms": 44221,
+     "tokens": 1847
+    }
+   }
+  },
+  {
+   "idx": 7,
+   "seed": 7101,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -66,
+      "bravo": 167,
+      "charlie": 1566,
+      "delta": 1442,
+      "echo": 1872,
+      "foxtrot": -9,
+      "golf": 30,
+      "hotel": 1027
+     },
+     "text": "{\"alpha\": -66, \"bravo\": 167, \"charlie\": 1566, \"delta\": 1442, \"echo\": 1872, \"foxtrot\": -9, \"golf\": 30, \"hotel\": 1027}",
+     "latency_ms": 608,
+     "tokens": 2598
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -66,
+      "bravo": 167,
+      "charlie": 1566,
+      "delta": 1442,
+      "echo": 1872,
+      "foxtrot": -9,
+      "golf": 30,
+      "hotel": 1027
+     },
+     "text": "{\"alpha\": -66, \"bravo\": 167, \"charlie\": 1566, \"delta\": 1442, \"echo\": 1872, \"foxtrot\": -9, \"golf\": 30, \"hotel\": 1027}",
+     "latency_ms": 33058,
+     "tokens": 2598
+    }
+   }
+  },
+  {
+   "idx": 8,
+   "seed": 7102,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 532,
+      "bravo": 540,
+      "charlie": 373,
+      "delta": 182,
+      "echo": 31,
+      "foxtrot": 390,
+      "golf": 286,
+      "hotel": 669
+     },
+     "text": "{\"alpha\": 532, \"bravo\": 540, \"charlie\": 373, \"delta\": 182, \"echo\": 31, \"foxtrot\": 390, \"golf\": 286, \"hotel\": 669}",
+     "latency_ms": 784,
+     "tokens": 253
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 532,
+      "bravo": 540,
+      "charlie": 373,
+      "delta": 182,
+      "echo": 31,
+      "foxtrot": 390,
+      "golf": 286,
+      "hotel": 669
+     },
+     "text": "{\"alpha\": 532, \"bravo\": 540, \"charlie\": 373, \"delta\": 182, \"echo\": 31, \"foxtrot\": 390, \"golf\": 286, \"hotel\": 669}",
+     "latency_ms": 7726,
+     "tokens": 253
+    }
+   }
+  },
+  {
+   "idx": 9,
+   "seed": 7102,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 540,
+      "bravo": 340,
+      "charlie": 459,
+      "delta": 94,
+      "echo": 62,
+      "foxtrot": 337,
+      "golf": 572,
+      "hotel": 669
+     },
+     "text": "{\"alpha\": 540, \"bravo\": 340, \"charlie\": 459, \"delta\": 94, \"echo\": 62, \"foxtrot\": 337, \"golf\": 572, \"hotel\": 669}",
+     "latency_ms": 794,
+     "tokens": 1033
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 540,
+      "bravo": 340,
+      "charlie": 459,
+      "delta": 94,
+      "echo": 62,
+      "foxtrot": 337,
+      "golf": 572,
+      "hotel": 669
+     },
+     "text": "{\"alpha\": 540, \"bravo\": 340, \"charlie\": 459, \"delta\": 94, \"echo\": 62, \"foxtrot\": 337, \"golf\": 572, \"hotel\": 669}",
+     "latency_ms": 6476,
+     "tokens": 1033
+    }
+   }
+  },
+  {
+   "idx": 10,
+   "seed": 7102,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1378,
+      "bravo": 340,
+      "charlie": 751,
+      "delta": 89,
+      "echo": 364,
+      "foxtrot": 275,
+      "golf": -31,
+      "hotel": 229
+     },
+     "text": "{\"alpha\": 1378, \"bravo\": 340, \"charlie\": 751, \"delta\": 89, \"echo\": 364, \"foxtrot\": 275, \"golf\": -31, \"hotel\": 229}",
+     "latency_ms": 608,
+     "tokens": 1787
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1378,
+      "bravo": 340,
+      "charlie": 751,
+      "delta": 89,
+      "echo": 364,
+      "foxtrot": 275,
+      "golf": -31,
+      "hotel": 229
+     },
+     "text": "{\"alpha\": 1378, \"bravo\": 340, \"charlie\": 751, \"delta\": 89, \"echo\": 364, \"foxtrot\": 275, \"golf\": -31, \"hotel\": 229}",
+     "latency_ms": 5233,
+     "tokens": 1787
+    }
+   }
+  },
+  {
+   "idx": 11,
+   "seed": 7102,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1054,
+      "bravo": 625,
+      "charlie": 355,
+      "delta": 129,
+      "echo": 364,
+      "foxtrot": 137,
+      "golf": 229,
+      "hotel": 134
+     },
+     "text": "{\"alpha\": 1054, \"bravo\": 625, \"charlie\": 355, \"delta\": 129, \"echo\": 364, \"foxtrot\": 137, \"golf\": 229, \"hotel\": 134}",
+     "latency_ms": 592,
+     "tokens": 2603
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1054,
+      "bravo": 625,
+      "charlie": 355,
+      "delta": 129,
+      "echo": 364,
+      "foxtrot": 137,
+      "golf": 229,
+      "hotel": 134
+     },
+     "text": "{\"alpha\": 1054, \"bravo\": 625, \"charlie\": 355, \"delta\": 129, \"echo\": 364, \"foxtrot\": 137, \"golf\": 229, \"hotel\": 134}",
+     "latency_ms": 8800,
+     "tokens": 2603
+    }
+   }
+  },
+  {
+   "idx": 12,
+   "seed": 7103,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 822,
+      "bravo": 342,
+      "charlie": 828,
+      "delta": 426,
+      "echo": 518,
+      "foxtrot": 650,
+      "golf": 938,
+      "hotel": 810
+     },
+     "text": "{\"alpha\": 822, \"bravo\": 342, \"charlie\": 828, \"delta\": 426, \"echo\": 518, \"foxtrot\": 650, \"golf\": 938, \"hotel\": 810}",
+     "latency_ms": 659,
+     "tokens": 253
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 822,
+      "bravo": 342,
+      "charlie": 828,
+      "delta": 426,
+      "echo": 518,
+      "foxtrot": 650,
+      "golf": 938,
+      "hotel": 810
+     },
+     "text": "{\"alpha\": 822, \"bravo\": 342, \"charlie\": 828, \"delta\": 426, \"echo\": 518, \"foxtrot\": 650, \"golf\": 938, \"hotel\": 810}",
+     "latency_ms": 10626,
+     "tokens": 253
+    }
+   }
+  },
+  {
+   "idx": 13,
+   "seed": 7103,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 529,
+      "bravo": 468,
+      "charlie": 803,
+      "delta": 426,
+      "echo": 709,
+      "foxtrot": 10,
+      "golf": 953,
+      "hotel": -11
+     },
+     "text": "{\"alpha\": 529, \"bravo\": 468, \"charlie\": 803, \"delta\": 426, \"echo\": 709, \"foxtrot\": 10, \"golf\": 953, \"hotel\": -11}",
+     "latency_ms": 723,
+     "tokens": 1047
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 529,
+      "bravo": 468,
+      "charlie": 803,
+      "delta": 426,
+      "echo": 709,
+      "foxtrot": 10,
+      "golf": 953,
+      "hotel": -11
+     },
+     "text": "{\"alpha\": 529, \"bravo\": 468, \"charlie\": 803, \"delta\": 426, \"echo\": 709, \"foxtrot\": 10, \"golf\": 953, \"hotel\": -11}",
+     "latency_ms": 7285,
+     "tokens": 1047
+    }
+   }
+  },
+  {
+   "idx": 14,
+   "seed": 7103,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 859,
+      "bravo": 102,
+      "charlie": 212,
+      "delta": 187,
+      "echo": 793,
+      "foxtrot": 3,
+      "golf": 4054,
+      "hotel": -161
+     },
+     "text": "{\"alpha\": 859, \"bravo\": 102, \"charlie\": 212, \"delta\": 187, \"echo\": 793, \"foxtrot\": 3, \"golf\": 4054, \"hotel\": -161}",
+     "latency_ms": 706,
+     "tokens": 1830
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 859,
+      "bravo": 102,
+      "charlie": 212,
+      "delta": 187,
+      "echo": 793,
+      "foxtrot": 3,
+      "golf": 4054,
+      "hotel": -161
+     },
+     "text": "{\"alpha\": 859, \"bravo\": 102, \"charlie\": 212, \"delta\": 187, \"echo\": 793, \"foxtrot\": 3, \"golf\": 4054, \"hotel\": -161}",
+     "latency_ms": 4832,
+     "tokens": 1830
+    }
+   }
+  },
+  {
+   "idx": 15,
+   "seed": 7103,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 3,
+      "bravo": -43,
+      "charlie": 721,
+      "delta": -184,
+      "echo": 793,
+      "foxtrot": 228,
+      "golf": 2232,
+      "hotel": 23
+     },
+     "text": "{\"alpha\": 3, \"bravo\": -43, \"charlie\": 721, \"delta\": -184, \"echo\": 793, \"foxtrot\": 228, \"golf\": 2232, \"hotel\": 23}",
+     "latency_ms": 662,
+     "tokens": 2566
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 3,
+      "bravo": -43,
+      "charlie": 721,
+      "delta": -184,
+      "echo": 793,
+      "foxtrot": 228,
+      "golf": 2232,
+      "hotel": 21
+     },
+     "text": "{\"alpha\": 3, \"bravo\": -43, \"charlie\": 721, \"delta\": -184, \"echo\": 793, \"foxtrot\": 228, \"golf\": 2232, \"hotel\": 21}",
+     "latency_ms": 16893,
+     "tokens": 2566
+    }
+   }
+  },
+  {
+   "idx": 16,
+   "seed": 7104,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 466,
+      "bravo": 400,
+      "charlie": 196,
+      "delta": 791,
+      "echo": 233,
+      "foxtrot": 88,
+      "golf": 559,
+      "hotel": 803
+     },
+     "text": "{\"alpha\": 466, \"bravo\": 400, \"charlie\": 196, \"delta\": 791, \"echo\": 233, \"foxtrot\": 88, \"golf\": 559, \"hotel\": 803}",
+     "latency_ms": 619,
+     "tokens": 255
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 466,
+      "bravo": 400,
+      "charlie": 196,
+      "delta": 791,
+      "echo": 233,
+      "foxtrot": 88,
+      "golf": 559,
+      "hotel": 803
+     },
+     "text": "{\"alpha\": 466, \"bravo\": 400, \"charlie\": 196, \"delta\": 791, \"echo\": 233, \"foxtrot\": 88, \"golf\": 559, \"hotel\": 803}",
+     "latency_ms": 4919,
+     "tokens": 255
+    }
+   }
+  },
+  {
+   "idx": 17,
+   "seed": 7104,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 642,
+      "bravo": 340,
+      "charlie": -69,
+      "delta": 731,
+      "echo": 279,
+      "foxtrot": 30,
+      "golf": 698,
+      "hotel": 495
+     },
+     "text": "{\"alpha\": 642, \"bravo\": 340, \"charlie\": -69, \"delta\": 731, \"echo\": 279, \"foxtrot\": 30, \"golf\": 698, \"hotel\": 495}",
+     "latency_ms": 686,
+     "tokens": 1056
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 642,
+      "bravo": 340,
+      "charlie": -69,
+      "delta": 731,
+      "echo": 279,
+      "foxtrot": 30,
+      "golf": 698,
+      "hotel": 495
+     },
+     "text": "{\"alpha\": 642, \"bravo\": 340, \"charlie\": -69, \"delta\": 731, \"echo\": 279, \"foxtrot\": 30, \"golf\": 698, \"hotel\": 495}",
+     "latency_ms": 3788,
+     "tokens": 1056
+    }
+   }
+  },
+  {
+   "idx": 18,
+   "seed": 7104,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 321,
+      "bravo": 340,
+      "charlie": -69,
+      "delta": 1462,
+      "echo": 30,
+      "foxtrot": 323,
+      "golf": 495,
+      "hotel": 156
+     },
+     "text": "{\"alpha\": 321, \"bravo\": 340, \"charlie\": -69, \"delta\": 1462, \"echo\": 30, \"foxtrot\": 323, \"golf\": 495, \"hotel\": 156}",
+     "latency_ms": 633,
+     "tokens": 1807
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 321,
+      "bravo": 340,
+      "charlie": -69,
+      "delta": 1462,
+      "echo": 30,
+      "foxtrot": 323,
+      "golf": 495,
+      "hotel": 156
+     },
+     "text": "{\"alpha\": 321, \"bravo\": 340, \"charlie\": -69, \"delta\": 1462, \"echo\": 30, \"foxtrot\": 323, \"golf\": 495, \"hotel\": 156}",
+     "latency_ms": 2538,
+     "tokens": 1807
+    }
+   }
+  },
+  {
+   "idx": 19,
+   "seed": 7104,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 321,
+      "bravo": 30,
+      "charlie": 148,
+      "delta": 1368,
+      "echo": 1343,
+      "foxtrot": 311,
+      "golf": 642,
+      "hotel": 156
+     },
+     "text": "{\"alpha\": 321, \"bravo\": 30, \"charlie\": 148, \"delta\": 1368, \"echo\": 1343, \"foxtrot\": 311, \"golf\": 642, \"hotel\": 156}",
+     "latency_ms": 731,
+     "tokens": 2557
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 321,
+      "bravo": 30,
+      "charlie": 148,
+      "delta": 1368,
+      "echo": 1343,
+      "foxtrot": 311,
+      "golf": 642,
+      "hotel": 156
+     },
+     "text": "{\"alpha\": 321, \"bravo\": 30, \"charlie\": 148, \"delta\": 1368, \"echo\": 1343, \"foxtrot\": 311, \"golf\": 642, \"hotel\": 156}",
+     "latency_ms": 11283,
+     "tokens": 2557
+    }
+   }
+  },
+  {
+   "idx": 20,
+   "seed": 7105,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 575,
+      "bravo": 581,
+      "charlie": 782,
+      "delta": 688,
+      "echo": 600,
+      "foxtrot": 1023,
+      "golf": 527,
+      "hotel": 753
+     },
+     "text": "{\"alpha\": 575, \"bravo\": 581, \"charlie\": 782, \"delta\": 688, \"echo\": 600, \"foxtrot\": 1023, \"golf\": 527, \"hotel\": 753}",
+     "latency_ms": 574,
+     "tokens": 264
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 575,
+      "bravo": 581,
+      "charlie": 782,
+      "delta": 688,
+      "echo": 600,
+      "foxtrot": 1023,
+      "golf": 527,
+      "hotel": 753
+     },
+     "text": "{\"alpha\": 575, \"bravo\": 581, \"charlie\": 782, \"delta\": 688, \"echo\": 600, \"foxtrot\": 1023, \"golf\": 527, \"hotel\": 753}",
+     "latency_ms": 8227,
+     "tokens": 264
+    }
+   }
+  },
+  {
+   "idx": 21,
+   "seed": 7105,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 631,
+      "bravo": 1320,
+      "charlie": 1564,
+      "delta": -82,
+      "echo": 525,
+      "foxtrot": 1124,
+      "golf": 467,
+      "hotel": 1320
+     },
+     "text": "{\"alpha\": 631, \"bravo\": 1320, \"charlie\": 1564, \"delta\": -82, \"echo\": 525, \"foxtrot\": 1124, \"golf\": 467, \"hotel\": 1320}",
+     "latency_ms": 609,
+     "tokens": 1026
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 631,
+      "bravo": 1320,
+      "charlie": 1564,
+      "delta": -82,
+      "echo": 525,
+      "foxtrot": 1124,
+      "golf": 467,
+      "hotel": 1320
+     },
+     "text": "{\"alpha\": 631, \"bravo\": 1320, \"charlie\": 1564, \"delta\": -82, \"echo\": 525, \"foxtrot\": 1124, \"golf\": 467, \"hotel\": 1320}",
+     "latency_ms": 9991,
+     "tokens": 1026
+    }
+   }
+  },
+  {
+   "idx": 22,
+   "seed": 7105,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 25,
+      "bravo": 107,
+      "charlie": 668,
+      "delta": 104,
+      "echo": 525,
+      "foxtrot": 1066,
+      "golf": 233,
+      "hotel": 1147
+     },
+     "text": "{\"alpha\": 25, \"bravo\": 107, \"charlie\": 668, \"delta\": 104, \"echo\": 525, \"foxtrot\": 1066, \"golf\": 233, \"hotel\": 1147}",
+     "latency_ms": 627,
+     "tokens": 1814
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 25,
+      "bravo": 107,
+      "charlie": 668,
+      "delta": 104,
+      "echo": 525,
+      "foxtrot": 1066,
+      "golf": 233,
+      "hotel": 1147
+     },
+     "text": "{\"alpha\": 25, \"bravo\": 107, \"charlie\": 668, \"delta\": 104, \"echo\": 525, \"foxtrot\": 1066, \"golf\": 233, \"hotel\": 1147}",
+     "latency_ms": 17393,
+     "tokens": 1814
+    }
+   }
+  },
+  {
+   "idx": 23,
+   "seed": 7105,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 358,
+      "bravo": 57,
+      "charlie": 687,
+      "delta": 193,
+      "echo": 130,
+      "foxtrot": 3174,
+      "golf": 83,
+      "hotel": 1053
+     },
+     "text": "{\"alpha\": 358, \"bravo\": 57, \"charlie\": 687, \"delta\": 193, \"echo\": 130, \"foxtrot\": 3174, \"golf\": 83, \"hotel\": 1053}",
+     "latency_ms": 623,
+     "tokens": 2573
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 358,
+      "bravo": 57,
+      "charlie": 687,
+      "delta": 193,
+      "echo": 130,
+      "foxtrot": 3174,
+      "golf": 83,
+      "hotel": 1053
+     },
+     "text": "{\"alpha\": 358, \"bravo\": 57, \"charlie\": 687, \"delta\": 193, \"echo\": 130, \"foxtrot\": 3174, \"golf\": 83, \"hotel\": 1053}",
+     "latency_ms": 35246,
+     "tokens": 2573
+    }
+   }
+  },
+  {
+   "idx": 24,
+   "seed": 7106,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 388,
+      "bravo": 624,
+      "charlie": 560,
+      "delta": 459,
+      "echo": 410,
+      "foxtrot": 83,
+      "golf": 486,
+      "hotel": 444
+     },
+     "text": "{\"alpha\": 388, \"bravo\": 624, \"charlie\": 560, \"delta\": 459, \"echo\": 410, \"foxtrot\": 83, \"golf\": 486, \"hotel\": 444}",
+     "latency_ms": 557,
+     "tokens": 271
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 388,
+      "bravo": 624,
+      "charlie": 560,
+      "delta": 459,
+      "echo": 410,
+      "foxtrot": 83,
+      "golf": 486,
+      "hotel": 444
+     },
+     "text": "{\"alpha\": 388, \"bravo\": 624, \"charlie\": 560, \"delta\": 459, \"echo\": 410, \"foxtrot\": 83, \"golf\": 486, \"hotel\": 444}",
+     "latency_ms": 5353,
+     "tokens": 271
+    }
+   }
+  },
+  {
+   "idx": 25,
+   "seed": 7106,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 444,
+      "bravo": 328,
+      "charlie": 573,
+      "delta": 459,
+      "echo": 565,
+      "foxtrot": 241,
+      "golf": 98,
+      "hotel": 109
+     },
+     "text": "{\"alpha\": 444, \"bravo\": 328, \"charlie\": 573, \"delta\": 459, \"echo\": 565, \"foxtrot\": 241, \"golf\": 98, \"hotel\": 109}",
+     "latency_ms": 595,
+     "tokens": 1062
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 444,
+      "bravo": 328,
+      "charlie": 573,
+      "delta": 459,
+      "echo": 565,
+      "foxtrot": 241,
+      "golf": 98,
+      "hotel": 109
+     },
+     "text": "{\"alpha\": 444, \"bravo\": 328, \"charlie\": 573, \"delta\": 459, \"echo\": 565, \"foxtrot\": 241, \"golf\": 98, \"hotel\": 109}",
+     "latency_ms": 8625,
+     "tokens": 1062
+    }
+   }
+  },
+  {
+   "idx": 26,
+   "seed": 7106,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 852,
+      "bravo": 88,
+      "charlie": 485,
+      "delta": 888,
+      "echo": 62,
+      "foxtrot": 241,
+      "golf": -114,
+      "hotel": 299
+     },
+     "text": "{\"alpha\": 852, \"bravo\": 88, \"charlie\": 485, \"delta\": 888, \"echo\": 62, \"foxtrot\": 241, \"golf\": -114, \"hotel\": 299}",
+     "latency_ms": 625,
+     "tokens": 1802
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 852,
+      "bravo": 88,
+      "charlie": 485,
+      "delta": 888,
+      "echo": 62,
+      "foxtrot": 241,
+      "golf": -114,
+      "hotel": 299
+     },
+     "text": "{\"alpha\": 852, \"bravo\": 88, \"charlie\": 485, \"delta\": 888, \"echo\": 62, \"foxtrot\": 241, \"golf\": -114, \"hotel\": 299}",
+     "latency_ms": 2876,
+     "tokens": 1802
+    }
+   }
+  },
+  {
+   "idx": 27,
+   "seed": 7106,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 179,
+      "bravo": 352,
+      "charlie": 351,
+      "delta": 831,
+      "echo": 74,
+      "foxtrot": 802,
+      "golf": -217,
+      "hotel": 88
+     },
+     "text": "{\"alpha\": 179, \"bravo\": 352, \"charlie\": 351, \"delta\": 831, \"echo\": 74, \"foxtrot\": 802, \"golf\": -217, \"hotel\": 88}",
+     "latency_ms": 637,
+     "tokens": 2605
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 179,
+      "bravo": 352,
+      "charlie": 391,
+      "delta": 831,
+      "echo": 74,
+      "foxtrot": 802,
+      "golf": -217,
+      "hotel": 88
+     },
+     "text": "{\"alpha\": 179, \"bravo\": 352, \"charlie\": 391, \"delta\": 831, \"echo\": 74, \"foxtrot\": 802, \"golf\": -217, \"hotel\": 88}",
+     "latency_ms": 2296,
+     "tokens": 2605
+    }
+   }
+  },
+  {
+   "idx": 28,
+   "seed": 7107,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 132,
+      "bravo": 849,
+      "charlie": 429,
+      "delta": 881,
+      "echo": 413,
+      "foxtrot": 252,
+      "golf": 832,
+      "hotel": 736
+     },
+     "text": "{\"alpha\": 132, \"bravo\": 849, \"charlie\": 429, \"delta\": 881, \"echo\": 413, \"foxtrot\": 252, \"golf\": 832, \"hotel\": 736}",
+     "latency_ms": 642,
+     "tokens": 265
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 132,
+      "bravo": 849,
+      "charlie": 429,
+      "delta": 881,
+      "echo": 413,
+      "foxtrot": 252,
+      "golf": 832,
+      "hotel": 736
+     },
+     "text": "{\"alpha\": 132, \"bravo\": 849, \"charlie\": 429, \"delta\": 881, \"echo\": 413, \"foxtrot\": 252, \"golf\": 832, \"hotel\": 736}",
+     "latency_ms": 45077,
+     "tokens": 265
+    }
+   }
+  },
+  {
+   "idx": 29,
+   "seed": 7107,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 276,
+      "bravo": 1240,
+      "charlie": 429,
+      "delta": 645,
+      "echo": 1029,
+      "foxtrot": 756,
+      "golf": 1274,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 276, \"bravo\": 1240, \"charlie\": 429, \"delta\": 645, \"echo\": 1029, \"foxtrot\": 756, \"golf\": 1274, \"hotel\": 368}",
+     "latency_ms": 797,
+     "tokens": 1069
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 276,
+      "bravo": 1240,
+      "charlie": 429,
+      "delta": 645,
+      "echo": 1029,
+      "foxtrot": 756,
+      "golf": 1274,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 276, \"bravo\": 1240, \"charlie\": 429, \"delta\": 645, \"echo\": 1029, \"foxtrot\": 756, \"golf\": 1274, \"hotel\": 368}",
+     "latency_ms": 3178,
+     "tokens": 1069
+    }
+   }
+  },
+  {
+   "idx": 30,
+   "seed": 7107,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 1182,
+      "charlie": 1234,
+      "delta": 214,
+      "echo": 532,
+      "foxtrot": 645,
+      "golf": 104,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 1182, \"charlie\": 1234, \"delta\": 214, \"echo\": 532, \"foxtrot\": 645, \"golf\": 104, \"hotel\": 368}",
+     "latency_ms": 630,
+     "tokens": 1885
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 1182,
+      "charlie": 1234,
+      "delta": 214,
+      "echo": 532,
+      "foxtrot": 645,
+      "golf": 104,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 1182, \"charlie\": 1234, \"delta\": 214, \"echo\": 532, \"foxtrot\": 645, \"golf\": 104, \"hotel\": 368}",
+     "latency_ms": 2085,
+     "tokens": 1885
+    }
+   }
+  },
+  {
+   "idx": 31,
+   "seed": 7107,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 1182,
+      "charlie": 214,
+      "delta": 1146,
+      "echo": 638,
+      "foxtrot": 670,
+      "golf": 176,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 1182, \"charlie\": 214, \"delta\": 1146, \"echo\": 638, \"foxtrot\": 670, \"golf\": 176, \"hotel\": 368}",
+     "latency_ms": 699,
+     "tokens": 2678
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 1182,
+      "charlie": 214,
+      "delta": 1146,
+      "echo": 638,
+      "foxtrot": 670,
+      "golf": 176,
+      "hotel": 368
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 1182, \"charlie\": 214, \"delta\": 1146, \"echo\": 638, \"foxtrot\": 670, \"golf\": 176, \"hotel\": 368}",
+     "latency_ms": 3281,
+     "tokens": 2678
+    }
+   }
+  },
+  {
+   "idx": 32,
+   "seed": 7108,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 768,
+      "bravo": 330,
+      "charlie": 502,
+      "delta": 346,
+      "echo": 502,
+      "foxtrot": 440,
+      "golf": 623,
+      "hotel": 188
+     },
+     "text": "{\"alpha\": 768, \"bravo\": 330, \"charlie\": 502, \"delta\": 346, \"echo\": 502, \"foxtrot\": 440, \"golf\": 623, \"hotel\": 188}",
+     "latency_ms": 1012,
+     "tokens": 266
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 768,
+      "bravo": 330,
+      "charlie": 502,
+      "delta": 346,
+      "echo": 502,
+      "foxtrot": 440,
+      "golf": 623,
+      "hotel": 188
+     },
+     "text": "{\"alpha\": 768, \"bravo\": 330, \"charlie\": 502, \"delta\": 346, \"echo\": 502, \"foxtrot\": 440, \"golf\": 623, \"hotel\": 188}",
+     "latency_ms": 4053,
+     "tokens": 266
+    }
+   }
+  },
+  {
+   "idx": 33,
+   "seed": 7108,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 628,
+      "bravo": 363,
+      "charlie": 390,
+      "delta": 319,
+      "echo": 1004,
+      "foxtrot": 203,
+      "golf": 785,
+      "hotel": 376
+     },
+     "text": "{\"alpha\": 628, \"bravo\": 363, \"charlie\": 390, \"delta\": 319, \"echo\": 1004, \"foxtrot\": 203, \"golf\": 785, \"hotel\": 376}",
+     "latency_ms": 741,
+     "tokens": 1087
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 628,
+      "bravo": 363,
+      "charlie": 390,
+      "delta": 319,
+      "echo": 865,
+      "foxtrot": 203,
+      "golf": 785,
+      "hotel": 376
+     },
+     "text": "{\"alpha\": 628, \"bravo\": 363, \"charlie\": 390, \"delta\": 319, \"echo\": 865, \"foxtrot\": 203, \"golf\": 785, \"hotel\": 376}",
+     "latency_ms": 1785,
+     "tokens": 1086
+    }
+   }
+  },
+  {
+   "idx": 34,
+   "seed": 7108,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 237,
+      "bravo": 212,
+      "charlie": 740,
+      "delta": 376,
+      "echo": 478,
+      "foxtrot": 388,
+      "golf": 600,
+      "hotel": 382
+     },
+     "text": "{\"alpha\": 237, \"bravo\": 212, \"charlie\": 740, \"delta\": 376, \"echo\": 478, \"foxtrot\": 388, \"golf\": 600, \"hotel\": 382}",
+     "latency_ms": 677,
+     "tokens": 1864
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 237,
+      "bravo": 212,
+      "charlie": 740,
+      "delta": 376,
+      "echo": 478,
+      "foxtrot": 388,
+      "golf": 600,
+      "hotel": 382
+     },
+     "text": "{\"alpha\": 237, \"bravo\": 212, \"charlie\": 740, \"delta\": 376, \"echo\": 478, \"foxtrot\": 388, \"golf\": 600, \"hotel\": 382}",
+     "latency_ms": 3543,
+     "tokens": 1864
+    }
+   }
+  },
+  {
+   "idx": 35,
+   "seed": 7108,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 147,
+      "bravo": 167,
+      "charlie": 370,
+      "delta": 451,
+      "echo": 956,
+      "foxtrot": 156,
+      "golf": 614,
+      "hotel": 231
+     },
+     "text": "{\"alpha\": 147, \"bravo\": 167, \"charlie\": 370, \"delta\": 451, \"echo\": 956, \"foxtrot\": 156, \"golf\": 614, \"hotel\": 231}",
+     "latency_ms": 741,
+     "tokens": 2644
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 147,
+      "bravo": 167,
+      "charlie": 370,
+      "delta": 451,
+      "echo": 956,
+      "foxtrot": 156,
+      "golf": 614,
+      "hotel": 231
+     },
+     "text": "{\"alpha\": 147, \"bravo\": 167, \"charlie\": 370, \"delta\": 451, \"echo\": 956, \"foxtrot\": 156, \"golf\": 614, \"hotel\": 231}",
+     "latency_ms": 19837,
+     "tokens": 2644
+    }
+   }
+  },
+  {
+   "idx": 36,
+   "seed": 7109,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 42,
+      "bravo": 830,
+      "charlie": 665,
+      "delta": 424,
+      "echo": 422,
+      "foxtrot": 277,
+      "golf": 40,
+      "hotel": 834
+     },
+     "text": "{\"alpha\": 42, \"bravo\": 830, \"charlie\": 665, \"delta\": 424, \"echo\": 422, \"foxtrot\": 277, \"golf\": 40, \"hotel\": 834}",
+     "latency_ms": 633,
+     "tokens": 258
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 42,
+      "bravo": 830,
+      "charlie": 665,
+      "delta": 424,
+      "echo": 422,
+      "foxtrot": 277,
+      "golf": 40,
+      "hotel": 834
+     },
+     "text": "{\"alpha\": 42, \"bravo\": 830, \"charlie\": 665, \"delta\": 424, \"echo\": 422, \"foxtrot\": 277, \"golf\": 40, \"hotel\": 834}",
+     "latency_ms": 2094,
+     "tokens": 258
+    }
+   }
+  },
+  {
+   "idx": 37,
+   "seed": 7109,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 59,
+      "bravo": 235,
+      "charlie": 789,
+      "delta": 529,
+      "echo": 501,
+      "foxtrot": 554,
+      "golf": 101,
+      "hotel": -377
+     },
+     "text": "{\"alpha\": 59, \"bravo\": 235, \"charlie\": 789, \"delta\": 529, \"echo\": 501, \"foxtrot\": 554, \"golf\": 101, \"hotel\": -377}",
+     "latency_ms": 711,
+     "tokens": 1003
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 59,
+      "bravo": 235,
+      "charlie": 789,
+      "delta": 530,
+      "echo": 501,
+      "foxtrot": 554,
+      "golf": 101,
+      "hotel": -377
+     },
+     "text": "{\"alpha\": 59, \"bravo\": 235, \"charlie\": 789, \"delta\": 530, \"echo\": 501, \"foxtrot\": 554, \"golf\": 101, \"hotel\": -377}",
+     "latency_ms": 12774,
+     "tokens": 1003
+    }
+   }
+  },
+  {
+   "idx": 38,
+   "seed": 7109,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 352,
+      "charlie": -377,
+      "delta": 306,
+      "echo": 789,
+      "foxtrot": 136,
+      "golf": -24,
+      "hotel": 112
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 352, \"charlie\": -377, \"delta\": 306, \"echo\": 789, \"foxtrot\": 136, \"golf\": -24, \"hotel\": 112}",
+     "latency_ms": 759,
+     "tokens": 1788
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 109,
+      "bravo": 352,
+      "charlie": -377,
+      "delta": 306,
+      "echo": 789,
+      "foxtrot": 136,
+      "golf": -24,
+      "hotel": 112
+     },
+     "text": "{\"alpha\": 109, \"bravo\": 352, \"charlie\": -377, \"delta\": 306, \"echo\": 789, \"foxtrot\": 136, \"golf\": -24, \"hotel\": 112}",
+     "latency_ms": 5543,
+     "tokens": 1788
+    }
+   }
+  },
+  {
+   "idx": 39,
+   "seed": 7109,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 165,
+      "bravo": 6,
+      "charlie": -189,
+      "delta": 408,
+      "echo": 1434,
+      "foxtrot": -92,
+      "golf": 213,
+      "hotel": 127
+     },
+     "text": "{\"alpha\": 165, \"bravo\": 6, \"charlie\": -189, \"delta\": 408, \"echo\": 1434, \"foxtrot\": -92, \"golf\": 213, \"hotel\": 127}",
+     "latency_ms": 696,
+     "tokens": 2547
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 165,
+      "bravo": 6,
+      "charlie": -189,
+      "delta": 408,
+      "echo": 1434,
+      "foxtrot": -92,
+      "golf": 213,
+      "hotel": 127
+     },
+     "text": "{\"alpha\": 165, \"bravo\": 6, \"charlie\": -189, \"delta\": 408, \"echo\": 1434, \"foxtrot\": -92, \"golf\": 213, \"hotel\": 127}",
+     "latency_ms": 3421,
+     "tokens": 2547
+    }
+   }
+  },
+  {
+   "idx": 40,
+   "seed": 7110,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 832,
+      "bravo": 892,
+      "charlie": 218,
+      "delta": 339,
+      "echo": 1426,
+      "foxtrot": 702,
+      "golf": 582,
+      "hotel": 857
+     },
+     "text": "{\"alpha\": 832, \"bravo\": 892, \"charlie\": 218, \"delta\": 339, \"echo\": 1426, \"foxtrot\": 702, \"golf\": 582, \"hotel\": 857}",
+     "latency_ms": 669,
+     "tokens": 256
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 832,
+      "bravo": 892,
+      "charlie": 218,
+      "delta": 339,
+      "echo": 1426,
+      "foxtrot": 702,
+      "golf": 582,
+      "hotel": 857
+     },
+     "text": "{\"alpha\": 832, \"bravo\": 892, \"charlie\": 218, \"delta\": 339, \"echo\": 1426, \"foxtrot\": 702, \"golf\": 582, \"hotel\": 857}",
+     "latency_ms": 2664,
+     "tokens": 256
+    }
+   }
+  },
+  {
+   "idx": 41,
+   "seed": 7110,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 146,
+      "bravo": 446,
+      "charlie": 218,
+      "delta": 702,
+      "echo": 219,
+      "foxtrot": 709,
+      "golf": 582,
+      "hotel": 713
+     },
+     "text": "{\"alpha\": 146, \"bravo\": 446, \"charlie\": 218, \"delta\": 702, \"echo\": 219, \"foxtrot\": 709, \"golf\": 582, \"hotel\": 713}",
+     "latency_ms": 750,
+     "tokens": 1038
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 146,
+      "bravo": 446,
+      "charlie": 218,
+      "delta": 702,
+      "echo": 219,
+      "foxtrot": 709,
+      "golf": 582,
+      "hotel": 713
+     },
+     "text": "{\"alpha\": 146, \"bravo\": 446, \"charlie\": 218, \"delta\": 702, \"echo\": 219, \"foxtrot\": 709, \"golf\": 582, \"hotel\": 713}",
+     "latency_ms": 12754,
+     "tokens": 1038
+    }
+   }
+  },
+  {
+   "idx": 42,
+   "seed": 7110,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 146,
+      "bravo": 557,
+      "charlie": 487,
+      "delta": 324,
+      "echo": 232,
+      "foxtrot": 501,
+      "golf": 566,
+      "hotel": 117
+     },
+     "text": "{\"alpha\": 146, \"bravo\": 557, \"charlie\": 487, \"delta\": 324, \"echo\": 232, \"foxtrot\": 501, \"golf\": 566, \"hotel\": 117}",
+     "latency_ms": 1252,
+     "tokens": 1836
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 146,
+      "bravo": 557,
+      "charlie": 487,
+      "delta": 324,
+      "echo": 232,
+      "foxtrot": 501,
+      "golf": 566,
+      "hotel": 117
+     },
+     "text": "{\"alpha\": 146, \"bravo\": 557, \"charlie\": 487, \"delta\": 324, \"echo\": 232, \"foxtrot\": 501, \"golf\": 566, \"hotel\": 117}",
+     "latency_ms": 13300,
+     "tokens": 1836
+    }
+   }
+  },
+  {
+   "idx": 43,
+   "seed": 7110,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 44,
+      "bravo": 223,
+      "charlie": 643,
+      "delta": 557,
+      "echo": 322,
+      "foxtrot": 855,
+      "golf": 333,
+      "hotel": 27
+     },
+     "text": "{\"alpha\": 44, \"bravo\": 223, \"charlie\": 643, \"delta\": 557, \"echo\": 322, \"foxtrot\": 855, \"golf\": 333, \"hotel\": 27}",
+     "latency_ms": 961,
+     "tokens": 2603
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 44,
+      "bravo": 223,
+      "charlie": 643,
+      "delta": 557,
+      "echo": 322,
+      "foxtrot": 855,
+      "golf": 333,
+      "hotel": 27
+     },
+     "text": "{\"alpha\": 44, \"bravo\": 223, \"charlie\": 643, \"delta\": 557, \"echo\": 322, \"foxtrot\": 855, \"golf\": 333, \"hotel\": 27}",
+     "latency_ms": 11257,
+     "tokens": 2603
+    }
+   }
+  },
+  {
+   "idx": 44,
+   "seed": 7111,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 699,
+      "bravo": 554,
+      "charlie": 208,
+      "delta": 302,
+      "echo": 214,
+      "foxtrot": 249,
+      "golf": 205,
+      "hotel": 191
+     },
+     "text": "{\"alpha\": 699, \"bravo\": 554, \"charlie\": 208, \"delta\": 302, \"echo\": 214, \"foxtrot\": 249, \"golf\": 205, \"hotel\": 191}",
+     "latency_ms": 945,
+     "tokens": 271
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 699,
+      "bravo": 554,
+      "charlie": 208,
+      "delta": 302,
+      "echo": 214,
+      "foxtrot": 249,
+      "golf": 205,
+      "hotel": 191
+     },
+     "text": "{\"alpha\": 699, \"bravo\": 554, \"charlie\": 208, \"delta\": 302, \"echo\": 214, \"foxtrot\": 249, \"golf\": 205, \"hotel\": 191}",
+     "latency_ms": 17454,
+     "tokens": 271
+    }
+   }
+  },
+  {
+   "idx": 45,
+   "seed": 7111,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 770,
+      "bravo": 168,
+      "charlie": 266,
+      "delta": 611,
+      "echo": 126,
+      "foxtrot": 204,
+      "golf": 205,
+      "hotel": 275
+     },
+     "text": "{\"alpha\": 770, \"bravo\": 168, \"charlie\": 266, \"delta\": 611, \"echo\": 126, \"foxtrot\": 204, \"golf\": 205, \"hotel\": 275}",
+     "latency_ms": 921,
+     "tokens": 1008
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 770,
+      "bravo": 168,
+      "charlie": 266,
+      "delta": 611,
+      "echo": 126,
+      "foxtrot": 204,
+      "golf": 205,
+      "hotel": 275
+     },
+     "text": "{\"alpha\": 770, \"bravo\": 168, \"charlie\": 266, \"delta\": 611, \"echo\": 126, \"foxtrot\": 204, \"golf\": 205, \"hotel\": 275}",
+     "latency_ms": 6604,
+     "tokens": 1008
+    }
+   }
+  },
+  {
+   "idx": 46,
+   "seed": 7111,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 97,
+      "bravo": -13,
+      "charlie": 133,
+      "delta": -149,
+      "echo": -55,
+      "foxtrot": 611,
+      "golf": 32,
+      "hotel": 757
+     },
+     "text": "{\"alpha\": 97, \"bravo\": -13, \"charlie\": 133, \"delta\": -149, \"echo\": -55, \"foxtrot\": 611, \"golf\": 32, \"hotel\": 757}",
+     "latency_ms": 742,
+     "tokens": 1814
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 97,
+      "bravo": -13,
+      "charlie": 133,
+      "delta": -149,
+      "echo": -55,
+      "foxtrot": 611,
+      "golf": 32,
+      "hotel": 757
+     },
+     "text": "{\"alpha\": 97, \"bravo\": -13, \"charlie\": 133, \"delta\": -149, \"echo\": -55, \"foxtrot\": 611, \"golf\": 32, \"hotel\": 757}",
+     "latency_ms": 36084,
+     "tokens": 1814
+    }
+   }
+  },
+  {
+   "idx": 47,
+   "seed": 7111,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 242,
+      "bravo": 19,
+      "charlie": 1786,
+      "delta": -23,
+      "echo": -55,
+      "foxtrot": 573,
+      "golf": -23,
+      "hotel": 24
+     },
+     "text": "{\"alpha\": 242, \"bravo\": 19, \"charlie\": 1786, \"delta\": -23, \"echo\": -55, \"foxtrot\": 573, \"golf\": -23, \"hotel\": 24}",
+     "latency_ms": 914,
+     "tokens": 2556
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 242,
+      "bravo": 19,
+      "charlie": 1786,
+      "delta": -23,
+      "echo": -55,
+      "foxtrot": 573,
+      "golf": -23,
+      "hotel": 24
+     },
+     "text": "{\"alpha\": 242, \"bravo\": 19, \"charlie\": 1786, \"delta\": -23, \"echo\": -55, \"foxtrot\": 573, \"golf\": -23, \"hotel\": 24}",
+     "latency_ms": 7858,
+     "tokens": 2556
+    }
+   }
+  },
+  {
+   "idx": 48,
+   "seed": 7112,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 659,
+      "bravo": 513,
+      "charlie": 285,
+      "delta": 870,
+      "echo": 86,
+      "foxtrot": 273,
+      "golf": 593,
+      "hotel": 612
+     },
+     "text": "{\"alpha\": 659, \"bravo\": 513, \"charlie\": 285, \"delta\": 870, \"echo\": 86, \"foxtrot\": 273, \"golf\": 593, \"hotel\": 612}",
+     "latency_ms": 729,
+     "tokens": 293
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 659,
+      "bravo": 513,
+      "charlie": 285,
+      "delta": 870,
+      "echo": 86,
+      "foxtrot": 273,
+      "golf": 593,
+      "hotel": 612
+     },
+     "text": "{\"alpha\": 659, \"bravo\": 513, \"charlie\": 285, \"delta\": 870, \"echo\": 86, \"foxtrot\": 273, \"golf\": 593, \"hotel\": 612}",
+     "latency_ms": 3123,
+     "tokens": 293
+    }
+   }
+  },
+  {
+   "idx": 49,
+   "seed": 7112,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 86,
+      "bravo": 1141,
+      "charlie": 594,
+      "delta": 204,
+      "echo": 1147,
+      "foxtrot": 490,
+      "golf": 434,
+      "hotel": 734
+     },
+     "text": "{\"alpha\": 86, \"bravo\": 1141, \"charlie\": 594, \"delta\": 204, \"echo\": 1147, \"foxtrot\": 490, \"golf\": 434, \"hotel\": 734}",
+     "latency_ms": 855,
+     "tokens": 1096
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 86,
+      "bravo": 1141,
+      "charlie": 594,
+      "delta": 204,
+      "echo": 1147,
+      "foxtrot": 490,
+      "golf": 434,
+      "hotel": 734
+     },
+     "text": "{\"alpha\": 86, \"bravo\": 1141, \"charlie\": 594, \"delta\": 204, \"echo\": 1147, \"foxtrot\": 490, \"golf\": 434, \"hotel\": 734}",
+     "latency_ms": 133728,
+     "tokens": 1096
+    }
+   }
+  },
+  {
+   "idx": 50,
+   "seed": 7112,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 86,
+      "bravo": 1058,
+      "charlie": 594,
+      "delta": 408,
+      "echo": 523,
+      "foxtrot": 504,
+      "golf": 587,
+      "hotel": 17
+     },
+     "text": "{\"alpha\": 86, \"bravo\": 1058, \"charlie\": 594, \"delta\": 408, \"echo\": 523, \"foxtrot\": 504, \"golf\": 587, \"hotel\": 17}",
+     "latency_ms": 966,
+     "tokens": 1890
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 86,
+      "bravo": 1058,
+      "charlie": 594,
+      "delta": 408,
+      "echo": 523,
+      "foxtrot": 504,
+      "golf": 587,
+      "hotel": 17
+     },
+     "text": "{\"alpha\": 86, \"bravo\": 1058, \"charlie\": 594, \"delta\": 408, \"echo\": 523, \"foxtrot\": 504, \"golf\": 587, \"hotel\": 17}",
+     "latency_ms": 10066,
+     "tokens": 1890
+    }
+   }
+  },
+  {
+   "idx": 51,
+   "seed": 7112,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 214,
+      "bravo": 479,
+      "charlie": 523,
+      "delta": 135,
+      "echo": 426,
+      "foxtrot": 866,
+      "golf": 594,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 214, \"bravo\": 479, \"charlie\": 523, \"delta\": 135, \"echo\": 426, \"foxtrot\": 866, \"golf\": 594, \"hotel\": 193}",
+     "latency_ms": 822,
+     "tokens": 2706
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 214,
+      "bravo": 479,
+      "charlie": 523,
+      "delta": 135,
+      "echo": 426,
+      "foxtrot": 866,
+      "golf": 594,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 214, \"bravo\": 479, \"charlie\": 523, \"delta\": 135, \"echo\": 426, \"foxtrot\": 866, \"golf\": 594, \"hotel\": 193}",
+     "latency_ms": 10761,
+     "tokens": 2706
+    }
+   }
+  },
+  {
+   "idx": 52,
+   "seed": 7113,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 289,
+      "bravo": 165,
+      "charlie": 521,
+      "delta": 683,
+      "echo": 146,
+      "foxtrot": 821,
+      "golf": 370,
+      "hotel": 421
+     },
+     "text": "{\"alpha\": 289, \"bravo\": 165, \"charlie\": 521, \"delta\": 683, \"echo\": 146, \"foxtrot\": 821, \"golf\": 370, \"hotel\": 421}",
+     "latency_ms": 786,
+     "tokens": 261
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 289,
+      "bravo": 165,
+      "charlie": 521,
+      "delta": 683,
+      "echo": 146,
+      "foxtrot": 821,
+      "golf": 370,
+      "hotel": 421
+     },
+     "text": "{\"alpha\": 289, \"bravo\": 165, \"charlie\": 521, \"delta\": 683, \"echo\": 146, \"foxtrot\": 821, \"golf\": 370, \"hotel\": 421}",
+     "latency_ms": 15651,
+     "tokens": 261
+    }
+   }
+  },
+  {
+   "idx": 53,
+   "seed": 7113,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 268,
+      "bravo": 517,
+      "charlie": 342,
+      "delta": 292,
+      "echo": 202,
+      "foxtrot": 777,
+      "golf": 182,
+      "hotel": 620
+     },
+     "text": "{\"alpha\": 268, \"bravo\": 517, \"charlie\": 342, \"delta\": 292, \"echo\": 202, \"foxtrot\": 777, \"golf\": 182, \"hotel\": 620}",
+     "latency_ms": 801,
+     "tokens": 1051
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 268,
+      "bravo": 517,
+      "charlie": 342,
+      "delta": 292,
+      "echo": 202,
+      "foxtrot": 777,
+      "golf": 182,
+      "hotel": 620
+     },
+     "text": "{\"alpha\": 268, \"bravo\": 517, \"charlie\": 342, \"delta\": 292, \"echo\": 202, \"foxtrot\": 777, \"golf\": 182, \"hotel\": 620}",
+     "latency_ms": 2067,
+     "tokens": 1051
+    }
+   }
+  },
+  {
+   "idx": 54,
+   "seed": 7113,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 268,
+      "bravo": 775,
+      "charlie": 684,
+      "delta": 958,
+      "echo": 404,
+      "foxtrot": 8,
+      "golf": 185,
+      "hotel": 2302
+     },
+     "text": "{\"alpha\": 268, \"bravo\": 775, \"charlie\": 684, \"delta\": 958, \"echo\": 404, \"foxtrot\": 8, \"golf\": 185, \"hotel\": 2302}",
+     "latency_ms": 825,
+     "tokens": 1830
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 268,
+      "bravo": 775,
+      "charlie": 684,
+      "delta": 958,
+      "echo": 404,
+      "foxtrot": 8,
+      "golf": 185,
+      "hotel": 2302
+     },
+     "text": "{\"alpha\": 268, \"bravo\": 775, \"charlie\": 684, \"delta\": 958, \"echo\": 404, \"foxtrot\": 8, \"golf\": 185, \"hotel\": 2302}",
+     "latency_ms": 4812,
+     "tokens": 1830
+    }
+   }
+  },
+  {
+   "idx": 55,
+   "seed": 7113,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 56,
+      "bravo": 775,
+      "charlie": 727,
+      "delta": 78,
+      "echo": 9,
+      "foxtrot": 75,
+      "golf": 127,
+      "hotel": 1151
+     },
+     "text": "{\"alpha\": 56, \"bravo\": 775, \"charlie\": 727, \"delta\": 78, \"echo\": 9, \"foxtrot\": 75, \"golf\": 127, \"hotel\": 1151}",
+     "latency_ms": 786,
+     "tokens": 2593
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 56,
+      "bravo": 775,
+      "charlie": 727,
+      "delta": 78,
+      "echo": 9,
+      "foxtrot": 75,
+      "golf": 127,
+      "hotel": 1151
+     },
+     "text": "{\"alpha\": 56, \"bravo\": 775, \"charlie\": 727, \"delta\": 78, \"echo\": 9, \"foxtrot\": 75, \"golf\": 127, \"hotel\": 1151}",
+     "latency_ms": 3179,
+     "tokens": 2593
+    }
+   }
+  },
+  {
+   "idx": 56,
+   "seed": 7114,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 288,
+      "bravo": 592,
+      "charlie": 267,
+      "delta": 825,
+      "echo": 432,
+      "foxtrot": 126,
+      "golf": -23,
+      "hotel": 200
+     },
+     "text": "{\"alpha\": 288, \"bravo\": 592, \"charlie\": 267, \"delta\": 825, \"echo\": 432, \"foxtrot\": 126, \"golf\": -23, \"hotel\": 200}",
+     "latency_ms": 790,
+     "tokens": 274
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 288,
+      "bravo": 592,
+      "charlie": 267,
+      "delta": 825,
+      "echo": 432,
+      "foxtrot": 126,
+      "golf": -23,
+      "hotel": 200
+     },
+     "text": "{\"alpha\": 288, \"bravo\": 592, \"charlie\": 267, \"delta\": 825, \"echo\": 432, \"foxtrot\": 126, \"golf\": -23, \"hotel\": 200}",
+     "latency_ms": 15403,
+     "tokens": 274
+    }
+   }
+  },
+  {
+   "idx": 57,
+   "seed": 7114,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 338,
+      "bravo": 1184,
+      "charlie": 133,
+      "delta": 825,
+      "echo": 432,
+      "foxtrot": -16,
+      "golf": 331,
+      "hotel": -62
+     },
+     "text": "{\"alpha\": 338, \"bravo\": 1184, \"charlie\": 133, \"delta\": 825, \"echo\": 432, \"foxtrot\": -16, \"golf\": 331, \"hotel\": -62}",
+     "latency_ms": 781,
+     "tokens": 1037
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 338,
+      "bravo": 1184,
+      "charlie": 133,
+      "delta": 825,
+      "echo": 432,
+      "foxtrot": -16,
+      "golf": 331,
+      "hotel": -62
+     },
+     "text": "{\"alpha\": 338, \"bravo\": 1184, \"charlie\": 133, \"delta\": 825, \"echo\": 432, \"foxtrot\": -16, \"golf\": 331, \"hotel\": -62}",
+     "latency_ms": 4867,
+     "tokens": 1037
+    }
+   }
+  },
+  {
+   "idx": 58,
+   "seed": 7114,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 166,
+      "bravo": 540,
+      "charlie": 133,
+      "delta": 1802,
+      "echo": 1021,
+      "foxtrot": -78,
+      "golf": 188,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 166, \"bravo\": 540, \"charlie\": 133, \"delta\": 1802, \"echo\": 1021, \"foxtrot\": -78, \"golf\": 188, \"hotel\": 331}",
+     "latency_ms": 781,
+     "tokens": 1829
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 166,
+      "bravo": 540,
+      "charlie": 133,
+      "delta": 1802,
+      "echo": 1021,
+      "foxtrot": -78,
+      "golf": 188,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 166, \"bravo\": 540, \"charlie\": 133, \"delta\": 1802, \"echo\": 1021, \"foxtrot\": -78, \"golf\": 188, \"hotel\": 331}",
+     "latency_ms": 24760,
+     "tokens": 1829
+    }
+   }
+  },
+  {
+   "idx": 59,
+   "seed": 7114,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 169,
+      "bravo": -92,
+      "charlie": 133,
+      "delta": 1781,
+      "echo": 490,
+      "foxtrot": -147,
+      "golf": 73,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 169, \"bravo\": -92, \"charlie\": 133, \"delta\": 1781, \"echo\": 490, \"foxtrot\": -147, \"golf\": 73, \"hotel\": 331}",
+     "latency_ms": 796,
+     "tokens": 2635
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 169,
+      "bravo": -92,
+      "charlie": 133,
+      "delta": 1781,
+      "echo": 490,
+      "foxtrot": -147,
+      "golf": 73,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 169, \"bravo\": -92, \"charlie\": 133, \"delta\": 1781, \"echo\": 490, \"foxtrot\": -147, \"golf\": 73, \"hotel\": 331}",
+     "latency_ms": 2841,
+     "tokens": 2635
+    }
+   }
+  },
+  {
+   "idx": 60,
+   "seed": 7115,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": 894,
+      "charlie": -112,
+      "delta": 95,
+      "echo": 236,
+      "foxtrot": 96,
+      "golf": 630,
+      "hotel": 896
+     },
+     "text": "{\"alpha\": 89, \"bravo\": 894, \"charlie\": -112, \"delta\": 95, \"echo\": 236, \"foxtrot\": 96, \"golf\": 630, \"hotel\": 896}",
+     "latency_ms": 798,
+     "tokens": 288
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": 894,
+      "charlie": -112,
+      "delta": 95,
+      "echo": 236,
+      "foxtrot": 96,
+      "golf": 630,
+      "hotel": 896
+     },
+     "text": "{\"alpha\": 89, \"bravo\": 894, \"charlie\": -112, \"delta\": 95, \"echo\": 236, \"foxtrot\": 96, \"golf\": 630, \"hotel\": 896}",
+     "latency_ms": 1878,
+     "tokens": 288
+    }
+   }
+  },
+  {
+   "idx": 61,
+   "seed": 7115,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": 110,
+      "charlie": 7,
+      "delta": 32,
+      "echo": 609,
+      "foxtrot": 1386,
+      "golf": 48,
+      "hotel": 729
+     },
+     "text": "{\"alpha\": 89, \"bravo\": 110, \"charlie\": 7, \"delta\": 32, \"echo\": 609, \"foxtrot\": 1386, \"golf\": 48, \"hotel\": 729}",
+     "latency_ms": 814,
+     "tokens": 1057
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": 110,
+      "charlie": 7,
+      "delta": 32,
+      "echo": 609,
+      "foxtrot": 1386,
+      "golf": 48,
+      "hotel": 729
+     },
+     "text": "{\"alpha\": 89, \"bravo\": 110, \"charlie\": 7, \"delta\": 32, \"echo\": 609, \"foxtrot\": 1386, \"golf\": 48, \"hotel\": 729}",
+     "latency_ms": 13321,
+     "tokens": 1057
+    }
+   }
+  },
+  {
+   "idx": 62,
+   "seed": 7115,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": -114,
+      "charlie": 159,
+      "delta": -51,
+      "echo": 304,
+      "foxtrot": 346,
+      "golf": 43,
+      "hotel": 124
+     },
+     "text": "{\"alpha\": 89, \"bravo\": -114, \"charlie\": 159, \"delta\": -51, \"echo\": 304, \"foxtrot\": 346, \"golf\": 43, \"hotel\": 124}",
+     "latency_ms": 835,
+     "tokens": 1815
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 89,
+      "bravo": -114,
+      "charlie": 159,
+      "delta": -51,
+      "echo": 304,
+      "foxtrot": 346,
+      "golf": 43,
+      "hotel": 124
+     },
+     "text": "{\"alpha\": 89, \"bravo\": -114, \"charlie\": 159, \"delta\": -51, \"echo\": 304, \"foxtrot\": 346, \"golf\": 43, \"hotel\": 124}",
+     "latency_ms": 14125,
+     "tokens": 1815
+    }
+   }
+  },
+  {
+   "idx": 63,
+   "seed": 7115,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 149,
+      "bravo": -288,
+      "charlie": 87,
+      "delta": -51,
+      "echo": 456,
+      "foxtrot": 177,
+      "golf": 43,
+      "hotel": 265
+     },
+     "text": "{\"alpha\": 149, \"bravo\": -288, \"charlie\": 87, \"delta\": -51, \"echo\": 456, \"foxtrot\": 177, \"golf\": 43, \"hotel\": 265}",
+     "latency_ms": 825,
+     "tokens": 2592
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 149,
+      "bravo": -288,
+      "charlie": 87,
+      "delta": -51,
+      "echo": 456,
+      "foxtrot": 177,
+      "golf": 43,
+      "hotel": 265
+     },
+     "text": "{\"alpha\": 149, \"bravo\": -288, \"charlie\": 87, \"delta\": -51, \"echo\": 456, \"foxtrot\": 177, \"golf\": 43, \"hotel\": 265}",
+     "latency_ms": 5624,
+     "tokens": 2592
+    }
+   }
+  },
+  {
+   "idx": 64,
+   "seed": 7116,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 725,
+      "bravo": 287,
+      "charlie": 686,
+      "delta": 464,
+      "echo": 708,
+      "foxtrot": 11,
+      "golf": 329,
+      "hotel": 780
+     },
+     "text": "{\"alpha\": 725, \"bravo\": 287, \"charlie\": 686, \"delta\": 464, \"echo\": 708, \"foxtrot\": 11, \"golf\": 329, \"hotel\": 780}",
+     "latency_ms": 583,
+     "tokens": 264
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 725,
+      "bravo": 287,
+      "charlie": 686,
+      "delta": 464,
+      "echo": 708,
+      "foxtrot": 11,
+      "golf": 329,
+      "hotel": 780
+     },
+     "text": "{\"alpha\": 725, \"bravo\": 287, \"charlie\": 686, \"delta\": 464, \"echo\": 708, \"foxtrot\": 11, \"golf\": 329, \"hotel\": 780}",
+     "latency_ms": 2983,
+     "tokens": 264
+    }
+   }
+  },
+  {
+   "idx": 65,
+   "seed": 7116,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 298,
+      "bravo": 287,
+      "charlie": 11,
+      "delta": 47,
+      "echo": 802,
+      "foxtrot": 1372,
+      "golf": 123,
+      "hotel": 464
+     },
+     "text": "{\"alpha\": 298, \"bravo\": 287, \"charlie\": 11, \"delta\": 47, \"echo\": 802, \"foxtrot\": 1372, \"golf\": 123, \"hotel\": 464}",
+     "latency_ms": 596,
+     "tokens": 1015
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 298,
+      "bravo": 287,
+      "charlie": 11,
+      "delta": 47,
+      "echo": 802,
+      "foxtrot": 1372,
+      "golf": 123,
+      "hotel": 464
+     },
+     "text": "{\"alpha\": 298, \"bravo\": 287, \"charlie\": 11, \"delta\": 47, \"echo\": 802, \"foxtrot\": 1372, \"golf\": 123, \"hotel\": 464}",
+     "latency_ms": 10540,
+     "tokens": 1015
+    }
+   }
+  },
+  {
+   "idx": 66,
+   "seed": 7116,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 298,
+      "bravo": 254,
+      "charlie": -181,
+      "delta": -105,
+      "echo": 579,
+      "foxtrot": 1595,
+      "golf": 1238,
+      "hotel": 223
+     },
+     "text": "{\"alpha\": 298, \"bravo\": 254, \"charlie\": -181, \"delta\": -105, \"echo\": 579, \"foxtrot\": 1595, \"golf\": 1238, \"hotel\": 223}",
+     "latency_ms": 635,
+     "tokens": 1782
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 298,
+      "bravo": 254,
+      "charlie": -181,
+      "delta": -105,
+      "echo": 579,
+      "foxtrot": 1595,
+      "golf": 1238,
+      "hotel": 223
+     },
+     "text": "{\"alpha\": 298, \"bravo\": 254, \"charlie\": -181, \"delta\": -105, \"echo\": 579, \"foxtrot\": 1595, \"golf\": 1238, \"hotel\": 223}",
+     "latency_ms": 62686,
+     "tokens": 1782
+    }
+   }
+  },
+  {
+   "idx": 67,
+   "seed": 7116,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 860,
+      "charlie": -20,
+      "delta": -271,
+      "echo": 204,
+      "foxtrot": 1910,
+      "golf": 1062,
+      "hotel": 446
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 860, \"charlie\": -20, \"delta\": -271, \"echo\": 204, \"foxtrot\": 1910, \"golf\": 1062, \"hotel\": 446}",
+     "latency_ms": 676,
+     "tokens": 2623
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 213,
+      "bravo": 860,
+      "charlie": -20,
+      "delta": -271,
+      "echo": 204,
+      "foxtrot": 1910,
+      "golf": 1062,
+      "hotel": 446
+     },
+     "text": "{\"alpha\": 213, \"bravo\": 860, \"charlie\": -20, \"delta\": -271, \"echo\": 204, \"foxtrot\": 1910, \"golf\": 1062, \"hotel\": 446}",
+     "latency_ms": 50549,
+     "tokens": 2623
+    }
+   }
+  },
+  {
+   "idx": 68,
+   "seed": 7117,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 131,
+      "bravo": 61,
+      "charlie": 786,
+      "delta": 252,
+      "echo": 742,
+      "foxtrot": 430,
+      "golf": 554,
+      "hotel": 143
+     },
+     "text": "{\"alpha\": 131, \"bravo\": 61, \"charlie\": 786, \"delta\": 252, \"echo\": 742, \"foxtrot\": 430, \"golf\": 554, \"hotel\": 143}",
+     "latency_ms": 581,
+     "tokens": 280
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 131,
+      "bravo": 61,
+      "charlie": 786,
+      "delta": 252,
+      "echo": 742,
+      "foxtrot": 430,
+      "golf": 554,
+      "hotel": 143
+     },
+     "text": "{\"alpha\": 131, \"bravo\": 61, \"charlie\": 786, \"delta\": 252, \"echo\": 742, \"foxtrot\": 430, \"golf\": 554, \"hotel\": 143}",
+     "latency_ms": 3475,
+     "tokens": 280
+    }
+   }
+  },
+  {
+   "idx": 69,
+   "seed": 7117,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 131,
+      "bravo": 61,
+      "charlie": 882,
+      "delta": 367,
+      "echo": 2008,
+      "foxtrot": 110,
+      "golf": 729,
+      "hotel": -155
+     },
+     "text": "{\"alpha\": 131, \"bravo\": 61, \"charlie\": 882, \"delta\": 367, \"echo\": 2008, \"foxtrot\": 110, \"golf\": 729, \"hotel\": -155}",
+     "latency_ms": 619,
+     "tokens": 1087
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 131,
+      "bravo": 61,
+      "charlie": 882,
+      "delta": 367,
+      "echo": 2008,
+      "foxtrot": 110,
+      "golf": 729,
+      "hotel": -155
+     },
+     "text": "{\"alpha\": 131, \"bravo\": 61, \"charlie\": 882, \"delta\": 367, \"echo\": 2008, \"foxtrot\": 110, \"golf\": 729, \"hotel\": -155}",
+     "latency_ms": 3150,
+     "tokens": 1087
+    }
+   }
+  },
+  {
+   "idx": 70,
+   "seed": 7117,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -78,
+      "bravo": 61,
+      "charlie": 729,
+      "delta": -104,
+      "echo": -43,
+      "foxtrot": -71,
+      "golf": 882,
+      "hotel": 1890
+     },
+     "text": "{\"alpha\": -78, \"bravo\": 61, \"charlie\": 729, \"delta\": -104, \"echo\": -43, \"foxtrot\": -71, \"golf\": 882, \"hotel\": 1890}",
+     "latency_ms": 639,
+     "tokens": 1872
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -78,
+      "bravo": 61,
+      "charlie": 729,
+      "delta": -104,
+      "echo": -43,
+      "foxtrot": -71,
+      "golf": 882,
+      "hotel": 1890
+     },
+     "text": "{\"alpha\": -78, \"bravo\": 61, \"charlie\": 729, \"delta\": -104, \"echo\": -43, \"foxtrot\": -71, \"golf\": 882, \"hotel\": 1890}",
+     "latency_ms": 6392,
+     "tokens": 1872
+    }
+   }
+  },
+  {
+   "idx": 71,
+   "seed": 7117,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 83,
+      "bravo": 61,
+      "charlie": 1578,
+      "delta": 85,
+      "echo": 174,
+      "foxtrot": 169,
+      "golf": 85,
+      "hotel": -540
+     },
+     "text": "{\"alpha\": 83, \"bravo\": 61, \"charlie\": 1578, \"delta\": 85, \"echo\": 174, \"foxtrot\": 169, \"golf\": 85, \"hotel\": -540}",
+     "latency_ms": 629,
+     "tokens": 2602
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 83,
+      "bravo": 61,
+      "charlie": 1578,
+      "delta": 85,
+      "echo": 174,
+      "foxtrot": 169,
+      "golf": 85,
+      "hotel": -540
+     },
+     "text": "{\"alpha\": 83, \"bravo\": 61, \"charlie\": 1578, \"delta\": 85, \"echo\": 174, \"foxtrot\": 169, \"golf\": 85, \"hotel\": -540}",
+     "latency_ms": 3458,
+     "tokens": 2602
+    }
+   }
+  },
+  {
+   "idx": 72,
+   "seed": 7118,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 422,
+      "bravo": 290,
+      "charlie": 696,
+      "delta": 218,
+      "echo": 401,
+      "foxtrot": 137,
+      "golf": 1220,
+      "hotel": 826
+     },
+     "text": "{\"alpha\": 422, \"bravo\": 290, \"charlie\": 696, \"delta\": 218, \"echo\": 401, \"foxtrot\": 137, \"golf\": 1220, \"hotel\": 826}",
+     "latency_ms": 648,
+     "tokens": 250
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 422,
+      "bravo": 290,
+      "charlie": 696,
+      "delta": 218,
+      "echo": 401,
+      "foxtrot": 137,
+      "golf": 1220,
+      "hotel": 826
+     },
+     "text": "{\"alpha\": 422, \"bravo\": 290, \"charlie\": 696, \"delta\": 218, \"echo\": 401, \"foxtrot\": 137, \"golf\": 1220, \"hotel\": 826}",
+     "latency_ms": 19936,
+     "tokens": 250
+    }
+   }
+  },
+  {
+   "idx": 73,
+   "seed": 7118,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 247,
+      "bravo": 290,
+      "charlie": 1392,
+      "delta": 156,
+      "echo": 572,
+      "foxtrot": 83,
+      "golf": 4188,
+      "hotel": 999
+     },
+     "text": "{\"alpha\": 247, \"bravo\": 290, \"charlie\": 1392, \"delta\": 156, \"echo\": 572, \"foxtrot\": 83, \"golf\": 4188, \"hotel\": 999}",
+     "latency_ms": 575,
+     "tokens": 1017
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 247,
+      "bravo": 290,
+      "charlie": 1392,
+      "delta": 156,
+      "echo": 572,
+      "foxtrot": 83,
+      "golf": 4188,
+      "hotel": 999
+     },
+     "text": "{\"alpha\": 247, \"bravo\": 290, \"charlie\": 1392, \"delta\": 156, \"echo\": 572, \"foxtrot\": 83, \"golf\": 4188, \"hotel\": 999}",
+     "latency_ms": 2848,
+     "tokens": 1017
+    }
+   }
+  },
+  {
+   "idx": 74,
+   "seed": 7118,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 361,
+      "charlie": 696,
+      "delta": 528,
+      "echo": 462,
+      "foxtrot": 525,
+      "golf": 3822,
+      "hotel": 999
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 361, \"charlie\": 696, \"delta\": 528, \"echo\": 462, \"foxtrot\": 525, \"golf\": 3822, \"hotel\": 999}",
+     "latency_ms": 618,
+     "tokens": 1817
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 361,
+      "charlie": 696,
+      "delta": 528,
+      "echo": 462,
+      "foxtrot": 525,
+      "golf": 3822,
+      "hotel": 999
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 361, \"charlie\": 696, \"delta\": 528, \"echo\": 462, \"foxtrot\": 525, \"golf\": 3822, \"hotel\": 999}",
+     "latency_ms": 32782,
+     "tokens": 1817
+    }
+   }
+  },
+  {
+   "idx": 75,
+   "seed": 7118,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 722,
+      "charlie": 631,
+      "delta": 1124,
+      "echo": 617,
+      "foxtrot": 308,
+      "golf": 920,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 722, \"charlie\": 631, \"delta\": 1124, \"echo\": 617, \"foxtrot\": 308, \"golf\": 920, \"hotel\": 189}",
+     "latency_ms": 611,
+     "tokens": 2562
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 722,
+      "charlie": 631,
+      "delta": 1124,
+      "echo": 617,
+      "foxtrot": 308,
+      "golf": 920,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 722, \"charlie\": 631, \"delta\": 1124, \"echo\": 617, \"foxtrot\": 308, \"golf\": 920, \"hotel\": 189}",
+     "latency_ms": 32981,
+     "tokens": 2562
+    }
+   }
+  },
+  {
+   "idx": 76,
+   "seed": 7119,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 610,
+      "bravo": 631,
+      "charlie": 367,
+      "delta": 927,
+      "echo": 155,
+      "foxtrot": 140,
+      "golf": 170,
+      "hotel": 835
+     },
+     "text": "{\"alpha\": 610, \"bravo\": 631, \"charlie\": 367, \"delta\": 927, \"echo\": 155, \"foxtrot\": 140, \"golf\": 170, \"hotel\": 835}",
+     "latency_ms": 629,
+     "tokens": 267
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 610,
+      "bravo": 631,
+      "charlie": 367,
+      "delta": 927,
+      "echo": 155,
+      "foxtrot": 140,
+      "golf": 170,
+      "hotel": 835
+     },
+     "text": "{\"alpha\": 610, \"bravo\": 631, \"charlie\": 367, \"delta\": 927, \"echo\": 155, \"foxtrot\": 140, \"golf\": 170, \"hotel\": 835}",
+     "latency_ms": 4197,
+     "tokens": 267
+    }
+   }
+  },
+  {
+   "idx": 77,
+   "seed": 7119,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 164,
+      "bravo": 473,
+      "charlie": 392,
+      "delta": 927,
+      "echo": 310,
+      "foxtrot": 610,
+      "golf": 133,
+      "hotel": 1125
+     },
+     "text": "{\"alpha\": 164, \"bravo\": 473, \"charlie\": 392, \"delta\": 927, \"echo\": 310, \"foxtrot\": 610, \"golf\": 133, \"hotel\": 1125}",
+     "latency_ms": 652,
+     "tokens": 1015
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 164,
+      "bravo": 473,
+      "charlie": 392,
+      "delta": 927,
+      "echo": 310,
+      "foxtrot": 610,
+      "golf": 133,
+      "hotel": 1125
+     },
+     "text": "{\"alpha\": 164, \"bravo\": 473, \"charlie\": 392, \"delta\": 927, \"echo\": 310, \"foxtrot\": 610, \"golf\": 133, \"hotel\": 1125}",
+     "latency_ms": 10744,
+     "tokens": 1015
+    }
+   }
+  },
+  {
+   "idx": 78,
+   "seed": 7119,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 12,
+      "bravo": 288,
+      "charlie": 1,
+      "delta": 1136,
+      "echo": 465,
+      "foxtrot": 1115,
+      "golf": 52,
+      "hotel": 893
+     },
+     "text": "{\"alpha\": 12, \"bravo\": 288, \"charlie\": 1, \"delta\": 1136, \"echo\": 465, \"foxtrot\": 1115, \"golf\": 52, \"hotel\": 893}",
+     "latency_ms": 555,
+     "tokens": 1814
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 12,
+      "bravo": 288,
+      "charlie": 1,
+      "delta": 1136,
+      "echo": 465,
+      "foxtrot": 1115,
+      "golf": 52,
+      "hotel": 893
+     },
+     "text": "{\"alpha\": 12, \"bravo\": 288, \"charlie\": 1, \"delta\": 1136, \"echo\": 465, \"foxtrot\": 1115, \"golf\": 52, \"hotel\": 893}",
+     "latency_ms": 12228,
+     "tokens": 1814
+    }
+   }
+  },
+  {
+   "idx": 79,
+   "seed": 7119,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 509,
+      "bravo": 371,
+      "charlie": 1,
+      "delta": -54,
+      "echo": 2004,
+      "foxtrot": 1023,
+      "golf": -174,
+      "hotel": 1012
+     },
+     "text": "{\"alpha\": 509, \"bravo\": 371, \"charlie\": 1, \"delta\": -54, \"echo\": 2004, \"foxtrot\": 1023, \"golf\": -174, \"hotel\": 1012}",
+     "latency_ms": 638,
+     "tokens": 2545
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 509,
+      "bravo": 371,
+      "charlie": 1,
+      "delta": -54,
+      "echo": 1984,
+      "foxtrot": 1023,
+      "golf": -174,
+      "hotel": 1012
+     },
+     "text": "{\"alpha\": 509, \"bravo\": 371, \"charlie\": 1, \"delta\": -54, \"echo\": 1984, \"foxtrot\": 1023, \"golf\": -174, \"hotel\": 1012}",
+     "latency_ms": 35041,
+     "tokens": 2545
+    }
+   }
+  },
+  {
+   "idx": 80,
+   "seed": 7120,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 827,
+      "bravo": 273,
+      "charlie": 44,
+      "delta": 57,
+      "echo": 524,
+      "foxtrot": 475,
+      "golf": 394,
+      "hotel": 818
+     },
+     "text": "{\"alpha\": 827, \"bravo\": 273, \"charlie\": 44, \"delta\": 57, \"echo\": 524, \"foxtrot\": 475, \"golf\": 394, \"hotel\": 818}",
+     "latency_ms": 564,
+     "tokens": 259
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 827,
+      "bravo": 273,
+      "charlie": 44,
+      "delta": 57,
+      "echo": 524,
+      "foxtrot": 475,
+      "golf": 394,
+      "hotel": 818
+     },
+     "text": "{\"alpha\": 827, \"bravo\": 273, \"charlie\": 44, \"delta\": 57, \"echo\": 524, \"foxtrot\": 475, \"golf\": 394, \"hotel\": 818}",
+     "latency_ms": 17993,
+     "tokens": 259
+    }
+   }
+  },
+  {
+   "idx": 81,
+   "seed": 7120,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 827,
+      "bravo": 454,
+      "charlie": -53,
+      "delta": 57,
+      "echo": 44,
+      "foxtrot": 237,
+      "golf": 67,
+      "hotel": 578
+     },
+     "text": "{\"alpha\": 827, \"bravo\": 454, \"charlie\": -53, \"delta\": 57, \"echo\": 44, \"foxtrot\": 237, \"golf\": 67, \"hotel\": 578}",
+     "latency_ms": 648,
+     "tokens": 1016
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 827,
+      "bravo": 454,
+      "charlie": -53,
+      "delta": 57,
+      "echo": 44,
+      "foxtrot": 237,
+      "golf": 67,
+      "hotel": 578
+     },
+     "text": "{\"alpha\": 827, \"bravo\": 454, \"charlie\": -53, \"delta\": 57, \"echo\": 44, \"foxtrot\": 237, \"golf\": 67, \"hotel\": 578}",
+     "latency_ms": 7721,
+     "tokens": 1016
+    }
+   }
+  },
+  {
+   "idx": 82,
+   "seed": 7120,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1472,
+      "bravo": 227,
+      "charlie": -53,
+      "delta": 57,
+      "echo": 44,
+      "foxtrot": 373,
+      "golf": 510,
+      "hotel": 262
+     },
+     "text": "{\"alpha\": 1472, \"bravo\": 227, \"charlie\": -53, \"delta\": 57, \"echo\": 44, \"foxtrot\": 373, \"golf\": 510, \"hotel\": 262}",
+     "latency_ms": 596,
+     "tokens": 1801
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1472,
+      "bravo": 227,
+      "charlie": -53,
+      "delta": 57,
+      "echo": 44,
+      "foxtrot": 373,
+      "golf": 510,
+      "hotel": 262
+     },
+     "text": "{\"alpha\": 1472, \"bravo\": 227, \"charlie\": -53, \"delta\": 57, \"echo\": 44, \"foxtrot\": 373, \"golf\": 510, \"hotel\": 262}",
+     "latency_ms": 3405,
+     "tokens": 1801
+    }
+   }
+  },
+  {
+   "idx": 83,
+   "seed": 7120,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 643,
+      "bravo": 417,
+      "charlie": -53,
+      "delta": -98,
+      "echo": -50,
+      "foxtrot": 447,
+      "golf": 375,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 643, \"bravo\": 417, \"charlie\": -53, \"delta\": -98, \"echo\": -50, \"foxtrot\": 447, \"golf\": 375, \"hotel\": 131}",
+     "latency_ms": 597,
+     "tokens": 2600
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 643,
+      "bravo": 417,
+      "charlie": -53,
+      "delta": -98,
+      "echo": -50,
+      "foxtrot": 447,
+      "golf": 375,
+      "hotel": 131
+     },
+     "text": "{\"alpha\": 643, \"bravo\": 417, \"charlie\": -53, \"delta\": -98, \"echo\": -50, \"foxtrot\": 447, \"golf\": 375, \"hotel\": 131}",
+     "latency_ms": 2697,
+     "tokens": 2600
+    }
+   }
+  },
+  {
+   "idx": 84,
+   "seed": 7121,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 605,
+      "bravo": -75,
+      "charlie": 158,
+      "delta": 398,
+      "echo": 342,
+      "foxtrot": 804,
+      "golf": 563,
+      "hotel": 579
+     },
+     "text": "{\"alpha\": 605, \"bravo\": -75, \"charlie\": 158, \"delta\": 398, \"echo\": 342, \"foxtrot\": 804, \"golf\": 563, \"hotel\": 579}",
+     "latency_ms": 658,
+     "tokens": 258
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 605,
+      "bravo": -74,
+      "charlie": 158,
+      "delta": 398,
+      "echo": 342,
+      "foxtrot": 804,
+      "golf": 563,
+      "hotel": 579
+     },
+     "text": "{\"alpha\": 605, \"bravo\": -74, \"charlie\": 158, \"delta\": 398, \"echo\": 342, \"foxtrot\": 804, \"golf\": 563, \"hotel\": 579}",
+     "latency_ms": 2292,
+     "tokens": 258
+    }
+   }
+  },
+  {
+   "idx": 85,
+   "seed": 7121,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 299,
+      "bravo": 1373,
+      "charlie": 4,
+      "delta": -19,
+      "echo": 144,
+      "foxtrot": 185,
+      "golf": 116,
+      "hotel": 579
+     },
+     "text": "{\"alpha\": 299, \"bravo\": 1373, \"charlie\": 4, \"delta\": -19, \"echo\": 144, \"foxtrot\": 185, \"golf\": 116, \"hotel\": 579}",
+     "latency_ms": 683,
+     "tokens": 983
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 299,
+      "bravo": 1373,
+      "charlie": 4,
+      "delta": -19,
+      "echo": 144,
+      "foxtrot": 185,
+      "golf": 116,
+      "hotel": 579
+     },
+     "text": "{\"alpha\": 299, \"bravo\": 1373, \"charlie\": 4, \"delta\": -19, \"echo\": 144, \"foxtrot\": 185, \"golf\": 116, \"hotel\": 579}",
+     "latency_ms": 1936,
+     "tokens": 983
+    }
+   }
+  },
+  {
+   "idx": 86,
+   "seed": 7121,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 168,
+      "bravo": 116,
+      "charlie": 185,
+      "delta": 144,
+      "echo": 128,
+      "foxtrot": -19,
+      "golf": 16,
+      "hotel": 289
+     },
+     "text": "{\"alpha\": 168, \"bravo\": 116, \"charlie\": 185, \"delta\": 144, \"echo\": 128, \"foxtrot\": -19, \"golf\": 16, \"hotel\": 289}",
+     "latency_ms": 828,
+     "tokens": 1725
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 168,
+      "bravo": 116,
+      "charlie": 185,
+      "delta": 144,
+      "echo": 128,
+      "foxtrot": -19,
+      "golf": 16,
+      "hotel": 289
+     },
+     "text": "{\"alpha\": 168, \"bravo\": 116, \"charlie\": 185, \"delta\": 144, \"echo\": 128, \"foxtrot\": -19, \"golf\": 16, \"hotel\": 289}",
+     "latency_ms": 24573,
+     "tokens": 1725
+    }
+   }
+  },
+  {
+   "idx": 87,
+   "seed": 7121,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 108,
+      "bravo": 496,
+      "charlie": -29,
+      "delta": 128,
+      "echo": 144,
+      "foxtrot": -219,
+      "golf": 207,
+      "hotel": 244
+     },
+     "text": "{\"alpha\": 108, \"bravo\": 496, \"charlie\": -29, \"delta\": 128, \"echo\": 144, \"foxtrot\": -219, \"golf\": 207, \"hotel\": 244}",
+     "latency_ms": 620,
+     "tokens": 2478
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 108,
+      "bravo": 495,
+      "charlie": -29,
+      "delta": 128,
+      "echo": 144,
+      "foxtrot": -219,
+      "golf": 207,
+      "hotel": 244
+     },
+     "text": "{\"alpha\": 108, \"bravo\": 495, \"charlie\": -29, \"delta\": 128, \"echo\": 144, \"foxtrot\": -219, \"golf\": 207, \"hotel\": 244}",
+     "latency_ms": 7069,
+     "tokens": 2478
+    }
+   }
+  },
+  {
+   "idx": 88,
+   "seed": 7122,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 379,
+      "bravo": 561,
+      "charlie": 670,
+      "delta": 273,
+      "echo": 849,
+      "foxtrot": 188,
+      "golf": 907,
+      "hotel": 670
+     },
+     "text": "{\"alpha\": 379, \"bravo\": 561, \"charlie\": 670, \"delta\": 273, \"echo\": 849, \"foxtrot\": 188, \"golf\": 907, \"hotel\": 670}",
+     "latency_ms": 657,
+     "tokens": 258
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 379,
+      "bravo": 561,
+      "charlie": 670,
+      "delta": 273,
+      "echo": 849,
+      "foxtrot": 188,
+      "golf": 907,
+      "hotel": 670
+     },
+     "text": "{\"alpha\": 379, \"bravo\": 561, \"charlie\": 670, \"delta\": 273, \"echo\": 849, \"foxtrot\": 188, \"golf\": 907, \"hotel\": 670}",
+     "latency_ms": 2129,
+     "tokens": 258
+    }
+   }
+  },
+  {
+   "idx": 89,
+   "seed": 7122,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 159,
+      "bravo": 61,
+      "charlie": 379,
+      "delta": 311,
+      "echo": 646,
+      "foxtrot": 213,
+      "golf": 152,
+      "hotel": 561
+     },
+     "text": "{\"alpha\": 159, \"bravo\": 61, \"charlie\": 379, \"delta\": 311, \"echo\": 646, \"foxtrot\": 213, \"golf\": 152, \"hotel\": 561}",
+     "latency_ms": 591,
+     "tokens": 1012
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 159,
+      "bravo": 61,
+      "charlie": 379,
+      "delta": 311,
+      "echo": 644,
+      "foxtrot": 213,
+      "golf": 152,
+      "hotel": 561
+     },
+     "text": "{\"alpha\": 159, \"bravo\": 61, \"charlie\": 379, \"delta\": 311, \"echo\": 644, \"foxtrot\": 213, \"golf\": 152, \"hotel\": 561}",
+     "latency_ms": 4246,
+     "tokens": 1012
+    }
+   }
+  },
+  {
+   "idx": 90,
+   "seed": 7122,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1714,
+      "bravo": 426,
+      "charlie": 204,
+      "delta": 311,
+      "echo": 159,
+      "foxtrot": 251,
+      "golf": 61,
+      "hotel": 263
+     },
+     "text": "{\"alpha\": 1714, \"bravo\": 426, \"charlie\": 204, \"delta\": 311, \"echo\": 159, \"foxtrot\": 251, \"golf\": 61, \"hotel\": 263}",
+     "latency_ms": 608,
+     "tokens": 1753
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1714,
+      "bravo": 426,
+      "charlie": 204,
+      "delta": 311,
+      "echo": 159,
+      "foxtrot": 251,
+      "golf": 61,
+      "hotel": 263
+     },
+     "text": "{\"alpha\": 1714, \"bravo\": 426, \"charlie\": 204, \"delta\": 311, \"echo\": 159, \"foxtrot\": 251, \"golf\": 61, \"hotel\": 263}",
+     "latency_ms": 2129,
+     "tokens": 1753
+    }
+   }
+  },
+  {
+   "idx": 91,
+   "seed": 7122,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 159,
+      "bravo": 1048,
+      "charlie": -59,
+      "delta": 443,
+      "echo": 550,
+      "foxtrot": 367,
+      "golf": 30,
+      "hotel": 263
+     },
+     "text": "{\"alpha\": 159, \"bravo\": 1048, \"charlie\": -59, \"delta\": 443, \"echo\": 550, \"foxtrot\": 367, \"golf\": 30, \"hotel\": 263}",
+     "latency_ms": 623,
+     "tokens": 2564
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 159,
+      "bravo": 1048,
+      "charlie": -59,
+      "delta": 443,
+      "echo": 550,
+      "foxtrot": 367,
+      "golf": 30,
+      "hotel": 263
+     },
+     "text": "{\"alpha\": 159, \"bravo\": 1048, \"charlie\": -59, \"delta\": 443, \"echo\": 550, \"foxtrot\": 367, \"golf\": 30, \"hotel\": 263}",
+     "latency_ms": 3223,
+     "tokens": 2564
+    }
+   }
+  },
+  {
+   "idx": 92,
+   "seed": 7123,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 558,
+      "bravo": 347,
+      "charlie": 291,
+      "delta": 496,
+      "echo": 10,
+      "foxtrot": 380,
+      "golf": 244,
+      "hotel": 817
+     },
+     "text": "{\"alpha\": 558, \"bravo\": 347, \"charlie\": 291, \"delta\": 496, \"echo\": 10, \"foxtrot\": 380, \"golf\": 244, \"hotel\": 817}",
+     "latency_ms": 630,
+     "tokens": 253
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 558,
+      "bravo": 347,
+      "charlie": 291,
+      "delta": 496,
+      "echo": 10,
+      "foxtrot": 380,
+      "golf": 244,
+      "hotel": 817
+     },
+     "text": "{\"alpha\": 558, \"bravo\": 347, \"charlie\": 291, \"delta\": 496, \"echo\": 10, \"foxtrot\": 380, \"golf\": 244, \"hotel\": 817}",
+     "latency_ms": 21693,
+     "tokens": 253
+    }
+   }
+  },
+  {
+   "idx": 93,
+   "seed": 7123,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 697,
+      "bravo": 322,
+      "charlie": 310,
+      "delta": 340,
+      "echo": 262,
+      "foxtrot": 817,
+      "golf": 488,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 697, \"bravo\": 322, \"charlie\": 310, \"delta\": 340, \"echo\": 262, \"foxtrot\": 817, \"golf\": 488, \"hotel\": 189}",
+     "latency_ms": 827,
+     "tokens": 1032
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 697,
+      "bravo": 322,
+      "charlie": 310,
+      "delta": 340,
+      "echo": 262,
+      "foxtrot": 817,
+      "golf": 488,
+      "hotel": 189
+     },
+     "text": "{\"alpha\": 697, \"bravo\": 322, \"charlie\": 310, \"delta\": 340, \"echo\": 262, \"foxtrot\": 817, \"golf\": 488, \"hotel\": 189}",
+     "latency_ms": 7503,
+     "tokens": 1032
+    }
+   }
+  },
+  {
+   "idx": 94,
+   "seed": 7123,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 697,
+      "bravo": 218,
+      "charlie": 215,
+      "delta": 962,
+      "echo": 262,
+      "foxtrot": 1021,
+      "golf": 292,
+      "hotel": 689
+     },
+     "text": "{\"alpha\": 697, \"bravo\": 218, \"charlie\": 215, \"delta\": 962, \"echo\": 262, \"foxtrot\": 1021, \"golf\": 292, \"hotel\": 689}",
+     "latency_ms": 688,
+     "tokens": 1836
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 697,
+      "bravo": 218,
+      "charlie": 215,
+      "delta": 962,
+      "echo": 262,
+      "foxtrot": 1021,
+      "golf": 292,
+      "hotel": 689
+     },
+     "text": "{\"alpha\": 697, \"bravo\": 218, \"charlie\": 215, \"delta\": 962, \"echo\": 262, \"foxtrot\": 1021, \"golf\": 292, \"hotel\": 689}",
+     "latency_ms": 18935,
+     "tokens": 1836
+    }
+   }
+  },
+  {
+   "idx": 95,
+   "seed": 7123,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 219,
+      "bravo": 361,
+      "charlie": 285,
+      "delta": 1333,
+      "echo": 264,
+      "foxtrot": 87,
+      "golf": 843,
+      "hotel": 689
+     },
+     "text": "{\"alpha\": 219, \"bravo\": 361, \"charlie\": 285, \"delta\": 1333, \"echo\": 264, \"foxtrot\": 87, \"golf\": 843, \"hotel\": 689}",
+     "latency_ms": 653,
+     "tokens": 2616
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 219,
+      "bravo": 361,
+      "charlie": 285,
+      "delta": 1333,
+      "echo": 264,
+      "foxtrot": 87,
+      "golf": 843,
+      "hotel": 689
+     },
+     "text": "{\"alpha\": 219, \"bravo\": 361, \"charlie\": 285, \"delta\": 1333, \"echo\": 264, \"foxtrot\": 87, \"golf\": 843, \"hotel\": 689}",
+     "latency_ms": 2638,
+     "tokens": 2616
+    }
+   }
+  },
+  {
+   "idx": 96,
+   "seed": 7124,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 813,
+      "bravo": 806,
+      "charlie": 1144,
+      "delta": 421,
+      "echo": 805,
+      "foxtrot": 680,
+      "golf": 207,
+      "hotel": 703
+     },
+     "text": "{\"alpha\": 813, \"bravo\": 806, \"charlie\": 1144, \"delta\": 421, \"echo\": 805, \"foxtrot\": 680, \"golf\": 207, \"hotel\": 703}",
+     "latency_ms": 567,
+     "tokens": 255
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 813,
+      "bravo": 806,
+      "charlie": 1144,
+      "delta": 421,
+      "echo": 805,
+      "foxtrot": 680,
+      "golf": 207,
+      "hotel": 703
+     },
+     "text": "{\"alpha\": 813, \"bravo\": 806, \"charlie\": 1144, \"delta\": 421, \"echo\": 805, \"foxtrot\": 680, \"golf\": 207, \"hotel\": 703}",
+     "latency_ms": 5709,
+     "tokens": 255
+    }
+   }
+  },
+  {
+   "idx": 97,
+   "seed": 7124,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1398,
+      "bravo": 966,
+      "charlie": 866,
+      "delta": 746,
+      "echo": 854,
+      "foxtrot": 54,
+      "golf": 207,
+      "hotel": 2913
+     },
+     "text": "{\"alpha\": 1398, \"bravo\": 966, \"charlie\": 866, \"delta\": 746, \"echo\": 854, \"foxtrot\": 54, \"golf\": 207, \"hotel\": 2913}",
+     "latency_ms": 598,
+     "tokens": 1033
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1398,
+      "bravo": 966,
+      "charlie": 866,
+      "delta": 746,
+      "echo": 854,
+      "foxtrot": 54,
+      "golf": 207,
+      "hotel": 2913
+     },
+     "text": "{\"alpha\": 1398, \"bravo\": 966, \"charlie\": 866, \"delta\": 746, \"echo\": 854, \"foxtrot\": 54, \"golf\": 207, \"hotel\": 2913}",
+     "latency_ms": 2258,
+     "tokens": 1033
+    }
+   }
+  },
+  {
+   "idx": 98,
+   "seed": 7124,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1598,
+      "bravo": 1458,
+      "charlie": 946,
+      "delta": 499,
+      "echo": 28,
+      "foxtrot": -59,
+      "golf": 1153,
+      "hotel": 2746
+     },
+     "text": "{\"alpha\": 1598, \"bravo\": 1458, \"charlie\": 946, \"delta\": 499, \"echo\": 28, \"foxtrot\": -59, \"golf\": 1153, \"hotel\": 2746}",
+     "latency_ms": 612,
+     "tokens": 1808
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1598,
+      "bravo": 1458,
+      "charlie": 946,
+      "delta": 499,
+      "echo": 28,
+      "foxtrot": -59,
+      "golf": 1153,
+      "hotel": 2746
+     },
+     "text": "{\"alpha\": 1598, \"bravo\": 1458, \"charlie\": 946, \"delta\": 499, \"echo\": 28, \"foxtrot\": -59, \"golf\": 1153, \"hotel\": 2746}",
+     "latency_ms": 12648,
+     "tokens": 1808
+    }
+   }
+  },
+  {
+   "idx": 99,
+   "seed": 7124,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 457,
+      "bravo": 1450,
+      "charlie": 1017,
+      "delta": 499,
+      "echo": 130,
+      "foxtrot": -59,
+      "golf": 1441,
+      "hotel": 684
+     },
+     "text": "{\"alpha\": 457, \"bravo\": 1450, \"charlie\": 1017, \"delta\": 499, \"echo\": 130, \"foxtrot\": -59, \"golf\": 1441, \"hotel\": 684}",
+     "latency_ms": 666,
+     "tokens": 2572
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 457,
+      "bravo": 1450,
+      "charlie": 1017,
+      "delta": 499,
+      "echo": 130,
+      "foxtrot": -59,
+      "golf": 1441,
+      "hotel": 684
+     },
+     "text": "{\"alpha\": 457, \"bravo\": 1450, \"charlie\": 1017, \"delta\": 499, \"echo\": 130, \"foxtrot\": -59, \"golf\": 1441, \"hotel\": 684}",
+     "latency_ms": 4023,
+     "tokens": 2572
+    }
+   }
+  },
+  {
+   "idx": 100,
+   "seed": 7125,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 286,
+      "bravo": 463,
+      "charlie": 50,
+      "delta": 182,
+      "echo": 187,
+      "foxtrot": 92,
+      "golf": 810,
+      "hotel": 528
+     },
+     "text": "{\"alpha\": 286, \"bravo\": 463, \"charlie\": 50, \"delta\": 182, \"echo\": 187, \"foxtrot\": 92, \"golf\": 810, \"hotel\": 528}",
+     "latency_ms": 598,
+     "tokens": 260
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 286,
+      "bravo": 463,
+      "charlie": 50,
+      "delta": 182,
+      "echo": 187,
+      "foxtrot": 92,
+      "golf": 810,
+      "hotel": 528
+     },
+     "text": "{\"alpha\": 286, \"bravo\": 463, \"charlie\": 50, \"delta\": 182, \"echo\": 187, \"foxtrot\": 92, \"golf\": 810, \"hotel\": 528}",
+     "latency_ms": 3648,
+     "tokens": 260
+    }
+   }
+  },
+  {
+   "idx": 101,
+   "seed": 7125,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 580,
+      "bravo": 694,
+      "charlie": 194,
+      "delta": 91,
+      "echo": 187,
+      "foxtrot": 405,
+      "golf": 304,
+      "hotel": 124
+     },
+     "text": "{\"alpha\": 580, \"bravo\": 694, \"charlie\": 194, \"delta\": 91, \"echo\": 187, \"foxtrot\": 405, \"golf\": 304, \"hotel\": 124}",
+     "latency_ms": 563,
+     "tokens": 1039
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 580,
+      "bravo": 694,
+      "charlie": 194,
+      "delta": 91,
+      "echo": 187,
+      "foxtrot": 405,
+      "golf": 304,
+      "hotel": 124
+     },
+     "text": "{\"alpha\": 580, \"bravo\": 694, \"charlie\": 194, \"delta\": 91, \"echo\": 187, \"foxtrot\": 405, \"golf\": 304, \"hotel\": 124}",
+     "latency_ms": 2438,
+     "tokens": 1039
+    }
+   }
+  },
+  {
+   "idx": 102,
+   "seed": 7125,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 638,
+      "bravo": 1288,
+      "charlie": 124,
+      "delta": 1,
+      "echo": 304,
+      "foxtrot": 445,
+      "golf": -59,
+      "hotel": 194
+     },
+     "text": "{\"alpha\": 638, \"bravo\": 1288, \"charlie\": 124, \"delta\": 1, \"echo\": 304, \"foxtrot\": 445, \"golf\": -59, \"hotel\": 194}",
+     "latency_ms": 666,
+     "tokens": 1820
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 638,
+      "bravo": 1288,
+      "charlie": 124,
+      "delta": 1,
+      "echo": 304,
+      "foxtrot": 445,
+      "golf": -59,
+      "hotel": 194
+     },
+     "text": "{\"alpha\": 638, \"bravo\": 1288, \"charlie\": 124, \"delta\": 1, \"echo\": 304, \"foxtrot\": 445, \"golf\": -59, \"hotel\": 194}",
+     "latency_ms": 1976,
+     "tokens": 1820
+    }
+   }
+  },
+  {
+   "idx": 103,
+   "seed": 7125,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 638,
+      "bravo": 13,
+      "charlie": 1520,
+      "delta": 1,
+      "echo": 228,
+      "foxtrot": 1916,
+      "golf": -59,
+      "hotel": 213
+     },
+     "text": "{\"alpha\": 638, \"bravo\": 13, \"charlie\": 1520, \"delta\": 1, \"echo\": 228, \"foxtrot\": 1916, \"golf\": -59, \"hotel\": 213}",
+     "latency_ms": 661,
+     "tokens": 2646
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 638,
+      "bravo": 13,
+      "charlie": 1520,
+      "delta": 1,
+      "echo": 228,
+      "foxtrot": 1916,
+      "golf": -59,
+      "hotel": 213
+     },
+     "text": "{\"alpha\": 638, \"bravo\": 13, \"charlie\": 1520, \"delta\": 1, \"echo\": 228, \"foxtrot\": 1916, \"golf\": -59, \"hotel\": 213}",
+     "latency_ms": 9729,
+     "tokens": 2646
+    }
+   }
+  },
+  {
+   "idx": 104,
+   "seed": 7126,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 531,
+      "charlie": 1696,
+      "delta": 497,
+      "echo": 521,
+      "foxtrot": 807,
+      "golf": 290,
+      "hotel": 391
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 531, \"charlie\": 1696, \"delta\": 497, \"echo\": 521, \"foxtrot\": 807, \"golf\": 290, \"hotel\": 391}",
+     "latency_ms": 562,
+     "tokens": 259
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 332,
+      "bravo": 531,
+      "charlie": 1696,
+      "delta": 497,
+      "echo": 521,
+      "foxtrot": 807,
+      "golf": 290,
+      "hotel": 391
+     },
+     "text": "{\"alpha\": 332, \"bravo\": 531, \"charlie\": 1696, \"delta\": 497, \"echo\": 521, \"foxtrot\": 807, \"golf\": 290, \"hotel\": 391}",
+     "latency_ms": 4488,
+     "tokens": 259
+    }
+   }
+  },
+  {
+   "idx": 105,
+   "seed": 7126,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 202,
+      "bravo": 1592,
+      "charlie": 23,
+      "delta": 994,
+      "echo": 781,
+      "foxtrot": 1614,
+      "golf": 369,
+      "hotel": 440
+     },
+     "text": "{\"alpha\": 202, \"bravo\": 1592, \"charlie\": 23, \"delta\": 994, \"echo\": 781, \"foxtrot\": 1614, \"golf\": 369, \"hotel\": 440}",
+     "latency_ms": 643,
+     "tokens": 1026
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 202,
+      "bravo": 1592,
+      "charlie": 23,
+      "delta": 994,
+      "echo": 781,
+      "foxtrot": 1614,
+      "golf": 369,
+      "hotel": 440
+     },
+     "text": "{\"alpha\": 202, \"bravo\": 1592, \"charlie\": 23, \"delta\": 994, \"echo\": 781, \"foxtrot\": 1614, \"golf\": 369, \"hotel\": 440}",
+     "latency_ms": 2983,
+     "tokens": 1026
+    }
+   }
+  },
+  {
+   "idx": 106,
+   "seed": 7126,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -95,
+      "bravo": 1592,
+      "charlie": 202,
+      "delta": 984,
+      "echo": 831,
+      "foxtrot": 1564,
+      "golf": 546,
+      "hotel": 194
+     },
+     "text": "{\"alpha\": -95, \"bravo\": 1592, \"charlie\": 202, \"delta\": 984, \"echo\": 831, \"foxtrot\": 1564, \"golf\": 546, \"hotel\": 194}",
+     "latency_ms": 608,
+     "tokens": 1802
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -95,
+      "bravo": 1592,
+      "charlie": 202,
+      "delta": 984,
+      "echo": 831,
+      "foxtrot": 1564,
+      "golf": 546,
+      "hotel": 194
+     },
+     "text": "{\"alpha\": -95, \"bravo\": 1592, \"charlie\": 202, \"delta\": 984, \"echo\": 831, \"foxtrot\": 1564, \"golf\": 546, \"hotel\": 194}",
+     "latency_ms": 7609,
+     "tokens": 1802
+    }
+   }
+  },
+  {
+   "idx": 107,
+   "seed": 7126,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 202,
+      "bravo": 170,
+      "charlie": 984,
+      "delta": 1564,
+      "echo": 505,
+      "foxtrot": -380,
+      "golf": 546,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 202, \"bravo\": 170, \"charlie\": 984, \"delta\": 1564, \"echo\": 505, \"foxtrot\": -380, \"golf\": 546, \"hotel\": 345}",
+     "latency_ms": 628,
+     "tokens": 2574
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 202,
+      "bravo": 170,
+      "charlie": 984,
+      "delta": 1564,
+      "echo": 505,
+      "foxtrot": -380,
+      "golf": 546,
+      "hotel": 345
+     },
+     "text": "{\"alpha\": 202, \"bravo\": 170, \"charlie\": 984, \"delta\": 1564, \"echo\": 505, \"foxtrot\": -380, \"golf\": 546, \"hotel\": 345}",
+     "latency_ms": 1933,
+     "tokens": 2574
+    }
+   }
+  },
+  {
+   "idx": 108,
+   "seed": 7127,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 221,
+      "bravo": 60,
+      "charlie": 166,
+      "delta": -43,
+      "echo": 280,
+      "foxtrot": 269,
+      "golf": 497,
+      "hotel": 865
+     },
+     "text": "{\"alpha\": 221, \"bravo\": 60, \"charlie\": 166, \"delta\": -43, \"echo\": 280, \"foxtrot\": 269, \"golf\": 497, \"hotel\": 865}",
+     "latency_ms": 581,
+     "tokens": 285
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 221,
+      "bravo": 60,
+      "charlie": 166,
+      "delta": -43,
+      "echo": 280,
+      "foxtrot": 269,
+      "golf": 497,
+      "hotel": 865
+     },
+     "text": "{\"alpha\": 221, \"bravo\": 60, \"charlie\": 166, \"delta\": -43, \"echo\": 280, \"foxtrot\": 269, \"golf\": 497, \"hotel\": 865}",
+     "latency_ms": 3111,
+     "tokens": 285
+    }
+   }
+  },
+  {
+   "idx": 109,
+   "seed": 7127,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 221,
+      "bravo": -54,
+      "charlie": 20,
+      "delta": 140,
+      "echo": 540,
+      "foxtrot": 269,
+      "golf": 497,
+      "hotel": 405
+     },
+     "text": "{\"alpha\": 221, \"bravo\": -54, \"charlie\": 20, \"delta\": 140, \"echo\": 540, \"foxtrot\": 269, \"golf\": 497, \"hotel\": 405}",
+     "latency_ms": 758,
+     "tokens": 1080
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 221,
+      "bravo": -54,
+      "charlie": 20,
+      "delta": 140,
+      "echo": 540,
+      "foxtrot": 269,
+      "golf": 497,
+      "hotel": 405
+     },
+     "text": "{\"alpha\": 221, \"bravo\": -54, \"charlie\": 20, \"delta\": 140, \"echo\": 540, \"foxtrot\": 269, \"golf\": 497, \"hotel\": 405}",
+     "latency_ms": 3092,
+     "tokens": 1080
+    }
+   }
+  },
+  {
+   "idx": 110,
+   "seed": 7127,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -108,
+      "bravo": -256,
+      "charlie": 151,
+      "delta": 223,
+      "echo": 296,
+      "foxtrot": 378,
+      "golf": 719,
+      "hotel": 582
+     },
+     "text": "{\"alpha\": -108, \"bravo\": -256, \"charlie\": 151, \"delta\": 223, \"echo\": 296, \"foxtrot\": 378, \"golf\": 719, \"hotel\": 582}",
+     "latency_ms": 766,
+     "tokens": 1810
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -108,
+      "bravo": -256,
+      "charlie": 151,
+      "delta": 223,
+      "echo": 296,
+      "foxtrot": 378,
+      "golf": 719,
+      "hotel": 582
+     },
+     "text": "{\"alpha\": -108, \"bravo\": -256, \"charlie\": 151, \"delta\": 223, \"echo\": 296, \"foxtrot\": 378, \"golf\": 719, \"hotel\": 582}",
+     "latency_ms": 77741,
+     "tokens": 1810
+    }
+   }
+  },
+  {
+   "idx": 111,
+   "seed": 7127,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -290,
+      "bravo": 719,
+      "charlie": 58,
+      "delta": 441,
+      "echo": 269,
+      "foxtrot": 342,
+      "golf": -93,
+      "hotel": -290
+     },
+     "text": "{\"alpha\": -290, \"bravo\": 719, \"charlie\": 58, \"delta\": 441, \"echo\": 269, \"foxtrot\": 342, \"golf\": -93, \"hotel\": -290}",
+     "latency_ms": 601,
+     "tokens": 2586
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -290,
+      "bravo": 719,
+      "charlie": 58,
+      "delta": 441,
+      "echo": 269,
+      "foxtrot": 342,
+      "golf": -93,
+      "hotel": -290
+     },
+     "text": "{\"alpha\": -290, \"bravo\": 719, \"charlie\": 58, \"delta\": 441, \"echo\": 269, \"foxtrot\": 342, \"golf\": -93, \"hotel\": -290}",
+     "latency_ms": 2798,
+     "tokens": 2586
+    }
+   }
+  },
+  {
+   "idx": 112,
+   "seed": 7128,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 72,
+      "bravo": 662,
+      "charlie": 395,
+      "delta": 341,
+      "echo": 170,
+      "foxtrot": 828,
+      "golf": 503,
+      "hotel": 1017
+     },
+     "text": "{\"alpha\": 72, \"bravo\": 662, \"charlie\": 395, \"delta\": 341, \"echo\": 170, \"foxtrot\": 828, \"golf\": 503, \"hotel\": 1017}",
+     "latency_ms": 775,
+     "tokens": 252
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 72,
+      "bravo": 662,
+      "charlie": 395,
+      "delta": 341,
+      "echo": 170,
+      "foxtrot": 828,
+      "golf": 503,
+      "hotel": 1017
+     },
+     "text": "{\"alpha\": 72, \"bravo\": 662, \"charlie\": 395, \"delta\": 341, \"echo\": 170, \"foxtrot\": 828, \"golf\": 503, \"hotel\": 1017}",
+     "latency_ms": 6800,
+     "tokens": 252
+    }
+   }
+  },
+  {
+   "idx": 113,
+   "seed": 7128,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 72,
+      "bravo": 728,
+      "charlie": 705,
+      "delta": -47,
+      "echo": 254,
+      "foxtrot": 1894,
+      "golf": 503,
+      "hotel": 137
+     },
+     "text": "{\"alpha\": 72, \"bravo\": 728, \"charlie\": 705, \"delta\": -47, \"echo\": 254, \"foxtrot\": 1894, \"golf\": 503, \"hotel\": 137}",
+     "latency_ms": 622,
+     "tokens": 1016
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 72,
+      "bravo": 728,
+      "charlie": 705,
+      "delta": -47,
+      "echo": 254,
+      "foxtrot": 1894,
+      "golf": 503,
+      "hotel": 137
+     },
+     "text": "{\"alpha\": 72, \"bravo\": 728, \"charlie\": 705, \"delta\": -47, \"echo\": 254, \"foxtrot\": 1894, \"golf\": 503, \"hotel\": 137}",
+     "latency_ms": 12956,
+     "tokens": 1016
+    }
+   }
+  },
+  {
+   "idx": 114,
+   "seed": 7128,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -45,
+      "bravo": 115,
+      "charlie": 705,
+      "delta": 19,
+      "echo": 14,
+      "foxtrot": 1894,
+      "golf": 14,
+      "hotel": 137
+     },
+     "text": "{\"alpha\": -45, \"bravo\": 115, \"charlie\": 705, \"delta\": 19, \"echo\": 14, \"foxtrot\": 1894, \"golf\": 14, \"hotel\": 137}",
+     "latency_ms": 2087,
+     "tokens": 1776
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -45,
+      "bravo": 115,
+      "charlie": 705,
+      "delta": 19,
+      "echo": 14,
+      "foxtrot": 1894,
+      "golf": 14,
+      "hotel": 137
+     },
+     "text": "{\"alpha\": -45, \"bravo\": 115, \"charlie\": 705, \"delta\": 19, \"echo\": 14, \"foxtrot\": 1894, \"golf\": 14, \"hotel\": 137}",
+     "latency_ms": 14406,
+     "tokens": 1776
+    }
+   }
+  },
+  {
+   "idx": 115,
+   "seed": 7128,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 56,
+      "bravo": 115,
+      "charlie": 325,
+      "delta": -219,
+      "echo": 1872,
+      "foxtrot": 224,
+      "golf": -102,
+      "hotel": 68
+     },
+     "text": "{\"alpha\": 56, \"bravo\": 115, \"charlie\": 325, \"delta\": -219, \"echo\": 1872, \"foxtrot\": 224, \"golf\": -102, \"hotel\": 68}",
+     "latency_ms": 617,
+     "tokens": 2576
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 56,
+      "bravo": 115,
+      "charlie": 325,
+      "delta": -219,
+      "echo": 1872,
+      "foxtrot": 224,
+      "golf": -102,
+      "hotel": 68
+     },
+     "text": "{\"alpha\": 56, \"bravo\": 115, \"charlie\": 325, \"delta\": -219, \"echo\": 1872, \"foxtrot\": 224, \"golf\": -102, \"hotel\": 68}",
+     "latency_ms": 19308,
+     "tokens": 2576
+    }
+   }
+  },
+  {
+   "idx": 116,
+   "seed": 7129,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 190,
+      "bravo": 317,
+      "charlie": 553,
+      "delta": 99,
+      "echo": 270,
+      "foxtrot": 438,
+      "golf": 422,
+      "hotel": 567
+     },
+     "text": "{\"alpha\": 190, \"bravo\": 317, \"charlie\": 553, \"delta\": 99, \"echo\": 270, \"foxtrot\": 438, \"golf\": 422, \"hotel\": 567}",
+     "latency_ms": 1741,
+     "tokens": 272
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 190,
+      "bravo": 317,
+      "charlie": 553,
+      "delta": 99,
+      "echo": 270,
+      "foxtrot": 438,
+      "golf": 422,
+      "hotel": 567
+     },
+     "text": "{\"alpha\": 190, \"bravo\": 317, \"charlie\": 553, \"delta\": 99, \"echo\": 270, \"foxtrot\": 438, \"golf\": 422, \"hotel\": 567}",
+     "latency_ms": 11383,
+     "tokens": 272
+    }
+   }
+  },
+  {
+   "idx": 117,
+   "seed": 7129,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 84,
+      "bravo": 317,
+      "charlie": 678,
+      "delta": 240,
+      "echo": 567,
+      "foxtrot": 639,
+      "golf": 1288,
+      "hotel": 348
+     },
+     "text": "{\"alpha\": 84, \"bravo\": 317, \"charlie\": 678, \"delta\": 240, \"echo\": 567, \"foxtrot\": 639, \"golf\": 1288, \"hotel\": 348}",
+     "latency_ms": 650,
+     "tokens": 1012
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 84,
+      "bravo": 317,
+      "charlie": 678,
+      "delta": 240,
+      "echo": 567,
+      "foxtrot": 639,
+      "golf": 1288,
+      "hotel": 348
+     },
+     "text": "{\"alpha\": 84, \"bravo\": 317, \"charlie\": 678, \"delta\": 240, \"echo\": 567, \"foxtrot\": 639, \"golf\": 1288, \"hotel\": 348}",
+     "latency_ms": 98891,
+     "tokens": 1012
+    }
+   }
+  },
+  {
+   "idx": 118,
+   "seed": 7129,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -436,
+      "bravo": 334,
+      "charlie": 694,
+      "delta": 265,
+      "echo": 551,
+      "foxtrot": 628,
+      "golf": 76,
+      "hotel": 174
+     },
+     "text": "{\"alpha\": -436, \"bravo\": 334, \"charlie\": 694, \"delta\": 265, \"echo\": 551, \"foxtrot\": 628, \"golf\": 76, \"hotel\": 174}",
+     "latency_ms": 804,
+     "tokens": 1755
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -436,
+      "bravo": 334,
+      "charlie": 694,
+      "delta": 265,
+      "echo": 551,
+      "foxtrot": 628,
+      "golf": 76,
+      "hotel": 174
+     },
+     "text": "{\"alpha\": -436, \"bravo\": 334, \"charlie\": 694, \"delta\": 265, \"echo\": 551, \"foxtrot\": 628, \"golf\": 76, \"hotel\": 174}",
+     "latency_ms": 17963,
+     "tokens": 1755
+    }
+   }
+  },
+  {
+   "idx": 119,
+   "seed": 7129,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -708,
+      "bravo": 353,
+      "charlie": 688,
+      "delta": 132,
+      "echo": 400,
+      "foxtrot": 676,
+      "golf": 225,
+      "hotel": 121
+     },
+     "text": "{\"alpha\": -708, \"bravo\": 353, \"charlie\": 688, \"delta\": 132, \"echo\": 400, \"foxtrot\": 676, \"golf\": 225, \"hotel\": 121}",
+     "latency_ms": 906,
+     "tokens": 2515
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": -908,
+      "bravo": 353,
+      "charlie": 688,
+      "delta": 132,
+      "echo": 400,
+      "foxtrot": 676,
+      "golf": 225,
+      "hotel": 121
+     },
+     "text": "{\"alpha\": -908, \"bravo\": 353, \"charlie\": 688, \"delta\": 132, \"echo\": 400, \"foxtrot\": 676, \"golf\": 225, \"hotel\": 121}",
+     "latency_ms": 51303,
+     "tokens": 2515
+    }
+   }
+  },
+  {
+   "idx": 120,
+   "seed": 7130,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 48,
+      "bravo": 477,
+      "charlie": 219,
+      "delta": 736,
+      "echo": 58,
+      "foxtrot": 133,
+      "golf": 616,
+      "hotel": 569
+     },
+     "text": "{\"alpha\": 48, \"bravo\": 477, \"charlie\": 219, \"delta\": 736, \"echo\": 58, \"foxtrot\": 133, \"golf\": 616, \"hotel\": 569}",
+     "latency_ms": 665,
+     "tokens": 262
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 48,
+      "bravo": 477,
+      "charlie": 219,
+      "delta": 736,
+      "echo": 58,
+      "foxtrot": 133,
+      "golf": 616,
+      "hotel": 569
+     },
+     "text": "{\"alpha\": 48, \"bravo\": 477, \"charlie\": 219, \"delta\": 736, \"echo\": 58, \"foxtrot\": 133, \"golf\": 616, \"hotel\": 569}",
+     "latency_ms": 38831,
+     "tokens": 262
+    }
+   }
+  },
+  {
+   "idx": 121,
+   "seed": 7130,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 48,
+      "bravo": 526,
+      "charlie": 159,
+      "delta": 268,
+      "echo": 58,
+      "foxtrot": 159,
+      "golf": 374,
+      "hotel": 569
+     },
+     "text": "{\"alpha\": 48, \"bravo\": 526, \"charlie\": 159, \"delta\": 268, \"echo\": 58, \"foxtrot\": 159, \"golf\": 374, \"hotel\": 569}",
+     "latency_ms": 683,
+     "tokens": 1048
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 48,
+      "bravo": 526,
+      "charlie": 159,
+      "delta": 268,
+      "echo": 58,
+      "foxtrot": 159,
+      "golf": 374,
+      "hotel": 569
+     },
+     "text": "{\"alpha\": 48, \"bravo\": 526, \"charlie\": 159, \"delta\": 268, \"echo\": 58, \"foxtrot\": 159, \"golf\": 374, \"hotel\": 569}",
+     "latency_ms": 14729,
+     "tokens": 1048
+    }
+   }
+  },
+  {
+   "idx": 122,
+   "seed": 7130,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 269,
+      "bravo": 526,
+      "charlie": 284,
+      "delta": 209,
+      "echo": -121,
+      "foxtrot": 158,
+      "golf": 323,
+      "hotel": 246
+     },
+     "text": "{\"alpha\": 269, \"bravo\": 526, \"charlie\": 284, \"delta\": 209, \"echo\": -121, \"foxtrot\": 158, \"golf\": 323, \"hotel\": 246}",
+     "latency_ms": 672,
+     "tokens": 1834
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 269,
+      "bravo": 526,
+      "charlie": 284,
+      "delta": 209,
+      "echo": -121,
+      "foxtrot": 158,
+      "golf": 323,
+      "hotel": 246
+     },
+     "text": "{\"alpha\": 269, \"bravo\": 526, \"charlie\": 284, \"delta\": 209, \"echo\": -121, \"foxtrot\": 158, \"golf\": 323, \"hotel\": 246}",
+     "latency_ms": 15491,
+     "tokens": 1834
+    }
+   }
+  },
+  {
+   "idx": 123,
+   "seed": 7130,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 216,
+      "bravo": 108,
+      "charlie": 850,
+      "delta": 209,
+      "echo": -121,
+      "foxtrot": 158,
+      "golf": 1052,
+      "hotel": 246
+     },
+     "text": "{\"alpha\": 216, \"bravo\": 108, \"charlie\": 850, \"delta\": 209, \"echo\": -121, \"foxtrot\": 158, \"golf\": 1052, \"hotel\": 246}",
+     "latency_ms": 717,
+     "tokens": 2594
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 216,
+      "bravo": 108,
+      "charlie": 850,
+      "delta": 209,
+      "echo": -121,
+      "foxtrot": 158,
+      "golf": 1052,
+      "hotel": 246
+     },
+     "text": "{\"alpha\": 216, \"bravo\": 108, \"charlie\": 850, \"delta\": 209, \"echo\": -121, \"foxtrot\": 158, \"golf\": 1052, \"hotel\": 246}",
+     "latency_ms": 16990,
+     "tokens": 2594
+    }
+   }
+  },
+  {
+   "idx": 124,
+   "seed": 7131,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 106,
+      "bravo": 62,
+      "charlie": 350,
+      "delta": 689,
+      "echo": 104,
+      "foxtrot": 711,
+      "golf": 464,
+      "hotel": 790
+     },
+     "text": "{\"alpha\": 106, \"bravo\": 62, \"charlie\": 350, \"delta\": 689, \"echo\": 104, \"foxtrot\": 711, \"golf\": 464, \"hotel\": 790}",
+     "latency_ms": 811,
+     "tokens": 279
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 106,
+      "bravo": 62,
+      "charlie": 350,
+      "delta": 689,
+      "echo": 104,
+      "foxtrot": 711,
+      "golf": 464,
+      "hotel": 790
+     },
+     "text": "{\"alpha\": 106, \"bravo\": 62, \"charlie\": 350, \"delta\": 689, \"echo\": 104, \"foxtrot\": 711, \"golf\": 464, \"hotel\": 790}",
+     "latency_ms": 44292,
+     "tokens": 279
+    }
+   }
+  },
+  {
+   "idx": 125,
+   "seed": 7131,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 400,
+      "bravo": 25,
+      "charlie": 350,
+      "delta": 689,
+      "echo": 160,
+      "foxtrot": 304,
+      "golf": 30,
+      "hotel": 790
+     },
+     "text": "{\"alpha\": 400, \"bravo\": 25, \"charlie\": 350, \"delta\": 689, \"echo\": 160, \"foxtrot\": 304, \"golf\": 30, \"hotel\": 790}",
+     "latency_ms": 888,
+     "tokens": 1018
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 400,
+      "bravo": 25,
+      "charlie": 350,
+      "delta": 689,
+      "echo": 160,
+      "foxtrot": 304,
+      "golf": 30,
+      "hotel": 790
+     },
+     "text": "{\"alpha\": 400, \"bravo\": 25, \"charlie\": 350, \"delta\": 689, \"echo\": 160, \"foxtrot\": 304, \"golf\": 30, \"hotel\": 790}",
+     "latency_ms": 107668,
+     "tokens": 1018
+    }
+   }
+  },
+  {
+   "idx": 126,
+   "seed": 7131,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1003,
+      "bravo": 62,
+      "charlie": 30,
+      "delta": 809,
+      "echo": 165,
+      "foxtrot": 176,
+      "golf": 230,
+      "hotel": 395
+     },
+     "text": "{\"alpha\": 1003, \"bravo\": 62, \"charlie\": 30, \"delta\": 809, \"echo\": 165, \"foxtrot\": 176, \"golf\": 230, \"hotel\": 395}",
+     "latency_ms": 755,
+     "tokens": 1768
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 1003,
+      "bravo": 62,
+      "charlie": 30,
+      "delta": 809,
+      "echo": 165,
+      "foxtrot": 176,
+      "golf": 230,
+      "hotel": 395
+     },
+     "text": "{\"alpha\": 1003, \"bravo\": 62, \"charlie\": 30, \"delta\": 809, \"echo\": 165, \"foxtrot\": 176, \"golf\": 230, \"hotel\": 395}",
+     "latency_ms": 107860,
+     "tokens": 1768
+    }
+   }
+  },
+  {
+   "idx": 127,
+   "seed": 7131,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 501,
+      "bravo": 174,
+      "charlie": 182,
+      "delta": 231,
+      "echo": 495,
+      "foxtrot": 89,
+      "golf": 72,
+      "hotel": 202
+     },
+     "text": "{\"alpha\": 501, \"bravo\": 174, \"charlie\": 182, \"delta\": 231, \"echo\": 495, \"foxtrot\": 89, \"golf\": 72, \"hotel\": 202}",
+     "latency_ms": 732,
+     "tokens": 2540
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 501,
+      "bravo": 174,
+      "charlie": 182,
+      "delta": 231,
+      "echo": 495,
+      "foxtrot": 89,
+      "golf": 72,
+      "hotel": 202
+     },
+     "text": "{\"alpha\": 501, \"bravo\": 174, \"charlie\": 182, \"delta\": 231, \"echo\": 495, \"foxtrot\": 89, \"golf\": 72, \"hotel\": 202}",
+     "latency_ms": 3291,
+     "tokens": 2540
+    }
+   }
+  },
+  {
+   "idx": 128,
+   "seed": 7132,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 820,
+      "bravo": 319,
+      "charlie": 667,
+      "delta": 433,
+      "echo": 746,
+      "foxtrot": 584,
+      "golf": 789,
+      "hotel": 604
+     },
+     "text": "{\"alpha\": 820, \"bravo\": 319, \"charlie\": 667, \"delta\": 433, \"echo\": 746, \"foxtrot\": 584, \"golf\": 789, \"hotel\": 604}",
+     "latency_ms": 767,
+     "tokens": 257
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 820,
+      "bravo": 319,
+      "charlie": 667,
+      "delta": 433,
+      "echo": 746,
+      "foxtrot": 584,
+      "golf": 789,
+      "hotel": 604
+     },
+     "text": "{\"alpha\": 820, \"bravo\": 319, \"charlie\": 667, \"delta\": 433, \"echo\": 746, \"foxtrot\": 584, \"golf\": 789, \"hotel\": 604}",
+     "latency_ms": 78206,
+     "tokens": 257
+    }
+   }
+  },
+  {
+   "idx": 129,
+   "seed": 7132,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 599,
+      "bravo": 226,
+      "charlie": 856,
+      "delta": 433,
+      "echo": 521,
+      "foxtrot": 206,
+      "golf": 529,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 599, \"bravo\": 226, \"charlie\": 856, \"delta\": 433, \"echo\": 521, \"foxtrot\": 206, \"golf\": 529, \"hotel\": 193}",
+     "latency_ms": 807,
+     "tokens": 1070
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 599,
+      "bravo": 226,
+      "charlie": 856,
+      "delta": 433,
+      "echo": 521,
+      "foxtrot": 206,
+      "golf": 529,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 599, \"bravo\": 226, \"charlie\": 856, \"delta\": 433, \"echo\": 521, \"foxtrot\": 206, \"golf\": 529, \"hotel\": 193}",
+     "latency_ms": 3880,
+     "tokens": 1070
+    }
+   }
+  },
+  {
+   "idx": 130,
+   "seed": 7132,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 644,
+      "bravo": -21,
+      "charlie": 1234,
+      "delta": 537,
+      "echo": 522,
+      "foxtrot": 112,
+      "golf": 529,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 644, \"bravo\": -21, \"charlie\": 1234, \"delta\": 537, \"echo\": 522, \"foxtrot\": 112, \"golf\": 529, \"hotel\": 193}",
+     "latency_ms": 867,
+     "tokens": 1870
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 644,
+      "bravo": -21,
+      "charlie": 1234,
+      "delta": 537,
+      "echo": 522,
+      "foxtrot": 112,
+      "golf": 529,
+      "hotel": 193
+     },
+     "text": "{\"alpha\": 644, \"bravo\": -21, \"charlie\": 1234, \"delta\": 537, \"echo\": 522, \"foxtrot\": 112, \"golf\": 529, \"hotel\": 193}",
+     "latency_ms": 34100,
+     "tokens": 1870
+    }
+   }
+  },
+  {
+   "idx": 131,
+   "seed": 7132,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 842,
+      "bravo": -102,
+      "charlie": 1542,
+      "delta": 537,
+      "echo": 258,
+      "foxtrot": 112,
+      "golf": 128,
+      "hotel": 281
+     },
+     "text": "{\"alpha\": 842, \"bravo\": -102, \"charlie\": 1542, \"delta\": 537, \"echo\": 258, \"foxtrot\": 112, \"golf\": 128, \"hotel\": 281}",
+     "latency_ms": 873,
+     "tokens": 2645
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 842,
+      "bravo": -102,
+      "charlie": 1542,
+      "delta": 462,
+      "echo": 333,
+      "foxtrot": 112,
+      "golf": 128,
+      "hotel": 281
+     },
+     "text": "{\"alpha\": 842, \"bravo\": -102, \"charlie\": 1542, \"delta\": 462, \"echo\": 333, \"foxtrot\": 112, \"golf\": 128, \"hotel\": 281}",
+     "latency_ms": 18691,
+     "tokens": 2645
+    }
+   }
+  },
+  {
+   "idx": 132,
+   "seed": 7133,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 405,
+      "bravo": 439,
+      "charlie": 405,
+      "delta": 334,
+      "echo": 210,
+      "foxtrot": 297,
+      "golf": 721,
+      "hotel": 551
+     },
+     "text": "{\"alpha\": 405, \"bravo\": 439, \"charlie\": 405, \"delta\": 334, \"echo\": 210, \"foxtrot\": 297, \"golf\": 721, \"hotel\": 551}",
+     "latency_ms": 957,
+     "tokens": 264
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 405,
+      "bravo": 439,
+      "charlie": 405,
+      "delta": 334,
+      "echo": 210,
+      "foxtrot": 297,
+      "golf": 721,
+      "hotel": 551
+     },
+     "text": "{\"alpha\": 405, \"bravo\": 439, \"charlie\": 405, \"delta\": 334, \"echo\": 210, \"foxtrot\": 297, \"golf\": 721, \"hotel\": 551}",
+     "latency_ms": 49787,
+     "tokens": 264
+    }
+   }
+  },
+  {
+   "idx": 133,
+   "seed": 7133,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -19,
+      "bravo": 439,
+      "charlie": 325,
+      "delta": 140,
+      "echo": 264,
+      "foxtrot": 594,
+      "golf": 721,
+      "hotel": 184
+     },
+     "text": "{\"alpha\": -19, \"bravo\": 439, \"charlie\": 325, \"delta\": 140, \"echo\": 264, \"foxtrot\": 594, \"golf\": 721, \"hotel\": 184}",
+     "latency_ms": 864,
+     "tokens": 1030
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -19,
+      "bravo": 439,
+      "charlie": 325,
+      "delta": 140,
+      "echo": 264,
+      "foxtrot": 594,
+      "golf": 721,
+      "hotel": 184
+     },
+     "text": "{\"alpha\": -19, \"bravo\": 439, \"charlie\": 325, \"delta\": 140, \"echo\": 264, \"foxtrot\": 594, \"golf\": 721, \"hotel\": 184}",
+     "latency_ms": 56553,
+     "tokens": 1030
+    }
+   }
+  },
+  {
+   "idx": 134,
+   "seed": 7133,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -177,
+      "bravo": 1525,
+      "charlie": 119,
+      "delta": 167,
+      "echo": 264,
+      "foxtrot": 595,
+      "golf": 367,
+      "hotel": 440
+     },
+     "text": "{\"alpha\": -177, \"bravo\": 1525, \"charlie\": 119, \"delta\": 167, \"echo\": 264, \"foxtrot\": 595, \"golf\": 367, \"hotel\": 440}",
+     "latency_ms": 952,
+     "tokens": 1818
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -177,
+      "bravo": 1525,
+      "charlie": 119,
+      "delta": 167,
+      "echo": 264,
+      "foxtrot": 595,
+      "golf": 367,
+      "hotel": 440
+     },
+     "text": "{\"alpha\": -177, \"bravo\": 1525, \"charlie\": 119, \"delta\": 167, \"echo\": 264, \"foxtrot\": 595, \"golf\": 367, \"hotel\": 440}",
+     "latency_ms": 51836,
+     "tokens": 1818
+    }
+   }
+  },
+  {
+   "idx": 135,
+   "seed": 7133,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 550,
+      "bravo": 2097,
+      "charlie": -191,
+      "delta": -92,
+      "echo": 264,
+      "foxtrot": 1010,
+      "golf": 367,
+      "hotel": 114
+     },
+     "text": "{\"alpha\": 550, \"bravo\": 2097, \"charlie\": -191, \"delta\": -92, \"echo\": 264, \"foxtrot\": 1010, \"golf\": 367, \"hotel\": 114}",
+     "latency_ms": 942,
+     "tokens": 2615
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 550,
+      "bravo": 2097,
+      "charlie": -191,
+      "delta": -92,
+      "echo": 264,
+      "foxtrot": 1010,
+      "golf": 367,
+      "hotel": 114
+     },
+     "text": "{\"alpha\": 550, \"bravo\": 2097, \"charlie\": -191, \"delta\": -92, \"echo\": 264, \"foxtrot\": 1010, \"golf\": 367, \"hotel\": 114}",
+     "latency_ms": 50136,
+     "tokens": 2615
+    }
+   }
+  },
+  {
+   "idx": 136,
+   "seed": 7134,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 833,
+      "charlie": 883,
+      "delta": 206,
+      "echo": 885,
+      "foxtrot": 503,
+      "golf": 695,
+      "hotel": 446
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 833, \"charlie\": 883, \"delta\": 206, \"echo\": 885, \"foxtrot\": 503, \"golf\": 695, \"hotel\": 446}",
+     "latency_ms": 853,
+     "tokens": 284
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 833,
+      "charlie": 883,
+      "delta": 206,
+      "echo": 885,
+      "foxtrot": 503,
+      "golf": 695,
+      "hotel": 446
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 833, \"charlie\": 883, \"delta\": 206, \"echo\": 885, \"foxtrot\": 503, \"golf\": 695, \"hotel\": 446}",
+     "latency_ms": 149277,
+     "tokens": 284
+    }
+   }
+  },
+  {
+   "idx": 137,
+   "seed": 7134,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 416,
+      "charlie": 213,
+      "delta": 230,
+      "echo": 882,
+      "foxtrot": 251,
+      "golf": 171,
+      "hotel": 542
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 416, \"charlie\": 213, \"delta\": 230, \"echo\": 882, \"foxtrot\": 251, \"golf\": 171, \"hotel\": 542}",
+     "latency_ms": 936,
+     "tokens": 1045
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 416,
+      "charlie": 213,
+      "delta": 230,
+      "echo": 882,
+      "foxtrot": 251,
+      "golf": 171,
+      "hotel": 542
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 416, \"charlie\": 213, \"delta\": 230, \"echo\": 882, \"foxtrot\": 251, \"golf\": 171, \"hotel\": 542}",
+     "latency_ms": 3576,
+     "tokens": 1045
+    }
+   }
+  },
+  {
+   "idx": 138,
+   "seed": 7134,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 937,
+      "charlie": 130,
+      "delta": 230,
+      "echo": 67,
+      "foxtrot": 71,
+      "golf": 198,
+      "hotel": 469
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 937, \"charlie\": 130, \"delta\": 230, \"echo\": 67, \"foxtrot\": 71, \"golf\": 198, \"hotel\": 469}",
+     "latency_ms": 949,
+     "tokens": 1844
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 125,
+      "bravo": 937,
+      "charlie": 130,
+      "delta": 230,
+      "echo": 67,
+      "foxtrot": 71,
+      "golf": 198,
+      "hotel": 469
+     },
+     "text": "{\"alpha\": 125, \"bravo\": 937, \"charlie\": 130, \"delta\": 230, \"echo\": 67, \"foxtrot\": 71, \"golf\": 198, \"hotel\": 469}",
+     "latency_ms": 7503,
+     "tokens": 1844
+    }
+   }
+  },
+  {
+   "idx": 139,
+   "seed": 7134,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 921,
+      "bravo": 937,
+      "charlie": 230,
+      "delta": -121,
+      "echo": 162,
+      "foxtrot": 349,
+      "golf": 198,
+      "hotel": 469
+     },
+     "text": "{\"alpha\": 921, \"bravo\": 937, \"charlie\": 230, \"delta\": -121, \"echo\": 162, \"foxtrot\": 349, \"golf\": 198, \"hotel\": 469}",
+     "latency_ms": 941,
+     "tokens": 2609
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 921,
+      "bravo": 937,
+      "charlie": 230,
+      "delta": -121,
+      "echo": 162,
+      "foxtrot": 349,
+      "golf": 198,
+      "hotel": 469
+     },
+     "text": "{\"alpha\": 921, \"bravo\": 937, \"charlie\": 230, \"delta\": -121, \"echo\": 162, \"foxtrot\": 349, \"golf\": 198, \"hotel\": 469}",
+     "latency_ms": 7819,
+     "tokens": 2609
+    }
+   }
+  },
+  {
+   "idx": 140,
+   "seed": 7135,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 385,
+      "bravo": 240,
+      "charlie": 236,
+      "delta": 58,
+      "echo": 510,
+      "foxtrot": 506,
+      "golf": 710,
+      "hotel": 350
+     },
+     "text": "{\"alpha\": 385, \"bravo\": 240, \"charlie\": 236, \"delta\": 58, \"echo\": 510, \"foxtrot\": 506, \"golf\": 710, \"hotel\": 350}",
+     "latency_ms": 862,
+     "tokens": 267
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 385,
+      "bravo": 240,
+      "charlie": 236,
+      "delta": 58,
+      "echo": 510,
+      "foxtrot": 506,
+      "golf": 710,
+      "hotel": 350
+     },
+     "text": "{\"alpha\": 385, \"bravo\": 240, \"charlie\": 236, \"delta\": 58, \"echo\": 510, \"foxtrot\": 506, \"golf\": 710, \"hotel\": 350}",
+     "latency_ms": 14809,
+     "tokens": 267
+    }
+   }
+  },
+  {
+   "idx": 141,
+   "seed": 7135,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 16,
+      "bravo": 240,
+      "charlie": 194,
+      "delta": 0,
+      "echo": 378,
+      "foxtrot": 200,
+      "golf": 460,
+      "hotel": 53
+     },
+     "text": "{\"alpha\": 16, \"bravo\": 240, \"charlie\": 194, \"delta\": 0, \"echo\": 378, \"foxtrot\": 200, \"golf\": 460, \"hotel\": 53}",
+     "latency_ms": 903,
+     "tokens": 1043
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 16,
+      "bravo": 240,
+      "charlie": 194,
+      "delta": 0,
+      "echo": 378,
+      "foxtrot": 200,
+      "golf": 460,
+      "hotel": 53
+     },
+     "text": "{\"alpha\": 16, \"bravo\": 240, \"charlie\": 194, \"delta\": 0, \"echo\": 378, \"foxtrot\": 200, \"golf\": 460, \"hotel\": 53}",
+     "latency_ms": 43804,
+     "tokens": 1043
+    }
+   }
+  },
+  {
+   "idx": 142,
+   "seed": 7135,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 297,
+      "bravo": 180,
+      "charlie": 531,
+      "delta": 521,
+      "echo": 200,
+      "foxtrot": -213,
+      "golf": 460,
+      "hotel": 53
+     },
+     "text": "{\"alpha\": 297, \"bravo\": 180, \"charlie\": 531, \"delta\": 521, \"echo\": 200, \"foxtrot\": -213, \"golf\": 460, \"hotel\": 53}",
+     "latency_ms": 955,
+     "tokens": 1794
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 297,
+      "bravo": 180,
+      "charlie": 531,
+      "delta": 521,
+      "echo": 200,
+      "foxtrot": -213,
+      "golf": 460,
+      "hotel": 53
+     },
+     "text": "{\"alpha\": 297, \"bravo\": 180, \"charlie\": 531, \"delta\": 521, \"echo\": 200, \"foxtrot\": -213, \"golf\": 460, \"hotel\": 53}",
+     "latency_ms": 19996,
+     "tokens": 1794
+    }
+   }
+  },
+  {
+   "idx": 143,
+   "seed": 7135,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 297,
+      "bravo": 208,
+      "charlie": 591,
+      "delta": 460,
+      "echo": -198,
+      "foxtrot": -134,
+      "golf": 521,
+      "hotel": -378
+     },
+     "text": "{\"alpha\": 297, \"bravo\": 208, \"charlie\": 591, \"delta\": 460, \"echo\": -198, \"foxtrot\": -134, \"golf\": 521, \"hotel\": -378}",
+     "latency_ms": 961,
+     "tokens": 2565
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 297,
+      "bravo": 208,
+      "charlie": 591,
+      "delta": 460,
+      "echo": -198,
+      "foxtrot": -134,
+      "golf": 521,
+      "hotel": -378
+     },
+     "text": "{\"alpha\": 297, \"bravo\": 208, \"charlie\": 591, \"delta\": 460, \"echo\": -198, \"foxtrot\": -134, \"golf\": 521, \"hotel\": -378}",
+     "latency_ms": 127620,
+     "tokens": 2565
+    }
+   }
+  },
+  {
+   "idx": 144,
+   "seed": 7136,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 334,
+      "bravo": 831,
+      "charlie": 344,
+      "delta": 544,
+      "echo": 462,
+      "foxtrot": 283,
+      "golf": 548,
+      "hotel": 40
+     },
+     "text": "{\"alpha\": 334, \"bravo\": 831, \"charlie\": 344, \"delta\": 544, \"echo\": 462, \"foxtrot\": 283, \"golf\": 548, \"hotel\": 40}",
+     "latency_ms": 1078,
+     "tokens": 286
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 334,
+      "bravo": 831,
+      "charlie": 344,
+      "delta": 544,
+      "echo": 462,
+      "foxtrot": 283,
+      "golf": 548,
+      "hotel": 40
+     },
+     "text": "{\"alpha\": 334, \"bravo\": 831, \"charlie\": 344, \"delta\": 544, \"echo\": 462, \"foxtrot\": 283, \"golf\": 548, \"hotel\": 40}",
+     "latency_ms": 49251,
+     "tokens": 286
+    }
+   }
+  },
+  {
+   "idx": 145,
+   "seed": 7136,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 254,
+      "bravo": 1632,
+      "charlie": 37,
+      "delta": 544,
+      "echo": 410,
+      "foxtrot": 424,
+      "golf": 548,
+      "hotel": -154
+     },
+     "text": "{\"alpha\": 254, \"bravo\": 1632, \"charlie\": 37, \"delta\": 544, \"echo\": 410, \"foxtrot\": 424, \"golf\": 548, \"hotel\": -154}",
+     "latency_ms": 714,
+     "tokens": 1104
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 254,
+      "bravo": 1632,
+      "charlie": 37,
+      "delta": 544,
+      "echo": 410,
+      "foxtrot": 424,
+      "golf": 548,
+      "hotel": -154
+     },
+     "text": "{\"alpha\": 254, \"bravo\": 1632, \"charlie\": 37, \"delta\": 544, \"echo\": 410, \"foxtrot\": 424, \"golf\": 548, \"hotel\": -154}",
+     "latency_ms": 4348,
+     "tokens": 1104
+    }
+   }
+  },
+  {
+   "idx": 146,
+   "seed": 7136,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 492,
+      "bravo": 1632,
+      "charlie": 37,
+      "delta": 46,
+      "echo": 218,
+      "foxtrot": 745,
+      "golf": 209,
+      "hotel": -362
+     },
+     "text": "{\"alpha\": 492, \"bravo\": 1632, \"charlie\": 37, \"delta\": 46, \"echo\": 218, \"foxtrot\": 745, \"golf\": 209, \"hotel\": -362}",
+     "latency_ms": 649,
+     "tokens": 1875
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 492,
+      "bravo": 1632,
+      "charlie": 37,
+      "delta": 46,
+      "echo": 218,
+      "foxtrot": 745,
+      "golf": 209,
+      "hotel": -362
+     },
+     "text": "{\"alpha\": 492, \"bravo\": 1632, \"charlie\": 37, \"delta\": 46, \"echo\": 218, \"foxtrot\": 745, \"golf\": 209, \"hotel\": -362}",
+     "latency_ms": 32395,
+     "tokens": 1875
+    }
+   }
+  },
+  {
+   "idx": 147,
+   "seed": 7136,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 183,
+      "bravo": 21,
+      "charlie": -77,
+      "delta": 816,
+      "echo": -181,
+      "foxtrot": 221,
+      "golf": 418,
+      "hotel": 745
+     },
+     "text": "{\"alpha\": 183, \"bravo\": 21, \"charlie\": -77, \"delta\": 816, \"echo\": -181, \"foxtrot\": 221, \"golf\": 418, \"hotel\": 745}",
+     "latency_ms": 687,
+     "tokens": 2627
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 183,
+      "bravo": 21,
+      "charlie": -77,
+      "delta": 816,
+      "echo": -181,
+      "foxtrot": 221,
+      "golf": 418,
+      "hotel": 745
+     },
+     "text": "{\"alpha\": 183, \"bravo\": 21, \"charlie\": -77, \"delta\": 816, \"echo\": -181, \"foxtrot\": 221, \"golf\": 418, \"hotel\": 745}",
+     "latency_ms": 6246,
+     "tokens": 2627
+    }
+   }
+  },
+  {
+   "idx": 148,
+   "seed": 7137,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 314,
+      "bravo": 377,
+      "charlie": 129,
+      "delta": 810,
+      "echo": 239,
+      "foxtrot": 520,
+      "golf": 134,
+      "hotel": 932
+     },
+     "text": "{\"alpha\": 314, \"bravo\": 377, \"charlie\": 129, \"delta\": 810, \"echo\": 239, \"foxtrot\": 520, \"golf\": 134, \"hotel\": 932}",
+     "latency_ms": 685,
+     "tokens": 263
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 314,
+      "bravo": 377,
+      "charlie": 129,
+      "delta": 810,
+      "echo": 239,
+      "foxtrot": 520,
+      "golf": 134,
+      "hotel": 932
+     },
+     "text": "{\"alpha\": 314, \"bravo\": 377, \"charlie\": 129, \"delta\": 810, \"echo\": 239, \"foxtrot\": 520, \"golf\": 134, \"hotel\": 932}",
+     "latency_ms": 10458,
+     "tokens": 263
+    }
+   }
+  },
+  {
+   "idx": 149,
+   "seed": 7137,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 215,
+      "bravo": 520,
+      "charlie": 109,
+      "delta": 1218,
+      "echo": 239,
+      "foxtrot": 257,
+      "golf": -73,
+      "hotel": 1186
+     },
+     "text": "{\"alpha\": 215, \"bravo\": 520, \"charlie\": 109, \"delta\": 1218, \"echo\": 239, \"foxtrot\": 257, \"golf\": -73, \"hotel\": 1186}",
+     "latency_ms": 647,
+     "tokens": 1051
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 215,
+      "bravo": 520,
+      "charlie": 109,
+      "delta": 1218,
+      "echo": 239,
+      "foxtrot": 257,
+      "golf": -73,
+      "hotel": 1186
+     },
+     "text": "{\"alpha\": 215, \"bravo\": 520, \"charlie\": 109, \"delta\": 1218, \"echo\": 239, \"foxtrot\": 257, \"golf\": -73, \"hotel\": 1186}",
+     "latency_ms": 9170,
+     "tokens": 1051
+    }
+   }
+  },
+  {
+   "idx": 150,
+   "seed": 7137,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 188,
+      "bravo": 1035,
+      "charlie": 4,
+      "delta": 1308,
+      "echo": -65,
+      "foxtrot": 362,
+      "golf": 235,
+      "hotel": 2192
+     },
+     "text": "{\"alpha\": 188, \"bravo\": 1035, \"charlie\": 4, \"delta\": 1308, \"echo\": -65, \"foxtrot\": 362, \"golf\": 235, \"hotel\": 2192}",
+     "latency_ms": 711,
+     "tokens": 1813
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 188,
+      "bravo": 1035,
+      "charlie": 4,
+      "delta": 1308,
+      "echo": -15,
+      "foxtrot": 362,
+      "golf": 235,
+      "hotel": 2192
+     },
+     "text": "{\"alpha\": 188, \"bravo\": 1035, \"charlie\": 4, \"delta\": 1308, \"echo\": -15, \"foxtrot\": 362, \"golf\": 235, \"hotel\": 2192}",
+     "latency_ms": 3556,
+     "tokens": 1813
+    }
+   }
+  },
+  {
+   "idx": 151,
+   "seed": 7137,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 165,
+      "bravo": 1009,
+      "charlie": 52,
+      "delta": 233,
+      "echo": -65,
+      "foxtrot": 671,
+      "golf": 235,
+      "hotel": 2112
+     },
+     "text": "{\"alpha\": 165, \"bravo\": 1009, \"charlie\": 52, \"delta\": 233, \"echo\": -65, \"foxtrot\": 671, \"golf\": 235, \"hotel\": 2112}",
+     "latency_ms": 675,
+     "tokens": 2603
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 165,
+      "bravo": 1009,
+      "charlie": 52,
+      "delta": 233,
+      "echo": -65,
+      "foxtrot": 671,
+      "golf": 235,
+      "hotel": 2112
+     },
+     "text": "{\"alpha\": 165, \"bravo\": 1009, \"charlie\": 52, \"delta\": 233, \"echo\": -65, \"foxtrot\": 671, \"golf\": 235, \"hotel\": 2112}",
+     "latency_ms": 3304,
+     "tokens": 2603
+    }
+   }
+  },
+  {
+   "idx": 152,
+   "seed": 7138,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 592,
+      "bravo": 121,
+      "charlie": 145,
+      "delta": 175,
+      "echo": 611,
+      "foxtrot": 234,
+      "golf": 751,
+      "hotel": 105
+     },
+     "text": "{\"alpha\": 592, \"bravo\": 121, \"charlie\": 145, \"delta\": 175, \"echo\": 611, \"foxtrot\": 234, \"golf\": 751, \"hotel\": 105}",
+     "latency_ms": 839,
+     "tokens": 267
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 592,
+      "bravo": 121,
+      "charlie": 145,
+      "delta": 175,
+      "echo": 611,
+      "foxtrot": 234,
+      "golf": 751,
+      "hotel": 105
+     },
+     "text": "{\"alpha\": 592, \"bravo\": 121, \"charlie\": 145, \"delta\": 175, \"echo\": 611, \"foxtrot\": 234, \"golf\": 751, \"hotel\": 105}",
+     "latency_ms": 2308,
+     "tokens": 267
+    }
+   }
+  },
+  {
+   "idx": 153,
+   "seed": 7138,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 377,
+      "bravo": 121,
+      "charlie": 145,
+      "delta": 2065,
+      "echo": 626,
+      "foxtrot": 234,
+      "golf": 164,
+      "hotel": -8
+     },
+     "text": "{\"alpha\": 377, \"bravo\": 121, \"charlie\": 145, \"delta\": 2065, \"echo\": 626, \"foxtrot\": 234, \"golf\": 164, \"hotel\": -8}",
+     "latency_ms": 680,
+     "tokens": 1033
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 377,
+      "bravo": 121,
+      "charlie": 145,
+      "delta": 2065,
+      "echo": 626,
+      "foxtrot": 234,
+      "golf": 164,
+      "hotel": -8
+     },
+     "text": "{\"alpha\": 377, \"bravo\": 121, \"charlie\": 145, \"delta\": 2065, \"echo\": 626, \"foxtrot\": 234, \"golf\": 164, \"hotel\": -8}",
+     "latency_ms": 9986,
+     "tokens": 1033
+    }
+   }
+  },
+  {
+   "idx": 154,
+   "seed": 7138,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 290,
+      "bravo": 242,
+      "charlie": 1897,
+      "delta": 496,
+      "echo": 626,
+      "foxtrot": 280,
+      "golf": 54,
+      "hotel": 202
+     },
+     "text": "{\"alpha\": 290, \"bravo\": 242, \"charlie\": 1897, \"delta\": 496, \"echo\": 626, \"foxtrot\": 280, \"golf\": 54, \"hotel\": 202}",
+     "latency_ms": 686,
+     "tokens": 1811
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 290,
+      "bravo": 242,
+      "charlie": 1897,
+      "delta": 496,
+      "echo": 626,
+      "foxtrot": 280,
+      "golf": 54,
+      "hotel": 202
+     },
+     "text": "{\"alpha\": 290, \"bravo\": 242, \"charlie\": 1897, \"delta\": 496, \"echo\": 626, \"foxtrot\": 280, \"golf\": 54, \"hotel\": 202}",
+     "latency_ms": 37298,
+     "tokens": 1811
+    }
+   }
+  },
+  {
+   "idx": 155,
+   "seed": 7138,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 436,
+      "bravo": 290,
+      "charlie": 1979,
+      "delta": 390,
+      "echo": 176,
+      "foxtrot": -154,
+      "golf": 54,
+      "hotel": 335
+     },
+     "text": "{\"alpha\": 436, \"bravo\": 290, \"charlie\": 1979, \"delta\": 390, \"echo\": 176, \"foxtrot\": -154, \"golf\": 54, \"hotel\": 335}",
+     "latency_ms": 1030,
+     "tokens": 2599
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 436,
+      "bravo": 290,
+      "charlie": 1979,
+      "delta": 390,
+      "echo": 176,
+      "foxtrot": -154,
+      "golf": 54,
+      "hotel": 335
+     },
+     "text": "{\"alpha\": 436, \"bravo\": 290, \"charlie\": 1979, \"delta\": 390, \"echo\": 176, \"foxtrot\": -154, \"golf\": 54, \"hotel\": 335}",
+     "latency_ms": 1830,
+     "tokens": 2599
+    }
+   }
+  },
+  {
+   "idx": 156,
+   "seed": 7139,
+   "t": 1,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 234,
+      "bravo": 584,
+      "charlie": 93,
+      "delta": 880,
+      "echo": 163,
+      "foxtrot": 540,
+      "golf": 511,
+      "hotel": 517
+     },
+     "text": "{\"alpha\": 234, \"bravo\": 584, \"charlie\": 93, \"delta\": 880, \"echo\": 163, \"foxtrot\": 540, \"golf\": 511, \"hotel\": 517}",
+     "latency_ms": 697,
+     "tokens": 256
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 234,
+      "bravo": 584,
+      "charlie": 93,
+      "delta": 880,
+      "echo": 163,
+      "foxtrot": 540,
+      "golf": 511,
+      "hotel": 517
+     },
+     "text": "{\"alpha\": 234, \"bravo\": 584, \"charlie\": 93, \"delta\": 880, \"echo\": 163, \"foxtrot\": 540, \"golf\": 511, \"hotel\": 517}",
+     "latency_ms": 13213,
+     "tokens": 256
+    }
+   }
+  },
+  {
+   "idx": 157,
+   "seed": 7139,
+   "t": 5,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 234,
+      "bravo": 292,
+      "charlie": 93,
+      "delta": 587,
+      "echo": 561,
+      "foxtrot": 464,
+      "golf": 2132,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 234, \"bravo\": 292, \"charlie\": 93, \"delta\": 587, \"echo\": 561, \"foxtrot\": 464, \"golf\": 2132, \"hotel\": 331}",
+     "latency_ms": 733,
+     "tokens": 1040
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "semantic",
+     "ledger": {
+      "alpha": 234,
+      "bravo": 292,
+      "charlie": 93,
+      "delta": 587,
+      "echo": 561,
+      "foxtrot": 464,
+      "golf": 2132,
+      "hotel": 331
+     },
+     "text": "{\"alpha\": 234, \"bravo\": 292, \"charlie\": 93, \"delta\": 587, \"echo\": 561, \"foxtrot\": 464, \"golf\": 2132, \"hotel\": 331}",
+     "latency_ms": 12005,
+     "tokens": 1040
+    }
+   }
+  },
+  {
+   "idx": 158,
+   "seed": 7139,
+   "t": 9,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 160,
+      "bravo": 190,
+      "charlie": 167,
+      "delta": 425,
+      "echo": 558,
+      "foxtrot": 1021,
+      "golf": 668,
+      "hotel": 84
+     },
+     "text": "{\"alpha\": 160, \"bravo\": 190, \"charlie\": 167, \"delta\": 425, \"echo\": 558, \"foxtrot\": 1021, \"golf\": 668, \"hotel\": 84}",
+     "latency_ms": 944,
+     "tokens": 1786
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": 160,
+      "bravo": 190,
+      "charlie": 167,
+      "delta": 425,
+      "echo": 558,
+      "foxtrot": 1021,
+      "golf": 668,
+      "hotel": 84
+     },
+     "text": "{\"alpha\": 160, \"bravo\": 190, \"charlie\": 167, \"delta\": 425, \"echo\": 558, \"foxtrot\": 1021, \"golf\": 668, \"hotel\": 84}",
+     "latency_ms": 51204,
+     "tokens": 1786
+    }
+   }
+  },
+  {
+   "idx": 159,
+   "seed": 7139,
+   "t": 13,
+   "outputs": {
+    "ollama:gemma4:31b": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -63,
+      "bravo": 242,
+      "charlie": 166,
+      "delta": 285,
+      "echo": 241,
+      "foxtrot": 141,
+      "golf": 878,
+      "hotel": 168
+     },
+     "text": "{\"alpha\": -63, \"bravo\": 242, \"charlie\": 166, \"delta\": 285, \"echo\": 241, \"foxtrot\": 141, \"golf\": 878, \"hotel\": 168}",
+     "latency_ms": 774,
+     "tokens": 2571
+    },
+    "nvidia:google/gemma-4-31b-it": {
+     "status": 200,
+     "error": "",
+     "kind": "ok",
+     "ledger": {
+      "alpha": -63,
+      "bravo": 242,
+      "charlie": 166,
+      "delta": 285,
+      "echo": 241,
+      "foxtrot": 141,
+      "golf": 878,
+      "hotel": 168
+     },
+     "text": "{\"alpha\": -63, \"bravo\": 242, \"charlie\": 166, \"delta\": 285, \"echo\": 241, \"foxtrot\": 141, \"golf\": 878, \"hotel\": 168}",
+     "latency_ms": 69152,
+     "tokens": 2571
+    }
+   }
+  }
+ ]
+}

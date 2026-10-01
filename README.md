@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22864750.svg)](https://doi.org/10.5281/zenodo.22864750)
 
-Probes, raw responses, run logs, and analysis scripts for the paper *Same Name, Different Model: A Configuration Audit of Open-Weight LLMs Across Inference Providers* (Zhouran Song, Independent Researcher, 2026; under review).
+Probes, raw responses, run logs, and analysis scripts for the paper *Same Name, Different Model: A Configuration and Service Audit of Open-Weight LLM Endpoints Across Inference Providers* (Zhouran Song, Independent Researcher, 2026; under review).
 
 The audit has two phases. Phase 1 sends eleven configuration probes (F1 to F11) to every (provider, model identifier) pair, called a *stack*, and stores every raw response body. Phase 2 sends the same 40 steps of an integer-ledger state-tracking workload at temperature 0 to every stack of a model family and compares the returned ledgers pairwise, structurally and textually, after removing infrastructure failures. All prompts are synthetic. No company or personal data was sent to any provider.
 
@@ -19,6 +19,10 @@ audit/
   stacks.py                 Phase 2: sends the same ledger steps to several stacks, writes event logs
   analyze_stacks.py         pairwise textual and semantic agreement, infrastructure failures excluded
   compare_repeat.py         step-by-step comparison of one stack's first run with its own rerun
+  analyze_sameday.py        same-day repeat design (gemma-4-31b, 4 passes x 320 steps): pooled rates, paired permutation tests, trajectory bootstrap
+  analyze_ctrl.py           Layer C reasoning-mode control (qwen3.8-27b forced off on Cloudflare and OVH vs. Groq default)
+  analyze_classifier.py     sensitivity of the reasoning-mode classifier to its threshold and indicators
+  analyze_qos.py            latency, output tokens, and rate-limit headers per stack
   providers.py              one call() over the OpenAI-compatible endpoints; rate pacer; wrapped-error detection
   env.py events.py pricing.py tasks_t1.py   shared infrastructure (env loading, event schema, T1 ledger task)
 results/
@@ -30,6 +34,10 @@ runs/
   fingerprint_<provider>_<timestamp>.jsonl   one record per probe call with the full raw response body
   stacks/<label>_<timestamp>.json            Phase 2 per-run summary
   stacks/<label>_<timestamp>.events.jsonl    Phase 2 event log, one record per request and response
+  stacks/stacks_gemma431_n160_{a,b,c,d}_*   same-day design, 2026-09-25/26: two 160-step samples, two passes each
+  stacks/stacks_qwen38_same40_*              qwen3.8-27b canonical 40 steps, 2026-09-25 (Layer C, row C_40)
+  stacks/stacks_qwen38_ctrl_off_*            qwen3.8-27b reasoning-mode control, 2026-09-27 (row C_ctrl)
+  stacks/*_sameday_*                         same-day canonical-40 runs of 2026-09-25 (gemma-4-31b; qwen3.6-27b forced off, partial)
   stacks/*_rep_*                             same-stack reruns of 2026-09-20 (Ollama gemma-4-31b; OVH qwen3.6-27b forced off;
                                              NVIDIA NIM gemma-4-31b partial, aborted on 240 s timeouts)
 companion/
